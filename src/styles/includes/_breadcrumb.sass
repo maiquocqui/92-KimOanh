@@ -1,0 +1,22 @@
+.breadcrumb-wrap
+	padding: 30px 0
+	ol.breadcrumb
+		background: none
+		margin: 0
+		padding: 0
+		+bor-rad(0)
+		li
+			a
+				+fs(16rem)
+				line-height: 20px
+				color: darken($white,40%)
+				&:before
+					content: '\f105'
+					margin: 0px 5px
+			&:first-child
+				a
+					&:before
+						display: none
+			&:last-child
+				a
+					color: $pink

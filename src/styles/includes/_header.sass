@@ -1,0 +1,99 @@
+header
+	background: $white
+	box-shadow: 0px 0px 10px color-rgba($black,0.1)
+	.header-wrap
+		+flexbox
+		justify-content: space-between
+	.sitelogo
+		height: 80px
+		padding-top: 10px
+		overflow: visible
+		a
+			+flexbox
+			justify-content: center
+			align-items: center
+			background: $orange
+			width: 130px
+			height: 116px
+	.col-right
+		+flexbox
+		align-items: center
+		align-content: center
+	.menu
+		.menu-logo
+		.menu-content
+		.menu-wrap
+		ul.menu-link
+			+flexbox
+			align-items: center
+			flex-wrap: wrap
+			> li
+				> a
+					+fs(15rem)
+					font-weight: 600
+					color: $main
+					line-height: 20px
+					padding: 10px 20px
+					text-transform: uppercase
+				&:hover
+					> a
+						color: $orange
+	.hotline
+		border-left: 1px solid darken($white,10%)
+		padding-left: 10px
+		a
+			color: $orange
+			font-weight: 700
+			+fs(15rem)
+			.material-icons
+				color: darken($white,40%)
+				font-weight: normal
+				vertical-align: middle
+				+fs(16rem)
+				margin-right: 5px
+	.search
+		margin-left: 10px
+		min-width: 36px
+		height: 36px
+		+pos(rel,null)
+		cursor: pointer
+		+transition(all,0.5s)
+		.btn-search
+			width: 36px
+			height: 36px
+			+flexbox
+			justify-content: center
+			align-items: center
+			background: $orange
+			color: $white
+			+pos(abs, 0 0 null null)
+		.search-wrap
+			// display: none
+			width: 36px
+			height: 36px
+			background: darken($white,5%)
+			+pos(rel,null)
+			z-index: 1
+			+flexbox
+			align-items: center
+			align-content: center
+			+transition(all,0.5s)
+			input
+				background: none
+				border: none
+				width: calc(100% - 36px)
+				padding: 0px
+				+fs(14rem)
+				+transition(all,0.5s)
+			.searchbutton
+				width: 36px
+				height: 36px
+				background: $orange
+				color: $white
+				+flexbox
+				justify-content: center
+				align-items: center
+			&:hover
+				width: 200px
+				input
+					padding: 0px 10px

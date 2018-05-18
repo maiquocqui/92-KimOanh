@@ -1,0 +1,66 @@
+footer
+	.footer-top
+		background: url(../img/bg.jpg) center center repeat
+		padding: 60px 0px 0px
+	.footer-col
+		margin-bottom: 40px
+	.footer-title, .module-title
+		+fs(16rem)
+		color: $orange
+		font-weight: 600
+		text-transform: uppercase
+		margin-bottom: 10px
+	.about-us
+		ul
+			li
+				+fs(14rem)
+				color: darken($white,60%)
+				margin-bottom: 5px
+				a
+					&:hover
+						color: $orange
+	.subscribefrm
+		background: darken($white,10%)
+		+flexbox
+		align-items: center
+		max-width: 370px
+		input
+			width: calc(100% - 34px)
+			background: none
+			padding: 0px 15px
+			border: none
+			+fs(13rem)
+		.subscribebutton
+			width: 34px
+			height: 34px
+			+fs(0)
+			color: $white
+			background: $orange
+			+flexbox
+			justify-content: center
+			align-items: center
+			&:before
+				content: '\f061'
+				+fs(18rem)
+	.footer-bottom
+		background: $orange
+		padding: 15px 0
+	.copyright
+		+fs(12rem)
+		line-height: 1
+		line-height: 20px
+		color: $white
+		opacity: 0.8
+	.footer-nav
+		+flexbox
+		justify-content: flex-end
+		a
+			display: block
+			+fs(12rem)
+			line-height: 20px
+			color: $white
+			opacity: 0.8
+			+ a
+				margin-left: 5px
+				padding-left: 5px
+				border-left: 1px solid color-rgba($white,0.5)
