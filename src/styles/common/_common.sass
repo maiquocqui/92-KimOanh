@@ -570,3 +570,27 @@
 		pointer-events: none
 		&.active
 			pointer-events: all
+
+// Pagination
+.pages
+	margin: -30px 0 40px
+	ul.pagination
+		+flexbox
+		justify-content: center
+		li
+			+ li
+				margin-left: 10px
+			a, span
+				width: 36px
+				height: 36px
+				+flexbox
+				justify-content: center
+				align-items: center
+				color: $main
+				font-weight: 600
+				background: darken($white,10%)
+				+bor-rad(3px)
+			&.active
+				a, span
+					background: $orange
+					color: $white

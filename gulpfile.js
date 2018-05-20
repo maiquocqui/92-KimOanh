@@ -28,7 +28,8 @@ gulp.task('concat-js', function() {
             "bower_components/jquery-bar-rating/dist/jquery.barrating.min.js",
             "bower_components/scrollup/dist/jquery.scrollUp.js",
             "bower_components/parallax.js/parallax.js",
-            "bower_components/responsive-tabs/js/jquery.responsiveTabs.js"
+            "bower_components/responsive-tabs/js/jquery.responsiveTabs.js",
+            "bower_components/page-scroll-to-id/jquery.malihu.PageScroll2id.js"
         ])
         .pipe(concat('core.js'))
         .pipe(gulp.dest('./dist/js'));

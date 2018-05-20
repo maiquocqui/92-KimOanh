@@ -1,0 +1,102 @@
+.project-section1
+	@extend .project-page
+	padding-top: 20px
+	background: url(../img/project/bg1.png) center bottom no-repeat
+	// background-size: 100% auto
+	.project-content
+		background: darken($white,4%)
+		.content
+			padding: 30px 20px
+.project-section2
+	@extend .project-page
+.project-section3
+	@extend .project-page
+	background: url(../img/bg.jpg) center center repeat
+	.project-img
+		.img
+			+ .img
+				margin-top: 20px
+.project-section4
+	@extend .project-page
+.project-section5
+	@extend .project-page
+	background: url(../img/bg.jpg) center center repeat
+.project-section6
+	@extend .project-page
+.project-section7
+	@extend .project-page
+	background: url(../img/bg.jpg) center center repeat
+.project-section8
+	@extend .project-page
+	text-align: center
+	.project-album
+		display: inline-block
+		+bor-rad(50px)
+		padding: 5px 20px
+		+fs(12rem)
+		line-height: 20px
+		font-weight: 600
+		text-transform: uppercase
+		color: $main
+		background: darken($white,6%)
+		margin-bottom: 20px
+	.project-img
+		margin-bottom: 40px
+		.img
+			display: block
+			+pos(rel,null)
+			overflow: hidden
+			&:before
+				content: '\f03e'
+				+fs(24rem)
+				color: $white
+				+flexbox
+				justify-content: center
+				align-items: center
+				+pos(abs, 0 null 0 0)
+				right: 0
+				background: color-rgba($black,0.25)
+				z-index: 3
+				+transition(all,0.5s)
+			img
+				+transition(all,10s)
+			&:hover
+				img
+					+transform(scale3d(1.2,1.2,1))
+				&:before
+					opacity: 0
+.project-section9
+	@extend .project-page
+	background: url(../img/project/bg2.jpg) center center no-repeat
+	background-size: cover
+	.project-form
+		.module-title
+			@extend .page-title
+			text-align: center
+	.form-wrap
+	.form-group
+	input, textarea
+		@extend .form-control
+		+fs(13rem)
+		font-weight: 500
+		color: darken($white,60%)
+		line-height: 16px
+		padding: 0.9375rem 1.5rem
+		background: color-rgba($white,0.75)
+		+bor-rad(3px)
+		border: none
+		&:focus
+			box-shadow: 0 0 0 0.2rem color-rgba($orange,0.5)
+	.frm-btn
+		text-align: center
+	input[type="submit"]
+		background: $orange
+		+fs(14rem)
+		line-height: 16px
+		font-weight: 600
+		color: $white
+		+bor-rad(3px)
+		padding: 0.9375rem 3rem
+		width: auto
+		text-transform: uppercase
+		display: inline-block

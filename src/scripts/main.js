@@ -43,10 +43,10 @@ $(document).ready(function() {
 
     // Award slide
     $('.award-slide').slick({
-        slidesToShow: 6,
-        slidesToScroll: 1,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         arrows: true,
-        dots: false,
+        dots: true,
         infinite: true,
     });
 
@@ -60,6 +60,24 @@ $(document).ready(function() {
         arrows: true,
         centerMode: true,
         centerPadding: '200px'
+    });
+
+    // history slide
+    $('.history-event').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        fade: true,
+        asNavFor: '.history-slide'
+    });
+    $('.history-year').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        asNavFor: '.history-slide',
+        focusOnSelect: true,
+        arrows: true,
+        dots: false,
     });
 
     // Product slide
@@ -91,6 +109,19 @@ $(document).ready(function() {
             $(this).parent().addClass('active')
             $(this).parent().find('.feature-des').slideDown(500);
         }
+    });
+
+    // top nav fixed
+    $('.top-nav ul').scrollToFixed({
+        marginTop: 80,
+        zIndex: 100,
+    });
+
+    // Page scroll to id
+    $('.top-nav a').mPageScroll2id({
+        offset: 120,
+        highlightClass: 'active',
+        forceSingleHighlight: true,
     });
 
 });

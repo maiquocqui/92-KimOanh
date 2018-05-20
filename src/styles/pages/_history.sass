@@ -1,0 +1,78 @@
+.history-wrap
+	.history-year
+		background: url(../img/about/bg2.jpg) center center no-repeat
+		background-size: cover
+		padding: 50px 80px
+		.slick-prev, .slick-next
+			+pos(abs,50% null null null)
+			+fs(0)
+			+transform(translateY(-50%))
+			z-index: 5
+			&:before
+				content: ''
+				font-family: 'linearicons-free'
+		.slick-list
+			+pos(rel,null)
+			&:before
+				content: ''
+				display: block
+				height: 3px
+				background: $orange
+				+pos(abs, null 0 9px 0)
+		.item
+			+pos(rel,null)
+			text-align: center
+			height: 70px
+			cursor: pointer
+			.year
+				display: inline-block
+				line-height: 36px
+				+fs(14rem)
+				background: $white
+				min-width: 100px
+				+bor-rad(5px)
+				+pos(rel,null)
+				+transition(all,0.3s)
+				&:before
+					content: ''
+					+pos(abs,50px null null 50%)
+					+transform(translateX(-50%))
+					width: 18px
+					height: 18px
+					+bor-rad(50px)
+					border: 3px solid $white
+					background: $orange
+				&:after
+					content: ''
+					display: block
+					width: 0
+					height: 0
+					border: 10px solid transparent
+					border-top-color: $white
+					border-bottom: none
+					+pos(abs, 100% null null 50%)
+					z-index: 5
+					+transform(translateX(-50%))
+					+transition(all,0.3s)
+				&:hover
+					color: $orange
+		.slick-current
+			.year
+				background: $orange
+				color: $white
+				font-weight: 600
+				&:after
+					border-top-color: $orange
+	.history-event
+		text-align: center
+		padding-top: 40px
+		.year
+			+fs(48rem)
+			line-height: 1
+			font-weight: 700
+			color: $orange
+			margin-bottom: 25px
+		.content
+			max-width: 800px
+			margin: 0 auto
+			+fs(15rem)

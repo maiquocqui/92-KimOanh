@@ -1,0 +1,87 @@
+.about-section
+	padding: 50px 0
+.about-section1
+	@extend .about-section
+	background: url(../img/about/bg1.png) center center no-repeat
+	background-size: contain
+	.about-content
+		padding: 25px 0
+	.quote-content
+		max-height: 580px
+		overflow: auto
+		padding-right: 20px
+		&::-webkit-scrollbar-track
+			background-color: darken($white,15%)
+		&::-webkit-scrollbar
+			width: 4px
+			background-color: darken($white,15%)
+		&::-webkit-scrollbar-thumb
+			background-color: $orange
+		.quote-title
+			+fs(18rem)
+			font-weight: 500
+			&:before
+				content: '\f10d'
+				+fs(36rem)
+				color: darken($white,15%)
+				margin-right: 20px
+.about-section2
+	@extend .about-section
+	background: url(../img/bg.jpg) center center repeat
+.about-section3
+	@extend .about-section
+	.service-list
+	.service-col
+		display: block
+		figure
+			+pos(rel,null)
+			.service-img
+				img
+					width: 100%
+			figcaption
+				// +pos(abs, null 0 0 0)
+				.service-name
+					background: $orange
+					height: 60px
+					+flexbox
+					align-items: center
+					align-content: center
+					justify-content: center
+					color: $white
+					+fs(16rem)
+					text-transform: uppercase
+					font-weight: 600
+.about-section4
+	@extend .about-section
+	background: url(../img/bg.jpg) center center repeat
+	.vision-list
+		.col-12
+			margin-bottom: 20px
+		.vision-col
+			height: 100%
+			background: $white
+			box-shadow: 0px 2px 5px color-rgba($black,0.05)
+			figure
+				.vision-img
+					img
+						width: 100%
+				figcaption
+					padding: 20px
+					.vision-name
+						+fs(16rem)
+						font-weight: 700
+						text-transform: uppercase
+						color: darken($white,60%)
+						margin-bottom: 10px
+					.vision-des
+						+fs(13rem)
+						line-height: 1.8
+						color: darken($white,60%)
+						ul
+							padding-left: 20px
+							list-style-type: disc
+.about-section5
+	@extend .about-section
+.about-section6
+	@extend .about-section
+	background: url(../img/bg2.jpg) center center repeat
