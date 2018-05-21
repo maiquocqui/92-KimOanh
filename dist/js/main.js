@@ -197,7 +197,7 @@ $(document).ready(function () {
     // Page scroll to id
     $('.top-nav a').mPageScroll2id({
         offset: 120,
-        highlightClass: 'active',
+        // highlightClass: 'active',
         forceSingleHighlight: true
     });
 });

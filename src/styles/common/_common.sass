@@ -323,8 +323,8 @@
 			right: 0
 			left: 0
 		@media only screen and (min-width: 1024px)
-			right: 70px
-			top: 13px
+			right: 15px
+			top: 10px
 	.fa-exclamation-triangle:before, .fa-warning:before
 		margin-right: 5px
 .form-group
@@ -571,9 +571,16 @@
 		&.active
 			pointer-events: all
 
+// form
+input[type="reset"]
+	display: none
+
 // Pagination
+.product-detail-page, .news-detail-page, .project-detail-page
+	.pages
+		display: none
 .pages
-	margin: -30px 0 40px
+	margin: 0px 0
 	ul.pagination
 		+flexbox
 		justify-content: center

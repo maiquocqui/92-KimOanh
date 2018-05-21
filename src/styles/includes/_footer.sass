@@ -1,4 +1,30 @@
 footer
+	+pos(rel,null)
+	.social
+		+pos(abs, 20px 20px null null)
+		+flexbox
+		+media-breakpoint-down(md)
+			+pos(static,unset)
+			justify-content: center
+			margin-bottom: 20px
+		a
+			display: block
+			+ a
+				margin-left: 10px
+			.fa
+				display: block
+				width: 40px
+				height: 40px
+				line-height: 40px
+				text-align: center
+				color: $white
+				+bor-rad(50px)
+				&.fa-facebook
+					background: $facebook
+				&.fa-youtube-play
+					background: $youtube
+				&.fa-twitter
+					background: $twitter
 	+media-breakpoint-down(md)
 		text-align: center
 	.footer-top

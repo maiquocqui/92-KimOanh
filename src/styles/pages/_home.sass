@@ -125,6 +125,17 @@
 	.project-col
 		margin-bottom: 20px
 		box-shadow: 0px 2px 5px color-rgba($black,0.1)
+		&:hover
+			box-shadow: 0px 5px 10px color-rgba($black,0.1)
+			figure
+				.project-img
+					img
+						+transform(scale3d(1.2,1.2,1))
+				figcaption
+					.project-name
+						a
+							color: $orange
+							background: linear-gradient(color-rgba($black,0),color-rgba($black,1))
 		&.big, &.high
 			figure
 				.project-img
@@ -149,6 +160,7 @@
 					width: 100%
 					height: 260px
 					object-fit: cover
+					+transition(all,10s)
 			figcaption
 				.project-name
 					a

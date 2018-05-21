@@ -1249,7 +1249,7 @@ pre {
   .table-responsive > .table-bordered {
     border: 0; }
 
-.form-control, .project-section9 input, .project-section9 textarea, .contact-page .form-wrap input, .contact-page .form-wrap textarea {
+.form-control, .project-page input, .project-section1 input, .project-section2 input, .project-section3 .project-content input, .project-section4 input, .project-section5 input, .project-section6 input, .project-section7 input, .project-section8 input, .project-section9 input, .project-page textarea, .project-section1 textarea, .project-section2 textarea, .project-section3 .project-content textarea, .project-section4 textarea, .project-section5 textarea, .project-section6 textarea, .project-section7 textarea, .project-section8 textarea, .project-section9 textarea, .contact-page .form-wrap input, .contact-page .form-wrap textarea {
   display: block;
   width: 100%;
   padding: 0.375rem 0.75rem;
@@ -1262,21 +1262,21 @@ pre {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media screen and (prefers-reduced-motion: reduce) {
-    .form-control, .project-section9 input, .project-section9 textarea, .contact-page .form-wrap input, .contact-page .form-wrap textarea {
+    .form-control, .project-page input, .project-section1 input, .project-section2 input, .project-section3 .project-content input, .project-section4 input, .project-section5 input, .project-section6 input, .project-section7 input, .project-section8 input, .project-section9 input, .project-page textarea, .project-section1 textarea, .project-section2 textarea, .project-section3 .project-content textarea, .project-section4 textarea, .project-section5 textarea, .project-section6 textarea, .project-section7 textarea, .project-section8 textarea, .project-section9 textarea, .contact-page .form-wrap input, .contact-page .form-wrap textarea {
       transition: none; } }
-  .form-control::-ms-expand, .project-section9 input::-ms-expand, .project-section9 textarea::-ms-expand, .contact-page .form-wrap input::-ms-expand, .contact-page .form-wrap textarea::-ms-expand {
+  .form-control::-ms-expand, .project-page input::-ms-expand, .project-section1 input::-ms-expand, .project-section2 input::-ms-expand, .project-section3 .project-content input::-ms-expand, .project-section4 input::-ms-expand, .project-section5 input::-ms-expand, .project-section6 input::-ms-expand, .project-section7 input::-ms-expand, .project-section8 input::-ms-expand, .project-section9 input::-ms-expand, .project-page textarea::-ms-expand, .project-section1 textarea::-ms-expand, .project-section2 textarea::-ms-expand, .project-section3 .project-content textarea::-ms-expand, .project-section4 textarea::-ms-expand, .project-section5 textarea::-ms-expand, .project-section6 textarea::-ms-expand, .project-section7 textarea::-ms-expand, .project-section8 textarea::-ms-expand, .project-section9 textarea::-ms-expand, .contact-page .form-wrap input::-ms-expand, .contact-page .form-wrap textarea::-ms-expand {
     background-color: transparent;
     border: 0; }
-  .form-control:focus, .project-section9 input:focus, .project-section9 textarea:focus, .contact-page .form-wrap input:focus, .contact-page .form-wrap textarea:focus {
+  .form-control:focus, .project-page input:focus, .project-section1 input:focus, .project-section2 input:focus, .project-section3 .project-content input:focus, .project-section4 input:focus, .project-section5 input:focus, .project-section6 input:focus, .project-section7 input:focus, .project-section8 input:focus, .project-section9 input:focus, .project-page textarea:focus, .project-section1 textarea:focus, .project-section2 textarea:focus, .project-section3 .project-content textarea:focus, .project-section4 textarea:focus, .project-section5 textarea:focus, .project-section6 textarea:focus, .project-section7 textarea:focus, .project-section8 textarea:focus, .project-section9 textarea:focus, .contact-page .form-wrap input:focus, .contact-page .form-wrap textarea:focus {
     color: #495057;
     background-color: #fff;
     border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
-  .form-control::placeholder, .project-section9 input::placeholder, .project-section9 textarea::placeholder, .contact-page .form-wrap input::placeholder, .contact-page .form-wrap textarea::placeholder {
+  .form-control::placeholder, .project-page input::placeholder, .project-section1 input::placeholder, .project-section2 input::placeholder, .project-section3 .project-content input::placeholder, .project-section4 input::placeholder, .project-section5 input::placeholder, .project-section6 input::placeholder, .project-section7 input::placeholder, .project-section8 input::placeholder, .project-section9 input::placeholder, .project-page textarea::placeholder, .project-section1 textarea::placeholder, .project-section2 textarea::placeholder, .project-section3 .project-content textarea::placeholder, .project-section4 textarea::placeholder, .project-section5 textarea::placeholder, .project-section6 textarea::placeholder, .project-section7 textarea::placeholder, .project-section8 textarea::placeholder, .project-section9 textarea::placeholder, .contact-page .form-wrap input::placeholder, .contact-page .form-wrap textarea::placeholder {
     color: #6c757d;
     opacity: 1; }
-  .form-control:disabled, .project-section9 input:disabled, .project-section9 textarea:disabled, .contact-page .form-wrap input:disabled, .contact-page .form-wrap textarea:disabled, .form-control[readonly], .project-section9 input[readonly], .project-section9 textarea[readonly], .contact-page .form-wrap input[readonly], .contact-page .form-wrap textarea[readonly] {
+  .form-control:disabled, .project-page input:disabled, .project-section1 input:disabled, .project-section2 input:disabled, .project-section3 .project-content input:disabled, .project-section4 input:disabled, .project-section5 input:disabled, .project-section6 input:disabled, .project-section7 input:disabled, .project-section8 input:disabled, .project-section9 input:disabled, .project-page textarea:disabled, .project-section1 textarea:disabled, .project-section2 textarea:disabled, .project-section3 .project-content textarea:disabled, .project-section4 textarea:disabled, .project-section5 textarea:disabled, .project-section6 textarea:disabled, .project-section7 textarea:disabled, .project-section8 textarea:disabled, .project-section9 textarea:disabled, .contact-page .form-wrap input:disabled, .contact-page .form-wrap textarea:disabled, .form-control[readonly], .project-page input[readonly], .project-section1 input[readonly], .project-section2 input[readonly], .project-section3 .project-content input[readonly], .project-section4 input[readonly], .project-section5 input[readonly], .project-section6 input[readonly], .project-section7 input[readonly], .project-section8 input[readonly], .project-section9 input[readonly], .project-page textarea[readonly], .project-section1 textarea[readonly], .project-section2 textarea[readonly], .project-section3 .project-content textarea[readonly], .project-section4 textarea[readonly], .project-section5 textarea[readonly], .project-section6 textarea[readonly], .project-section7 textarea[readonly], .project-section8 textarea[readonly], .project-section9 textarea[readonly], .contact-page .form-wrap input[readonly], .contact-page .form-wrap textarea[readonly] {
     background-color: #e9ecef;
     opacity: 1; }
 
@@ -1322,11 +1322,11 @@ select.form-control:focus::-ms-value {
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0; }
-  .form-control-plaintext.form-control-sm, .input-group-sm > .form-control-plaintext.form-control, .project-section9 .input-group-sm > input.form-control-plaintext, .project-section9 .input-group-sm > textarea.form-control-plaintext, .contact-page .form-wrap .input-group-sm > input.form-control-plaintext, .contact-page .form-wrap .input-group-sm > textarea.form-control-plaintext,
+  .form-control-plaintext.form-control-sm, .input-group-sm > .form-control-plaintext.form-control, .project-page .input-group-sm > input.form-control-plaintext, .project-section1 .input-group-sm > input.form-control-plaintext, .project-section2 .input-group-sm > input.form-control-plaintext, .project-section3 .project-content .input-group-sm > input.form-control-plaintext, .project-section4 .input-group-sm > input.form-control-plaintext, .project-section5 .input-group-sm > input.form-control-plaintext, .project-section6 .input-group-sm > input.form-control-plaintext, .project-section7 .input-group-sm > input.form-control-plaintext, .project-section8 .input-group-sm > input.form-control-plaintext, .project-section9 .input-group-sm > input.form-control-plaintext, .project-page .input-group-sm > textarea.form-control-plaintext, .project-section1 .input-group-sm > textarea.form-control-plaintext, .project-section2 .input-group-sm > textarea.form-control-plaintext, .project-section3 .project-content .input-group-sm > textarea.form-control-plaintext, .project-section4 .input-group-sm > textarea.form-control-plaintext, .project-section5 .input-group-sm > textarea.form-control-plaintext, .project-section6 .input-group-sm > textarea.form-control-plaintext, .project-section7 .input-group-sm > textarea.form-control-plaintext, .project-section8 .input-group-sm > textarea.form-control-plaintext, .project-section9 .input-group-sm > textarea.form-control-plaintext, .contact-page .form-wrap .input-group-sm > input.form-control-plaintext, .contact-page .form-wrap .input-group-sm > textarea.form-control-plaintext,
   .input-group-sm > .input-group-prepend > .form-control-plaintext.input-group-text,
   .input-group-sm > .input-group-append > .form-control-plaintext.input-group-text,
   .input-group-sm > .input-group-prepend > .form-control-plaintext.btn,
-  .input-group-sm > .input-group-append > .form-control-plaintext.btn, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control, .project-section9 .input-group-lg > input.form-control-plaintext, .project-section9 .input-group-lg > textarea.form-control-plaintext, .contact-page .form-wrap .input-group-lg > input.form-control-plaintext, .contact-page .form-wrap .input-group-lg > textarea.form-control-plaintext,
+  .input-group-sm > .input-group-append > .form-control-plaintext.btn, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control, .project-page .input-group-lg > input.form-control-plaintext, .project-section1 .input-group-lg > input.form-control-plaintext, .project-section2 .input-group-lg > input.form-control-plaintext, .project-section3 .project-content .input-group-lg > input.form-control-plaintext, .project-section4 .input-group-lg > input.form-control-plaintext, .project-section5 .input-group-lg > input.form-control-plaintext, .project-section6 .input-group-lg > input.form-control-plaintext, .project-section7 .input-group-lg > input.form-control-plaintext, .project-section8 .input-group-lg > input.form-control-plaintext, .project-section9 .input-group-lg > input.form-control-plaintext, .project-page .input-group-lg > textarea.form-control-plaintext, .project-section1 .input-group-lg > textarea.form-control-plaintext, .project-section2 .input-group-lg > textarea.form-control-plaintext, .project-section3 .project-content .input-group-lg > textarea.form-control-plaintext, .project-section4 .input-group-lg > textarea.form-control-plaintext, .project-section5 .input-group-lg > textarea.form-control-plaintext, .project-section6 .input-group-lg > textarea.form-control-plaintext, .project-section7 .input-group-lg > textarea.form-control-plaintext, .project-section8 .input-group-lg > textarea.form-control-plaintext, .project-section9 .input-group-lg > textarea.form-control-plaintext, .contact-page .form-wrap .input-group-lg > input.form-control-plaintext, .contact-page .form-wrap .input-group-lg > textarea.form-control-plaintext,
   .input-group-lg > .input-group-prepend > .form-control-plaintext.input-group-text,
   .input-group-lg > .input-group-append > .form-control-plaintext.input-group-text,
   .input-group-lg > .input-group-prepend > .form-control-plaintext.btn,
@@ -1334,7 +1334,7 @@ select.form-control:focus::-ms-value {
     padding-right: 0;
     padding-left: 0; }
 
-.form-control-sm, .input-group-sm > .form-control, .project-section9 .input-group-sm > input, .project-section9 .input-group-sm > textarea, .contact-page .form-wrap .input-group-sm > input, .contact-page .form-wrap .input-group-sm > textarea,
+.form-control-sm, .input-group-sm > .form-control, .project-page .input-group-sm > input, .project-section1 .input-group-sm > input, .project-section2 .input-group-sm > input, .project-section3 .project-content .input-group-sm > input, .project-section4 .input-group-sm > input, .project-section5 .input-group-sm > input, .project-section6 .input-group-sm > input, .project-section7 .input-group-sm > input, .project-section8 .input-group-sm > input, .project-section9 .input-group-sm > input, .project-page .input-group-sm > textarea, .project-section1 .input-group-sm > textarea, .project-section2 .input-group-sm > textarea, .project-section3 .project-content .input-group-sm > textarea, .project-section4 .input-group-sm > textarea, .project-section5 .input-group-sm > textarea, .project-section6 .input-group-sm > textarea, .project-section7 .input-group-sm > textarea, .project-section8 .input-group-sm > textarea, .project-section9 .input-group-sm > textarea, .contact-page .form-wrap .input-group-sm > input, .contact-page .form-wrap .input-group-sm > textarea,
 .input-group-sm > .input-group-prepend > .input-group-text,
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
@@ -1351,7 +1351,7 @@ select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.for
 .input-group-sm > .input-group-append > select.btn:not([size]):not([multiple]) {
   height: calc(1.8125rem + 2px); }
 
-.form-control-lg, .input-group-lg > .form-control, .project-section9 .input-group-lg > input, .project-section9 .input-group-lg > textarea, .contact-page .form-wrap .input-group-lg > input, .contact-page .form-wrap .input-group-lg > textarea,
+.form-control-lg, .input-group-lg > .form-control, .project-page .input-group-lg > input, .project-section1 .input-group-lg > input, .project-section2 .input-group-lg > input, .project-section3 .project-content .input-group-lg > input, .project-section4 .input-group-lg > input, .project-section5 .input-group-lg > input, .project-section6 .input-group-lg > input, .project-section7 .input-group-lg > input, .project-section8 .input-group-lg > input, .project-section9 .input-group-lg > input, .project-page .input-group-lg > textarea, .project-section1 .input-group-lg > textarea, .project-section2 .input-group-lg > textarea, .project-section3 .project-content .input-group-lg > textarea, .project-section4 .input-group-lg > textarea, .project-section5 .input-group-lg > textarea, .project-section6 .input-group-lg > textarea, .project-section7 .input-group-lg > textarea, .project-section8 .input-group-lg > textarea, .project-section9 .input-group-lg > textarea, .contact-page .form-wrap .input-group-lg > input, .contact-page .form-wrap .input-group-lg > textarea,
 .input-group-lg > .input-group-prepend > .input-group-text,
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
@@ -1432,27 +1432,81 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   background-color: rgba(40, 167, 69, 0.8);
   border-radius: .2rem; }
 
-.was-validated .form-control:valid, .was-validated .project-section9 input:valid, .project-section9 .was-validated input:valid, .was-validated .project-section9 textarea:valid, .project-section9 .was-validated textarea:valid, .was-validated .contact-page .form-wrap input:valid, .contact-page .form-wrap .was-validated input:valid, .was-validated .contact-page .form-wrap textarea:valid, .contact-page .form-wrap .was-validated textarea:valid, .form-control.is-valid, .project-section9 input.is-valid, .project-section9 textarea.is-valid, .contact-page .form-wrap input.is-valid, .contact-page .form-wrap textarea.is-valid, .was-validated
+.was-validated .form-control:valid, .was-validated .project-page input:valid, .project-page .was-validated input:valid, .was-validated .project-section1 input:valid, .project-section1 .was-validated input:valid, .was-validated .project-section2 input:valid, .project-section2 .was-validated input:valid, .was-validated .project-section3 .project-content input:valid, .project-section3 .project-content .was-validated input:valid, .was-validated .project-section4 input:valid, .project-section4 .was-validated input:valid, .was-validated .project-section5 input:valid, .project-section5 .was-validated input:valid, .was-validated .project-section6 input:valid, .project-section6 .was-validated input:valid, .was-validated .project-section7 input:valid, .project-section7 .was-validated input:valid, .was-validated .project-section8 input:valid, .project-section8 .was-validated input:valid, .was-validated .project-section9 input:valid, .project-section9 .was-validated input:valid, .was-validated .project-page textarea:valid, .project-page .was-validated textarea:valid, .was-validated .project-section1 textarea:valid, .project-section1 .was-validated textarea:valid, .was-validated .project-section2 textarea:valid, .project-section2 .was-validated textarea:valid, .was-validated .project-section3 .project-content textarea:valid, .project-section3 .project-content .was-validated textarea:valid, .was-validated .project-section4 textarea:valid, .project-section4 .was-validated textarea:valid, .was-validated .project-section5 textarea:valid, .project-section5 .was-validated textarea:valid, .was-validated .project-section6 textarea:valid, .project-section6 .was-validated textarea:valid, .was-validated .project-section7 textarea:valid, .project-section7 .was-validated textarea:valid, .was-validated .project-section8 textarea:valid, .project-section8 .was-validated textarea:valid, .was-validated .project-section9 textarea:valid, .project-section9 .was-validated textarea:valid, .was-validated .contact-page .form-wrap input:valid, .contact-page .form-wrap .was-validated input:valid, .was-validated .contact-page .form-wrap textarea:valid, .contact-page .form-wrap .was-validated textarea:valid, .form-control.is-valid, .project-page input.is-valid, .project-section1 input.is-valid, .project-section2 input.is-valid, .project-section3 .project-content input.is-valid, .project-section4 input.is-valid, .project-section5 input.is-valid, .project-section6 input.is-valid, .project-section7 input.is-valid, .project-section8 input.is-valid, .project-section9 input.is-valid, .project-page textarea.is-valid, .project-section1 textarea.is-valid, .project-section2 textarea.is-valid, .project-section3 .project-content textarea.is-valid, .project-section4 textarea.is-valid, .project-section5 textarea.is-valid, .project-section6 textarea.is-valid, .project-section7 textarea.is-valid, .project-section8 textarea.is-valid, .project-section9 textarea.is-valid, .contact-page .form-wrap input.is-valid, .contact-page .form-wrap textarea.is-valid, .was-validated
 .custom-select:valid,
 .custom-select.is-valid {
   border-color: #28a745; }
-  .was-validated .form-control:valid:focus, .was-validated .project-section9 input:valid:focus, .project-section9 .was-validated input:valid:focus, .was-validated .project-section9 textarea:valid:focus, .project-section9 .was-validated textarea:valid:focus, .was-validated .contact-page .form-wrap input:valid:focus, .contact-page .form-wrap .was-validated input:valid:focus, .was-validated .contact-page .form-wrap textarea:valid:focus, .contact-page .form-wrap .was-validated textarea:valid:focus, .form-control.is-valid:focus, .project-section9 input.is-valid:focus, .project-section9 textarea.is-valid:focus, .contact-page .form-wrap input.is-valid:focus, .contact-page .form-wrap textarea.is-valid:focus, .was-validated
+  .was-validated .form-control:valid:focus, .was-validated .project-page input:valid:focus, .project-page .was-validated input:valid:focus, .was-validated .project-section1 input:valid:focus, .project-section1 .was-validated input:valid:focus, .was-validated .project-section2 input:valid:focus, .project-section2 .was-validated input:valid:focus, .was-validated .project-section3 .project-content input:valid:focus, .project-section3 .project-content .was-validated input:valid:focus, .was-validated .project-section4 input:valid:focus, .project-section4 .was-validated input:valid:focus, .was-validated .project-section5 input:valid:focus, .project-section5 .was-validated input:valid:focus, .was-validated .project-section6 input:valid:focus, .project-section6 .was-validated input:valid:focus, .was-validated .project-section7 input:valid:focus, .project-section7 .was-validated input:valid:focus, .was-validated .project-section8 input:valid:focus, .project-section8 .was-validated input:valid:focus, .was-validated .project-section9 input:valid:focus, .project-section9 .was-validated input:valid:focus, .was-validated .project-page textarea:valid:focus, .project-page .was-validated textarea:valid:focus, .was-validated .project-section1 textarea:valid:focus, .project-section1 .was-validated textarea:valid:focus, .was-validated .project-section2 textarea:valid:focus, .project-section2 .was-validated textarea:valid:focus, .was-validated .project-section3 .project-content textarea:valid:focus, .project-section3 .project-content .was-validated textarea:valid:focus, .was-validated .project-section4 textarea:valid:focus, .project-section4 .was-validated textarea:valid:focus, .was-validated .project-section5 textarea:valid:focus, .project-section5 .was-validated textarea:valid:focus, .was-validated .project-section6 textarea:valid:focus, .project-section6 .was-validated textarea:valid:focus, .was-validated .project-section7 textarea:valid:focus, .project-section7 .was-validated textarea:valid:focus, .was-validated .project-section8 textarea:valid:focus, .project-section8 .was-validated textarea:valid:focus, .was-validated .project-section9 textarea:valid:focus, .project-section9 .was-validated textarea:valid:focus, .was-validated .contact-page .form-wrap input:valid:focus, .contact-page .form-wrap .was-validated input:valid:focus, .was-validated .contact-page .form-wrap textarea:valid:focus, .contact-page .form-wrap .was-validated textarea:valid:focus, .form-control.is-valid:focus, .project-page input.is-valid:focus, .project-section1 input.is-valid:focus, .project-section2 input.is-valid:focus, .project-section3 .project-content input.is-valid:focus, .project-section4 input.is-valid:focus, .project-section5 input.is-valid:focus, .project-section6 input.is-valid:focus, .project-section7 input.is-valid:focus, .project-section8 input.is-valid:focus, .project-section9 input.is-valid:focus, .project-page textarea.is-valid:focus, .project-section1 textarea.is-valid:focus, .project-section2 textarea.is-valid:focus, .project-section3 .project-content textarea.is-valid:focus, .project-section4 textarea.is-valid:focus, .project-section5 textarea.is-valid:focus, .project-section6 textarea.is-valid:focus, .project-section7 textarea.is-valid:focus, .project-section8 textarea.is-valid:focus, .project-section9 textarea.is-valid:focus, .contact-page .form-wrap input.is-valid:focus, .contact-page .form-wrap textarea.is-valid:focus, .was-validated
   .custom-select:valid:focus,
   .custom-select.is-valid:focus {
     border-color: #28a745;
     box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); }
-  .was-validated .form-control:valid ~ .valid-feedback, .was-validated .project-section9 input:valid ~ .valid-feedback, .project-section9 .was-validated input:valid ~ .valid-feedback, .was-validated .project-section9 textarea:valid ~ .valid-feedback, .project-section9 .was-validated textarea:valid ~ .valid-feedback, .was-validated .contact-page .form-wrap input:valid ~ .valid-feedback, .contact-page .form-wrap .was-validated input:valid ~ .valid-feedback, .was-validated .contact-page .form-wrap textarea:valid ~ .valid-feedback, .contact-page .form-wrap .was-validated textarea:valid ~ .valid-feedback,
+  .was-validated .form-control:valid ~ .valid-feedback, .was-validated .project-page input:valid ~ .valid-feedback, .project-page .was-validated input:valid ~ .valid-feedback, .was-validated .project-section1 input:valid ~ .valid-feedback, .project-section1 .was-validated input:valid ~ .valid-feedback, .was-validated .project-section2 input:valid ~ .valid-feedback, .project-section2 .was-validated input:valid ~ .valid-feedback, .was-validated .project-section3 .project-content input:valid ~ .valid-feedback, .project-section3 .project-content .was-validated input:valid ~ .valid-feedback, .was-validated .project-section4 input:valid ~ .valid-feedback, .project-section4 .was-validated input:valid ~ .valid-feedback, .was-validated .project-section5 input:valid ~ .valid-feedback, .project-section5 .was-validated input:valid ~ .valid-feedback, .was-validated .project-section6 input:valid ~ .valid-feedback, .project-section6 .was-validated input:valid ~ .valid-feedback, .was-validated .project-section7 input:valid ~ .valid-feedback, .project-section7 .was-validated input:valid ~ .valid-feedback, .was-validated .project-section8 input:valid ~ .valid-feedback, .project-section8 .was-validated input:valid ~ .valid-feedback, .was-validated .project-section9 input:valid ~ .valid-feedback, .project-section9 .was-validated input:valid ~ .valid-feedback, .was-validated .project-page textarea:valid ~ .valid-feedback, .project-page .was-validated textarea:valid ~ .valid-feedback, .was-validated .project-section1 textarea:valid ~ .valid-feedback, .project-section1 .was-validated textarea:valid ~ .valid-feedback, .was-validated .project-section2 textarea:valid ~ .valid-feedback, .project-section2 .was-validated textarea:valid ~ .valid-feedback, .was-validated .project-section3 .project-content textarea:valid ~ .valid-feedback, .project-section3 .project-content .was-validated textarea:valid ~ .valid-feedback, .was-validated .project-section4 textarea:valid ~ .valid-feedback, .project-section4 .was-validated textarea:valid ~ .valid-feedback, .was-validated .project-section5 textarea:valid ~ .valid-feedback, .project-section5 .was-validated textarea:valid ~ .valid-feedback, .was-validated .project-section6 textarea:valid ~ .valid-feedback, .project-section6 .was-validated textarea:valid ~ .valid-feedback, .was-validated .project-section7 textarea:valid ~ .valid-feedback, .project-section7 .was-validated textarea:valid ~ .valid-feedback, .was-validated .project-section8 textarea:valid ~ .valid-feedback, .project-section8 .was-validated textarea:valid ~ .valid-feedback, .was-validated .project-section9 textarea:valid ~ .valid-feedback, .project-section9 .was-validated textarea:valid ~ .valid-feedback, .was-validated .contact-page .form-wrap input:valid ~ .valid-feedback, .contact-page .form-wrap .was-validated input:valid ~ .valid-feedback, .was-validated .contact-page .form-wrap textarea:valid ~ .valid-feedback, .contact-page .form-wrap .was-validated textarea:valid ~ .valid-feedback,
   .was-validated .form-control:valid ~ .valid-tooltip,
+  .was-validated .project-page input:valid ~ .valid-tooltip,
+  .project-page .was-validated input:valid ~ .valid-tooltip,
+  .was-validated .project-section1 input:valid ~ .valid-tooltip,
+  .project-section1 .was-validated input:valid ~ .valid-tooltip,
+  .was-validated .project-section2 input:valid ~ .valid-tooltip,
+  .project-section2 .was-validated input:valid ~ .valid-tooltip,
+  .was-validated .project-section3 .project-content input:valid ~ .valid-tooltip,
+  .project-section3 .project-content .was-validated input:valid ~ .valid-tooltip,
+  .was-validated .project-section4 input:valid ~ .valid-tooltip,
+  .project-section4 .was-validated input:valid ~ .valid-tooltip,
+  .was-validated .project-section5 input:valid ~ .valid-tooltip,
+  .project-section5 .was-validated input:valid ~ .valid-tooltip,
+  .was-validated .project-section6 input:valid ~ .valid-tooltip,
+  .project-section6 .was-validated input:valid ~ .valid-tooltip,
+  .was-validated .project-section7 input:valid ~ .valid-tooltip,
+  .project-section7 .was-validated input:valid ~ .valid-tooltip,
+  .was-validated .project-section8 input:valid ~ .valid-tooltip,
+  .project-section8 .was-validated input:valid ~ .valid-tooltip,
   .was-validated .project-section9 input:valid ~ .valid-tooltip,
   .project-section9 .was-validated input:valid ~ .valid-tooltip,
+  .was-validated .project-page textarea:valid ~ .valid-tooltip,
+  .project-page .was-validated textarea:valid ~ .valid-tooltip,
+  .was-validated .project-section1 textarea:valid ~ .valid-tooltip,
+  .project-section1 .was-validated textarea:valid ~ .valid-tooltip,
+  .was-validated .project-section2 textarea:valid ~ .valid-tooltip,
+  .project-section2 .was-validated textarea:valid ~ .valid-tooltip,
+  .was-validated .project-section3 .project-content textarea:valid ~ .valid-tooltip,
+  .project-section3 .project-content .was-validated textarea:valid ~ .valid-tooltip,
+  .was-validated .project-section4 textarea:valid ~ .valid-tooltip,
+  .project-section4 .was-validated textarea:valid ~ .valid-tooltip,
+  .was-validated .project-section5 textarea:valid ~ .valid-tooltip,
+  .project-section5 .was-validated textarea:valid ~ .valid-tooltip,
+  .was-validated .project-section6 textarea:valid ~ .valid-tooltip,
+  .project-section6 .was-validated textarea:valid ~ .valid-tooltip,
+  .was-validated .project-section7 textarea:valid ~ .valid-tooltip,
+  .project-section7 .was-validated textarea:valid ~ .valid-tooltip,
+  .was-validated .project-section8 textarea:valid ~ .valid-tooltip,
+  .project-section8 .was-validated textarea:valid ~ .valid-tooltip,
   .was-validated .project-section9 textarea:valid ~ .valid-tooltip,
   .project-section9 .was-validated textarea:valid ~ .valid-tooltip,
   .was-validated .contact-page .form-wrap input:valid ~ .valid-tooltip,
   .contact-page .form-wrap .was-validated input:valid ~ .valid-tooltip,
   .was-validated .contact-page .form-wrap textarea:valid ~ .valid-tooltip,
-  .contact-page .form-wrap .was-validated textarea:valid ~ .valid-tooltip, .form-control.is-valid ~ .valid-feedback, .project-section9 input.is-valid ~ .valid-feedback, .project-section9 textarea.is-valid ~ .valid-feedback, .contact-page .form-wrap input.is-valid ~ .valid-feedback, .contact-page .form-wrap textarea.is-valid ~ .valid-feedback,
+  .contact-page .form-wrap .was-validated textarea:valid ~ .valid-tooltip, .form-control.is-valid ~ .valid-feedback, .project-page input.is-valid ~ .valid-feedback, .project-section1 input.is-valid ~ .valid-feedback, .project-section2 input.is-valid ~ .valid-feedback, .project-section3 .project-content input.is-valid ~ .valid-feedback, .project-section4 input.is-valid ~ .valid-feedback, .project-section5 input.is-valid ~ .valid-feedback, .project-section6 input.is-valid ~ .valid-feedback, .project-section7 input.is-valid ~ .valid-feedback, .project-section8 input.is-valid ~ .valid-feedback, .project-section9 input.is-valid ~ .valid-feedback, .project-page textarea.is-valid ~ .valid-feedback, .project-section1 textarea.is-valid ~ .valid-feedback, .project-section2 textarea.is-valid ~ .valid-feedback, .project-section3 .project-content textarea.is-valid ~ .valid-feedback, .project-section4 textarea.is-valid ~ .valid-feedback, .project-section5 textarea.is-valid ~ .valid-feedback, .project-section6 textarea.is-valid ~ .valid-feedback, .project-section7 textarea.is-valid ~ .valid-feedback, .project-section8 textarea.is-valid ~ .valid-feedback, .project-section9 textarea.is-valid ~ .valid-feedback, .contact-page .form-wrap input.is-valid ~ .valid-feedback, .contact-page .form-wrap textarea.is-valid ~ .valid-feedback,
   .form-control.is-valid ~ .valid-tooltip,
+  .project-page input.is-valid ~ .valid-tooltip,
+  .project-section1 input.is-valid ~ .valid-tooltip,
+  .project-section2 input.is-valid ~ .valid-tooltip,
+  .project-section3 .project-content input.is-valid ~ .valid-tooltip,
+  .project-section4 input.is-valid ~ .valid-tooltip,
+  .project-section5 input.is-valid ~ .valid-tooltip,
+  .project-section6 input.is-valid ~ .valid-tooltip,
+  .project-section7 input.is-valid ~ .valid-tooltip,
+  .project-section8 input.is-valid ~ .valid-tooltip,
   .project-section9 input.is-valid ~ .valid-tooltip,
+  .project-page textarea.is-valid ~ .valid-tooltip,
+  .project-section1 textarea.is-valid ~ .valid-tooltip,
+  .project-section2 textarea.is-valid ~ .valid-tooltip,
+  .project-section3 .project-content textarea.is-valid ~ .valid-tooltip,
+  .project-section4 textarea.is-valid ~ .valid-tooltip,
+  .project-section5 textarea.is-valid ~ .valid-tooltip,
+  .project-section6 textarea.is-valid ~ .valid-tooltip,
+  .project-section7 textarea.is-valid ~ .valid-tooltip,
+  .project-section8 textarea.is-valid ~ .valid-tooltip,
   .project-section9 textarea.is-valid ~ .valid-tooltip,
   .contact-page .form-wrap input.is-valid ~ .valid-tooltip,
   .contact-page .form-wrap textarea.is-valid ~ .valid-tooltip, .was-validated
@@ -1526,27 +1580,81 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   background-color: rgba(220, 53, 69, 0.8);
   border-radius: .2rem; }
 
-.was-validated .form-control:invalid, .was-validated .project-section9 input:invalid, .project-section9 .was-validated input:invalid, .was-validated .project-section9 textarea:invalid, .project-section9 .was-validated textarea:invalid, .was-validated .contact-page .form-wrap input:invalid, .contact-page .form-wrap .was-validated input:invalid, .was-validated .contact-page .form-wrap textarea:invalid, .contact-page .form-wrap .was-validated textarea:invalid, .form-control.is-invalid, .project-section9 input.is-invalid, .project-section9 textarea.is-invalid, .contact-page .form-wrap input.is-invalid, .contact-page .form-wrap textarea.is-invalid, .was-validated
+.was-validated .form-control:invalid, .was-validated .project-page input:invalid, .project-page .was-validated input:invalid, .was-validated .project-section1 input:invalid, .project-section1 .was-validated input:invalid, .was-validated .project-section2 input:invalid, .project-section2 .was-validated input:invalid, .was-validated .project-section3 .project-content input:invalid, .project-section3 .project-content .was-validated input:invalid, .was-validated .project-section4 input:invalid, .project-section4 .was-validated input:invalid, .was-validated .project-section5 input:invalid, .project-section5 .was-validated input:invalid, .was-validated .project-section6 input:invalid, .project-section6 .was-validated input:invalid, .was-validated .project-section7 input:invalid, .project-section7 .was-validated input:invalid, .was-validated .project-section8 input:invalid, .project-section8 .was-validated input:invalid, .was-validated .project-section9 input:invalid, .project-section9 .was-validated input:invalid, .was-validated .project-page textarea:invalid, .project-page .was-validated textarea:invalid, .was-validated .project-section1 textarea:invalid, .project-section1 .was-validated textarea:invalid, .was-validated .project-section2 textarea:invalid, .project-section2 .was-validated textarea:invalid, .was-validated .project-section3 .project-content textarea:invalid, .project-section3 .project-content .was-validated textarea:invalid, .was-validated .project-section4 textarea:invalid, .project-section4 .was-validated textarea:invalid, .was-validated .project-section5 textarea:invalid, .project-section5 .was-validated textarea:invalid, .was-validated .project-section6 textarea:invalid, .project-section6 .was-validated textarea:invalid, .was-validated .project-section7 textarea:invalid, .project-section7 .was-validated textarea:invalid, .was-validated .project-section8 textarea:invalid, .project-section8 .was-validated textarea:invalid, .was-validated .project-section9 textarea:invalid, .project-section9 .was-validated textarea:invalid, .was-validated .contact-page .form-wrap input:invalid, .contact-page .form-wrap .was-validated input:invalid, .was-validated .contact-page .form-wrap textarea:invalid, .contact-page .form-wrap .was-validated textarea:invalid, .form-control.is-invalid, .project-page input.is-invalid, .project-section1 input.is-invalid, .project-section2 input.is-invalid, .project-section3 .project-content input.is-invalid, .project-section4 input.is-invalid, .project-section5 input.is-invalid, .project-section6 input.is-invalid, .project-section7 input.is-invalid, .project-section8 input.is-invalid, .project-section9 input.is-invalid, .project-page textarea.is-invalid, .project-section1 textarea.is-invalid, .project-section2 textarea.is-invalid, .project-section3 .project-content textarea.is-invalid, .project-section4 textarea.is-invalid, .project-section5 textarea.is-invalid, .project-section6 textarea.is-invalid, .project-section7 textarea.is-invalid, .project-section8 textarea.is-invalid, .project-section9 textarea.is-invalid, .contact-page .form-wrap input.is-invalid, .contact-page .form-wrap textarea.is-invalid, .was-validated
 .custom-select:invalid,
 .custom-select.is-invalid {
   border-color: #dc3545; }
-  .was-validated .form-control:invalid:focus, .was-validated .project-section9 input:invalid:focus, .project-section9 .was-validated input:invalid:focus, .was-validated .project-section9 textarea:invalid:focus, .project-section9 .was-validated textarea:invalid:focus, .was-validated .contact-page .form-wrap input:invalid:focus, .contact-page .form-wrap .was-validated input:invalid:focus, .was-validated .contact-page .form-wrap textarea:invalid:focus, .contact-page .form-wrap .was-validated textarea:invalid:focus, .form-control.is-invalid:focus, .project-section9 input.is-invalid:focus, .project-section9 textarea.is-invalid:focus, .contact-page .form-wrap input.is-invalid:focus, .contact-page .form-wrap textarea.is-invalid:focus, .was-validated
+  .was-validated .form-control:invalid:focus, .was-validated .project-page input:invalid:focus, .project-page .was-validated input:invalid:focus, .was-validated .project-section1 input:invalid:focus, .project-section1 .was-validated input:invalid:focus, .was-validated .project-section2 input:invalid:focus, .project-section2 .was-validated input:invalid:focus, .was-validated .project-section3 .project-content input:invalid:focus, .project-section3 .project-content .was-validated input:invalid:focus, .was-validated .project-section4 input:invalid:focus, .project-section4 .was-validated input:invalid:focus, .was-validated .project-section5 input:invalid:focus, .project-section5 .was-validated input:invalid:focus, .was-validated .project-section6 input:invalid:focus, .project-section6 .was-validated input:invalid:focus, .was-validated .project-section7 input:invalid:focus, .project-section7 .was-validated input:invalid:focus, .was-validated .project-section8 input:invalid:focus, .project-section8 .was-validated input:invalid:focus, .was-validated .project-section9 input:invalid:focus, .project-section9 .was-validated input:invalid:focus, .was-validated .project-page textarea:invalid:focus, .project-page .was-validated textarea:invalid:focus, .was-validated .project-section1 textarea:invalid:focus, .project-section1 .was-validated textarea:invalid:focus, .was-validated .project-section2 textarea:invalid:focus, .project-section2 .was-validated textarea:invalid:focus, .was-validated .project-section3 .project-content textarea:invalid:focus, .project-section3 .project-content .was-validated textarea:invalid:focus, .was-validated .project-section4 textarea:invalid:focus, .project-section4 .was-validated textarea:invalid:focus, .was-validated .project-section5 textarea:invalid:focus, .project-section5 .was-validated textarea:invalid:focus, .was-validated .project-section6 textarea:invalid:focus, .project-section6 .was-validated textarea:invalid:focus, .was-validated .project-section7 textarea:invalid:focus, .project-section7 .was-validated textarea:invalid:focus, .was-validated .project-section8 textarea:invalid:focus, .project-section8 .was-validated textarea:invalid:focus, .was-validated .project-section9 textarea:invalid:focus, .project-section9 .was-validated textarea:invalid:focus, .was-validated .contact-page .form-wrap input:invalid:focus, .contact-page .form-wrap .was-validated input:invalid:focus, .was-validated .contact-page .form-wrap textarea:invalid:focus, .contact-page .form-wrap .was-validated textarea:invalid:focus, .form-control.is-invalid:focus, .project-page input.is-invalid:focus, .project-section1 input.is-invalid:focus, .project-section2 input.is-invalid:focus, .project-section3 .project-content input.is-invalid:focus, .project-section4 input.is-invalid:focus, .project-section5 input.is-invalid:focus, .project-section6 input.is-invalid:focus, .project-section7 input.is-invalid:focus, .project-section8 input.is-invalid:focus, .project-section9 input.is-invalid:focus, .project-page textarea.is-invalid:focus, .project-section1 textarea.is-invalid:focus, .project-section2 textarea.is-invalid:focus, .project-section3 .project-content textarea.is-invalid:focus, .project-section4 textarea.is-invalid:focus, .project-section5 textarea.is-invalid:focus, .project-section6 textarea.is-invalid:focus, .project-section7 textarea.is-invalid:focus, .project-section8 textarea.is-invalid:focus, .project-section9 textarea.is-invalid:focus, .contact-page .form-wrap input.is-invalid:focus, .contact-page .form-wrap textarea.is-invalid:focus, .was-validated
   .custom-select:invalid:focus,
   .custom-select.is-invalid:focus {
     border-color: #dc3545;
     box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }
-  .was-validated .form-control:invalid ~ .invalid-feedback, .was-validated .project-section9 input:invalid ~ .invalid-feedback, .project-section9 .was-validated input:invalid ~ .invalid-feedback, .was-validated .project-section9 textarea:invalid ~ .invalid-feedback, .project-section9 .was-validated textarea:invalid ~ .invalid-feedback, .was-validated .contact-page .form-wrap input:invalid ~ .invalid-feedback, .contact-page .form-wrap .was-validated input:invalid ~ .invalid-feedback, .was-validated .contact-page .form-wrap textarea:invalid ~ .invalid-feedback, .contact-page .form-wrap .was-validated textarea:invalid ~ .invalid-feedback,
+  .was-validated .form-control:invalid ~ .invalid-feedback, .was-validated .project-page input:invalid ~ .invalid-feedback, .project-page .was-validated input:invalid ~ .invalid-feedback, .was-validated .project-section1 input:invalid ~ .invalid-feedback, .project-section1 .was-validated input:invalid ~ .invalid-feedback, .was-validated .project-section2 input:invalid ~ .invalid-feedback, .project-section2 .was-validated input:invalid ~ .invalid-feedback, .was-validated .project-section3 .project-content input:invalid ~ .invalid-feedback, .project-section3 .project-content .was-validated input:invalid ~ .invalid-feedback, .was-validated .project-section4 input:invalid ~ .invalid-feedback, .project-section4 .was-validated input:invalid ~ .invalid-feedback, .was-validated .project-section5 input:invalid ~ .invalid-feedback, .project-section5 .was-validated input:invalid ~ .invalid-feedback, .was-validated .project-section6 input:invalid ~ .invalid-feedback, .project-section6 .was-validated input:invalid ~ .invalid-feedback, .was-validated .project-section7 input:invalid ~ .invalid-feedback, .project-section7 .was-validated input:invalid ~ .invalid-feedback, .was-validated .project-section8 input:invalid ~ .invalid-feedback, .project-section8 .was-validated input:invalid ~ .invalid-feedback, .was-validated .project-section9 input:invalid ~ .invalid-feedback, .project-section9 .was-validated input:invalid ~ .invalid-feedback, .was-validated .project-page textarea:invalid ~ .invalid-feedback, .project-page .was-validated textarea:invalid ~ .invalid-feedback, .was-validated .project-section1 textarea:invalid ~ .invalid-feedback, .project-section1 .was-validated textarea:invalid ~ .invalid-feedback, .was-validated .project-section2 textarea:invalid ~ .invalid-feedback, .project-section2 .was-validated textarea:invalid ~ .invalid-feedback, .was-validated .project-section3 .project-content textarea:invalid ~ .invalid-feedback, .project-section3 .project-content .was-validated textarea:invalid ~ .invalid-feedback, .was-validated .project-section4 textarea:invalid ~ .invalid-feedback, .project-section4 .was-validated textarea:invalid ~ .invalid-feedback, .was-validated .project-section5 textarea:invalid ~ .invalid-feedback, .project-section5 .was-validated textarea:invalid ~ .invalid-feedback, .was-validated .project-section6 textarea:invalid ~ .invalid-feedback, .project-section6 .was-validated textarea:invalid ~ .invalid-feedback, .was-validated .project-section7 textarea:invalid ~ .invalid-feedback, .project-section7 .was-validated textarea:invalid ~ .invalid-feedback, .was-validated .project-section8 textarea:invalid ~ .invalid-feedback, .project-section8 .was-validated textarea:invalid ~ .invalid-feedback, .was-validated .project-section9 textarea:invalid ~ .invalid-feedback, .project-section9 .was-validated textarea:invalid ~ .invalid-feedback, .was-validated .contact-page .form-wrap input:invalid ~ .invalid-feedback, .contact-page .form-wrap .was-validated input:invalid ~ .invalid-feedback, .was-validated .contact-page .form-wrap textarea:invalid ~ .invalid-feedback, .contact-page .form-wrap .was-validated textarea:invalid ~ .invalid-feedback,
   .was-validated .form-control:invalid ~ .invalid-tooltip,
+  .was-validated .project-page input:invalid ~ .invalid-tooltip,
+  .project-page .was-validated input:invalid ~ .invalid-tooltip,
+  .was-validated .project-section1 input:invalid ~ .invalid-tooltip,
+  .project-section1 .was-validated input:invalid ~ .invalid-tooltip,
+  .was-validated .project-section2 input:invalid ~ .invalid-tooltip,
+  .project-section2 .was-validated input:invalid ~ .invalid-tooltip,
+  .was-validated .project-section3 .project-content input:invalid ~ .invalid-tooltip,
+  .project-section3 .project-content .was-validated input:invalid ~ .invalid-tooltip,
+  .was-validated .project-section4 input:invalid ~ .invalid-tooltip,
+  .project-section4 .was-validated input:invalid ~ .invalid-tooltip,
+  .was-validated .project-section5 input:invalid ~ .invalid-tooltip,
+  .project-section5 .was-validated input:invalid ~ .invalid-tooltip,
+  .was-validated .project-section6 input:invalid ~ .invalid-tooltip,
+  .project-section6 .was-validated input:invalid ~ .invalid-tooltip,
+  .was-validated .project-section7 input:invalid ~ .invalid-tooltip,
+  .project-section7 .was-validated input:invalid ~ .invalid-tooltip,
+  .was-validated .project-section8 input:invalid ~ .invalid-tooltip,
+  .project-section8 .was-validated input:invalid ~ .invalid-tooltip,
   .was-validated .project-section9 input:invalid ~ .invalid-tooltip,
   .project-section9 .was-validated input:invalid ~ .invalid-tooltip,
+  .was-validated .project-page textarea:invalid ~ .invalid-tooltip,
+  .project-page .was-validated textarea:invalid ~ .invalid-tooltip,
+  .was-validated .project-section1 textarea:invalid ~ .invalid-tooltip,
+  .project-section1 .was-validated textarea:invalid ~ .invalid-tooltip,
+  .was-validated .project-section2 textarea:invalid ~ .invalid-tooltip,
+  .project-section2 .was-validated textarea:invalid ~ .invalid-tooltip,
+  .was-validated .project-section3 .project-content textarea:invalid ~ .invalid-tooltip,
+  .project-section3 .project-content .was-validated textarea:invalid ~ .invalid-tooltip,
+  .was-validated .project-section4 textarea:invalid ~ .invalid-tooltip,
+  .project-section4 .was-validated textarea:invalid ~ .invalid-tooltip,
+  .was-validated .project-section5 textarea:invalid ~ .invalid-tooltip,
+  .project-section5 .was-validated textarea:invalid ~ .invalid-tooltip,
+  .was-validated .project-section6 textarea:invalid ~ .invalid-tooltip,
+  .project-section6 .was-validated textarea:invalid ~ .invalid-tooltip,
+  .was-validated .project-section7 textarea:invalid ~ .invalid-tooltip,
+  .project-section7 .was-validated textarea:invalid ~ .invalid-tooltip,
+  .was-validated .project-section8 textarea:invalid ~ .invalid-tooltip,
+  .project-section8 .was-validated textarea:invalid ~ .invalid-tooltip,
   .was-validated .project-section9 textarea:invalid ~ .invalid-tooltip,
   .project-section9 .was-validated textarea:invalid ~ .invalid-tooltip,
   .was-validated .contact-page .form-wrap input:invalid ~ .invalid-tooltip,
   .contact-page .form-wrap .was-validated input:invalid ~ .invalid-tooltip,
   .was-validated .contact-page .form-wrap textarea:invalid ~ .invalid-tooltip,
-  .contact-page .form-wrap .was-validated textarea:invalid ~ .invalid-tooltip, .form-control.is-invalid ~ .invalid-feedback, .project-section9 input.is-invalid ~ .invalid-feedback, .project-section9 textarea.is-invalid ~ .invalid-feedback, .contact-page .form-wrap input.is-invalid ~ .invalid-feedback, .contact-page .form-wrap textarea.is-invalid ~ .invalid-feedback,
+  .contact-page .form-wrap .was-validated textarea:invalid ~ .invalid-tooltip, .form-control.is-invalid ~ .invalid-feedback, .project-page input.is-invalid ~ .invalid-feedback, .project-section1 input.is-invalid ~ .invalid-feedback, .project-section2 input.is-invalid ~ .invalid-feedback, .project-section3 .project-content input.is-invalid ~ .invalid-feedback, .project-section4 input.is-invalid ~ .invalid-feedback, .project-section5 input.is-invalid ~ .invalid-feedback, .project-section6 input.is-invalid ~ .invalid-feedback, .project-section7 input.is-invalid ~ .invalid-feedback, .project-section8 input.is-invalid ~ .invalid-feedback, .project-section9 input.is-invalid ~ .invalid-feedback, .project-page textarea.is-invalid ~ .invalid-feedback, .project-section1 textarea.is-invalid ~ .invalid-feedback, .project-section2 textarea.is-invalid ~ .invalid-feedback, .project-section3 .project-content textarea.is-invalid ~ .invalid-feedback, .project-section4 textarea.is-invalid ~ .invalid-feedback, .project-section5 textarea.is-invalid ~ .invalid-feedback, .project-section6 textarea.is-invalid ~ .invalid-feedback, .project-section7 textarea.is-invalid ~ .invalid-feedback, .project-section8 textarea.is-invalid ~ .invalid-feedback, .project-section9 textarea.is-invalid ~ .invalid-feedback, .contact-page .form-wrap input.is-invalid ~ .invalid-feedback, .contact-page .form-wrap textarea.is-invalid ~ .invalid-feedback,
   .form-control.is-invalid ~ .invalid-tooltip,
+  .project-page input.is-invalid ~ .invalid-tooltip,
+  .project-section1 input.is-invalid ~ .invalid-tooltip,
+  .project-section2 input.is-invalid ~ .invalid-tooltip,
+  .project-section3 .project-content input.is-invalid ~ .invalid-tooltip,
+  .project-section4 input.is-invalid ~ .invalid-tooltip,
+  .project-section5 input.is-invalid ~ .invalid-tooltip,
+  .project-section6 input.is-invalid ~ .invalid-tooltip,
+  .project-section7 input.is-invalid ~ .invalid-tooltip,
+  .project-section8 input.is-invalid ~ .invalid-tooltip,
   .project-section9 input.is-invalid ~ .invalid-tooltip,
+  .project-page textarea.is-invalid ~ .invalid-tooltip,
+  .project-section1 textarea.is-invalid ~ .invalid-tooltip,
+  .project-section2 textarea.is-invalid ~ .invalid-tooltip,
+  .project-section3 .project-content textarea.is-invalid ~ .invalid-tooltip,
+  .project-section4 textarea.is-invalid ~ .invalid-tooltip,
+  .project-section5 textarea.is-invalid ~ .invalid-tooltip,
+  .project-section6 textarea.is-invalid ~ .invalid-tooltip,
+  .project-section7 textarea.is-invalid ~ .invalid-tooltip,
+  .project-section8 textarea.is-invalid ~ .invalid-tooltip,
   .project-section9 textarea.is-invalid ~ .invalid-tooltip,
   .contact-page .form-wrap input.is-invalid ~ .invalid-tooltip,
   .contact-page .form-wrap textarea.is-invalid ~ .invalid-tooltip, .was-validated
@@ -1617,7 +1725,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
       flex-flow: row wrap;
       align-items: center;
       margin-bottom: 0; }
-    .form-inline .form-control, .form-inline .project-section9 input, .project-section9 .form-inline input, .form-inline .project-section9 textarea, .project-section9 .form-inline textarea, .form-inline .contact-page .form-wrap input, .contact-page .form-wrap .form-inline input, .form-inline .contact-page .form-wrap textarea, .contact-page .form-wrap .form-inline textarea {
+    .form-inline .form-control, .form-inline .project-page input, .project-page .form-inline input, .form-inline .project-section1 input, .project-section1 .form-inline input, .form-inline .project-section2 input, .project-section2 .form-inline input, .form-inline .project-section3 .project-content input, .project-section3 .project-content .form-inline input, .form-inline .project-section4 input, .project-section4 .form-inline input, .form-inline .project-section5 input, .project-section5 .form-inline input, .form-inline .project-section6 input, .project-section6 .form-inline input, .form-inline .project-section7 input, .project-section7 .form-inline input, .form-inline .project-section8 input, .project-section8 .form-inline input, .form-inline .project-section9 input, .project-section9 .form-inline input, .form-inline .project-page textarea, .project-page .form-inline textarea, .form-inline .project-section1 textarea, .project-section1 .form-inline textarea, .form-inline .project-section2 textarea, .project-section2 .form-inline textarea, .form-inline .project-section3 .project-content textarea, .project-section3 .project-content .form-inline textarea, .form-inline .project-section4 textarea, .project-section4 .form-inline textarea, .form-inline .project-section5 textarea, .project-section5 .form-inline textarea, .form-inline .project-section6 textarea, .project-section6 .form-inline textarea, .form-inline .project-section7 textarea, .project-section7 .form-inline textarea, .form-inline .project-section8 textarea, .project-section8 .form-inline textarea, .form-inline .project-section9 textarea, .project-section9 .form-inline textarea, .form-inline .contact-page .form-wrap input, .contact-page .form-wrap .form-inline input, .form-inline .contact-page .form-wrap textarea, .contact-page .form-wrap .form-inline textarea {
       display: inline-block;
       width: auto;
       vertical-align: middle; }
@@ -2381,48 +2489,120 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   align-items: stretch;
   width: 100%; }
-  .input-group > .form-control, .project-section9 .input-group > input, .project-section9 .input-group > textarea, .contact-page .form-wrap .input-group > input, .contact-page .form-wrap .input-group > textarea,
+  .input-group > .form-control, .project-page .input-group > input, .project-section1 .input-group > input, .project-section2 .input-group > input, .project-section3 .project-content .input-group > input, .project-section4 .input-group > input, .project-section5 .input-group > input, .project-section6 .input-group > input, .project-section7 .input-group > input, .project-section8 .input-group > input, .project-section9 .input-group > input, .project-page .input-group > textarea, .project-section1 .input-group > textarea, .project-section2 .input-group > textarea, .project-section3 .project-content .input-group > textarea, .project-section4 .input-group > textarea, .project-section5 .input-group > textarea, .project-section6 .input-group > textarea, .project-section7 .input-group > textarea, .project-section8 .input-group > textarea, .project-section9 .input-group > textarea, .contact-page .form-wrap .input-group > input, .contact-page .form-wrap .input-group > textarea,
   .input-group > .custom-select,
   .input-group > .custom-file {
     position: relative;
     flex: 1 1 auto;
     width: 1%;
     margin-bottom: 0; }
-    .input-group > .form-control:focus, .project-section9 .input-group > input:focus, .project-section9 .input-group > textarea:focus, .contact-page .form-wrap .input-group > input:focus, .contact-page .form-wrap .input-group > textarea:focus,
+    .input-group > .form-control:focus, .project-page .input-group > input:focus, .project-section1 .input-group > input:focus, .project-section2 .input-group > input:focus, .project-section3 .project-content .input-group > input:focus, .project-section4 .input-group > input:focus, .project-section5 .input-group > input:focus, .project-section6 .input-group > input:focus, .project-section7 .input-group > input:focus, .project-section8 .input-group > input:focus, .project-section9 .input-group > input:focus, .project-page .input-group > textarea:focus, .project-section1 .input-group > textarea:focus, .project-section2 .input-group > textarea:focus, .project-section3 .project-content .input-group > textarea:focus, .project-section4 .input-group > textarea:focus, .project-section5 .input-group > textarea:focus, .project-section6 .input-group > textarea:focus, .project-section7 .input-group > textarea:focus, .project-section8 .input-group > textarea:focus, .project-section9 .input-group > textarea:focus, .contact-page .form-wrap .input-group > input:focus, .contact-page .form-wrap .input-group > textarea:focus,
     .input-group > .custom-select:focus,
     .input-group > .custom-file:focus {
       z-index: 3; }
-    .input-group > .form-control + .form-control, .project-section9 .input-group > input + .form-control, .project-section9 .input-group > textarea + .form-control, .contact-page .form-wrap .input-group > input + .form-control, .contact-page .form-wrap .input-group > textarea + .form-control, .project-section9 .input-group > .form-control + input, .project-section9 .input-group > input + input, .project-section9 .input-group > textarea + input, .project-section9 .input-group > .form-control + textarea, .project-section9 .input-group > input + textarea, .project-section9 .input-group > textarea + textarea, .contact-page .form-wrap .input-group > .form-control + input, .contact-page .form-wrap .project-section9 .input-group > input + input, .contact-page .form-wrap .project-section9 .input-group > textarea + input, .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .input-group > textarea + input, .contact-page .form-wrap .input-group > .form-control + textarea, .contact-page .form-wrap .project-section9 .input-group > input + textarea, .contact-page .form-wrap .project-section9 .input-group > textarea + textarea, .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .input-group > textarea + textarea,
+    .input-group > .form-control + .form-control, .project-page .input-group > input + .form-control, .project-section1 .input-group > input + .form-control, .project-section2 .input-group > input + .form-control, .project-section3 .project-content .input-group > input + .form-control, .project-section4 .input-group > input + .form-control, .project-section5 .input-group > input + .form-control, .project-section6 .input-group > input + .form-control, .project-section7 .input-group > input + .form-control, .project-section8 .input-group > input + .form-control, .project-section9 .input-group > input + .form-control, .project-page .input-group > textarea + .form-control, .project-section1 .input-group > textarea + .form-control, .project-section2 .input-group > textarea + .form-control, .project-section3 .project-content .input-group > textarea + .form-control, .project-section4 .input-group > textarea + .form-control, .project-section5 .input-group > textarea + .form-control, .project-section6 .input-group > textarea + .form-control, .project-section7 .input-group > textarea + .form-control, .project-section8 .input-group > textarea + .form-control, .project-section9 .input-group > textarea + .form-control, .contact-page .form-wrap .input-group > input + .form-control, .contact-page .form-wrap .input-group > textarea + .form-control, .project-page .input-group > .form-control + input, .project-page .input-group > input + input, .project-section1 .project-page .input-group > input + input, .project-page .project-section1 .input-group > input + input, .project-section2 .project-page .input-group > input + input, .project-page .project-section2 .input-group > input + input, .project-section3 .project-content .project-page .input-group > input + input, .project-page .project-section3 .project-content .input-group > input + input, .project-section4 .project-page .input-group > input + input, .project-page .project-section4 .input-group > input + input, .project-section5 .project-page .input-group > input + input, .project-page .project-section5 .input-group > input + input, .project-section6 .project-page .input-group > input + input, .project-page .project-section6 .input-group > input + input, .project-section7 .project-page .input-group > input + input, .project-page .project-section7 .input-group > input + input, .project-section8 .project-page .input-group > input + input, .project-page .project-section8 .input-group > input + input, .project-section9 .project-page .input-group > input + input, .project-page .project-section9 .input-group > input + input, .project-page .input-group > textarea + input, .project-section1 .project-page .input-group > textarea + input, .project-page .project-section1 .input-group > textarea + input, .project-section2 .project-page .input-group > textarea + input, .project-page .project-section2 .input-group > textarea + input, .project-section3 .project-content .project-page .input-group > textarea + input, .project-page .project-section3 .project-content .input-group > textarea + input, .project-section4 .project-page .input-group > textarea + input, .project-page .project-section4 .input-group > textarea + input, .project-section5 .project-page .input-group > textarea + input, .project-page .project-section5 .input-group > textarea + input, .project-section6 .project-page .input-group > textarea + input, .project-page .project-section6 .input-group > textarea + input, .project-section7 .project-page .input-group > textarea + input, .project-page .project-section7 .input-group > textarea + input, .project-section8 .project-page .input-group > textarea + input, .project-page .project-section8 .input-group > textarea + input, .project-section9 .project-page .input-group > textarea + input, .project-page .project-section9 .input-group > textarea + input, .contact-page .form-wrap .project-page .input-group > input + input, .project-page .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-page .input-group > textarea + input, .project-page .contact-page .form-wrap .input-group > textarea + input, .project-section1 .input-group > .form-control + input, .project-page .project-section1 .input-group > input + input, .project-section1 .project-page .input-group > input + input, .project-section1 .input-group > input + input, .project-section2 .project-section1 .input-group > input + input, .project-section1 .project-section2 .input-group > input + input, .project-section3 .project-content .project-section1 .input-group > input + input, .project-section1 .project-section3 .project-content .input-group > input + input, .project-section4 .project-section1 .input-group > input + input, .project-section1 .project-section4 .input-group > input + input, .project-section5 .project-section1 .input-group > input + input, .project-section1 .project-section5 .input-group > input + input, .project-section6 .project-section1 .input-group > input + input, .project-section1 .project-section6 .input-group > input + input, .project-section7 .project-section1 .input-group > input + input, .project-section1 .project-section7 .input-group > input + input, .project-section8 .project-section1 .input-group > input + input, .project-section1 .project-section8 .input-group > input + input, .project-section9 .project-section1 .input-group > input + input, .project-section1 .project-section9 .input-group > input + input, .project-page .project-section1 .input-group > textarea + input, .project-section1 .project-page .input-group > textarea + input, .project-section1 .input-group > textarea + input, .project-section2 .project-section1 .input-group > textarea + input, .project-section1 .project-section2 .input-group > textarea + input, .project-section3 .project-content .project-section1 .input-group > textarea + input, .project-section1 .project-section3 .project-content .input-group > textarea + input, .project-section4 .project-section1 .input-group > textarea + input, .project-section1 .project-section4 .input-group > textarea + input, .project-section5 .project-section1 .input-group > textarea + input, .project-section1 .project-section5 .input-group > textarea + input, .project-section6 .project-section1 .input-group > textarea + input, .project-section1 .project-section6 .input-group > textarea + input, .project-section7 .project-section1 .input-group > textarea + input, .project-section1 .project-section7 .input-group > textarea + input, .project-section8 .project-section1 .input-group > textarea + input, .project-section1 .project-section8 .input-group > textarea + input, .project-section9 .project-section1 .input-group > textarea + input, .project-section1 .project-section9 .input-group > textarea + input, .contact-page .form-wrap .project-section1 .input-group > input + input, .project-section1 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section1 .input-group > textarea + input, .project-section1 .contact-page .form-wrap .input-group > textarea + input, .project-section2 .input-group > .form-control + input, .project-page .project-section2 .input-group > input + input, .project-section2 .project-page .input-group > input + input, .project-section1 .project-section2 .input-group > input + input, .project-section2 .project-section1 .input-group > input + input, .project-section2 .input-group > input + input, .project-section3 .project-content .project-section2 .input-group > input + input, .project-section2 .project-section3 .project-content .input-group > input + input, .project-section4 .project-section2 .input-group > input + input, .project-section2 .project-section4 .input-group > input + input, .project-section5 .project-section2 .input-group > input + input, .project-section2 .project-section5 .input-group > input + input, .project-section6 .project-section2 .input-group > input + input, .project-section2 .project-section6 .input-group > input + input, .project-section7 .project-section2 .input-group > input + input, .project-section2 .project-section7 .input-group > input + input, .project-section8 .project-section2 .input-group > input + input, .project-section2 .project-section8 .input-group > input + input, .project-section9 .project-section2 .input-group > input + input, .project-section2 .project-section9 .input-group > input + input, .project-page .project-section2 .input-group > textarea + input, .project-section2 .project-page .input-group > textarea + input, .project-section1 .project-section2 .input-group > textarea + input, .project-section2 .project-section1 .input-group > textarea + input, .project-section2 .input-group > textarea + input, .project-section3 .project-content .project-section2 .input-group > textarea + input, .project-section2 .project-section3 .project-content .input-group > textarea + input, .project-section4 .project-section2 .input-group > textarea + input, .project-section2 .project-section4 .input-group > textarea + input, .project-section5 .project-section2 .input-group > textarea + input, .project-section2 .project-section5 .input-group > textarea + input, .project-section6 .project-section2 .input-group > textarea + input, .project-section2 .project-section6 .input-group > textarea + input, .project-section7 .project-section2 .input-group > textarea + input, .project-section2 .project-section7 .input-group > textarea + input, .project-section8 .project-section2 .input-group > textarea + input, .project-section2 .project-section8 .input-group > textarea + input, .project-section9 .project-section2 .input-group > textarea + input, .project-section2 .project-section9 .input-group > textarea + input, .contact-page .form-wrap .project-section2 .input-group > input + input, .project-section2 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section2 .input-group > textarea + input, .project-section2 .contact-page .form-wrap .input-group > textarea + input, .project-section3 .project-content .input-group > .form-control + input, .project-page .project-section3 .project-content .input-group > input + input, .project-section3 .project-content .project-page .input-group > input + input, .project-section1 .project-section3 .project-content .input-group > input + input, .project-section3 .project-content .project-section1 .input-group > input + input, .project-section2 .project-section3 .project-content .input-group > input + input, .project-section3 .project-content .project-section2 .input-group > input + input, .project-section3 .project-content .input-group > input + input, .project-section4 .project-section3 .project-content .input-group > input + input, .project-section3 .project-content .project-section4 .input-group > input + input, .project-section5 .project-section3 .project-content .input-group > input + input, .project-section3 .project-content .project-section5 .input-group > input + input, .project-section6 .project-section3 .project-content .input-group > input + input, .project-section3 .project-content .project-section6 .input-group > input + input, .project-section7 .project-section3 .project-content .input-group > input + input, .project-section3 .project-content .project-section7 .input-group > input + input, .project-section8 .project-section3 .project-content .input-group > input + input, .project-section3 .project-content .project-section8 .input-group > input + input, .project-section9 .project-section3 .project-content .input-group > input + input, .project-section3 .project-content .project-section9 .input-group > input + input, .project-page .project-section3 .project-content .input-group > textarea + input, .project-section3 .project-content .project-page .input-group > textarea + input, .project-section1 .project-section3 .project-content .input-group > textarea + input, .project-section3 .project-content .project-section1 .input-group > textarea + input, .project-section2 .project-section3 .project-content .input-group > textarea + input, .project-section3 .project-content .project-section2 .input-group > textarea + input, .project-section3 .project-content .input-group > textarea + input, .project-section4 .project-section3 .project-content .input-group > textarea + input, .project-section3 .project-content .project-section4 .input-group > textarea + input, .project-section5 .project-section3 .project-content .input-group > textarea + input, .project-section3 .project-content .project-section5 .input-group > textarea + input, .project-section6 .project-section3 .project-content .input-group > textarea + input, .project-section3 .project-content .project-section6 .input-group > textarea + input, .project-section7 .project-section3 .project-content .input-group > textarea + input, .project-section3 .project-content .project-section7 .input-group > textarea + input, .project-section8 .project-section3 .project-content .input-group > textarea + input, .project-section3 .project-content .project-section8 .input-group > textarea + input, .project-section9 .project-section3 .project-content .input-group > textarea + input, .project-section3 .project-content .project-section9 .input-group > textarea + input, .contact-page .form-wrap .project-section3 .project-content .input-group > input + input, .project-section3 .project-content .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section3 .project-content .input-group > textarea + input, .project-section3 .project-content .contact-page .form-wrap .input-group > textarea + input, .project-section4 .input-group > .form-control + input, .project-page .project-section4 .input-group > input + input, .project-section4 .project-page .input-group > input + input, .project-section1 .project-section4 .input-group > input + input, .project-section4 .project-section1 .input-group > input + input, .project-section2 .project-section4 .input-group > input + input, .project-section4 .project-section2 .input-group > input + input, .project-section3 .project-content .project-section4 .input-group > input + input, .project-section4 .project-section3 .project-content .input-group > input + input, .project-section4 .input-group > input + input, .project-section5 .project-section4 .input-group > input + input, .project-section4 .project-section5 .input-group > input + input, .project-section6 .project-section4 .input-group > input + input, .project-section4 .project-section6 .input-group > input + input, .project-section7 .project-section4 .input-group > input + input, .project-section4 .project-section7 .input-group > input + input, .project-section8 .project-section4 .input-group > input + input, .project-section4 .project-section8 .input-group > input + input, .project-section9 .project-section4 .input-group > input + input, .project-section4 .project-section9 .input-group > input + input, .project-page .project-section4 .input-group > textarea + input, .project-section4 .project-page .input-group > textarea + input, .project-section1 .project-section4 .input-group > textarea + input, .project-section4 .project-section1 .input-group > textarea + input, .project-section2 .project-section4 .input-group > textarea + input, .project-section4 .project-section2 .input-group > textarea + input, .project-section3 .project-content .project-section4 .input-group > textarea + input, .project-section4 .project-section3 .project-content .input-group > textarea + input, .project-section4 .input-group > textarea + input, .project-section5 .project-section4 .input-group > textarea + input, .project-section4 .project-section5 .input-group > textarea + input, .project-section6 .project-section4 .input-group > textarea + input, .project-section4 .project-section6 .input-group > textarea + input, .project-section7 .project-section4 .input-group > textarea + input, .project-section4 .project-section7 .input-group > textarea + input, .project-section8 .project-section4 .input-group > textarea + input, .project-section4 .project-section8 .input-group > textarea + input, .project-section9 .project-section4 .input-group > textarea + input, .project-section4 .project-section9 .input-group > textarea + input, .contact-page .form-wrap .project-section4 .input-group > input + input, .project-section4 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section4 .input-group > textarea + input, .project-section4 .contact-page .form-wrap .input-group > textarea + input, .project-section5 .input-group > .form-control + input, .project-page .project-section5 .input-group > input + input, .project-section5 .project-page .input-group > input + input, .project-section1 .project-section5 .input-group > input + input, .project-section5 .project-section1 .input-group > input + input, .project-section2 .project-section5 .input-group > input + input, .project-section5 .project-section2 .input-group > input + input, .project-section3 .project-content .project-section5 .input-group > input + input, .project-section5 .project-section3 .project-content .input-group > input + input, .project-section4 .project-section5 .input-group > input + input, .project-section5 .project-section4 .input-group > input + input, .project-section5 .input-group > input + input, .project-section6 .project-section5 .input-group > input + input, .project-section5 .project-section6 .input-group > input + input, .project-section7 .project-section5 .input-group > input + input, .project-section5 .project-section7 .input-group > input + input, .project-section8 .project-section5 .input-group > input + input, .project-section5 .project-section8 .input-group > input + input, .project-section9 .project-section5 .input-group > input + input, .project-section5 .project-section9 .input-group > input + input, .project-page .project-section5 .input-group > textarea + input, .project-section5 .project-page .input-group > textarea + input, .project-section1 .project-section5 .input-group > textarea + input, .project-section5 .project-section1 .input-group > textarea + input, .project-section2 .project-section5 .input-group > textarea + input, .project-section5 .project-section2 .input-group > textarea + input, .project-section3 .project-content .project-section5 .input-group > textarea + input, .project-section5 .project-section3 .project-content .input-group > textarea + input, .project-section4 .project-section5 .input-group > textarea + input, .project-section5 .project-section4 .input-group > textarea + input, .project-section5 .input-group > textarea + input, .project-section6 .project-section5 .input-group > textarea + input, .project-section5 .project-section6 .input-group > textarea + input, .project-section7 .project-section5 .input-group > textarea + input, .project-section5 .project-section7 .input-group > textarea + input, .project-section8 .project-section5 .input-group > textarea + input, .project-section5 .project-section8 .input-group > textarea + input, .project-section9 .project-section5 .input-group > textarea + input, .project-section5 .project-section9 .input-group > textarea + input, .contact-page .form-wrap .project-section5 .input-group > input + input, .project-section5 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section5 .input-group > textarea + input, .project-section5 .contact-page .form-wrap .input-group > textarea + input, .project-section6 .input-group > .form-control + input, .project-page .project-section6 .input-group > input + input, .project-section6 .project-page .input-group > input + input, .project-section1 .project-section6 .input-group > input + input, .project-section6 .project-section1 .input-group > input + input, .project-section2 .project-section6 .input-group > input + input, .project-section6 .project-section2 .input-group > input + input, .project-section3 .project-content .project-section6 .input-group > input + input, .project-section6 .project-section3 .project-content .input-group > input + input, .project-section4 .project-section6 .input-group > input + input, .project-section6 .project-section4 .input-group > input + input, .project-section5 .project-section6 .input-group > input + input, .project-section6 .project-section5 .input-group > input + input, .project-section6 .input-group > input + input, .project-section7 .project-section6 .input-group > input + input, .project-section6 .project-section7 .input-group > input + input, .project-section8 .project-section6 .input-group > input + input, .project-section6 .project-section8 .input-group > input + input, .project-section9 .project-section6 .input-group > input + input, .project-section6 .project-section9 .input-group > input + input, .project-page .project-section6 .input-group > textarea + input, .project-section6 .project-page .input-group > textarea + input, .project-section1 .project-section6 .input-group > textarea + input, .project-section6 .project-section1 .input-group > textarea + input, .project-section2 .project-section6 .input-group > textarea + input, .project-section6 .project-section2 .input-group > textarea + input, .project-section3 .project-content .project-section6 .input-group > textarea + input, .project-section6 .project-section3 .project-content .input-group > textarea + input, .project-section4 .project-section6 .input-group > textarea + input, .project-section6 .project-section4 .input-group > textarea + input, .project-section5 .project-section6 .input-group > textarea + input, .project-section6 .project-section5 .input-group > textarea + input, .project-section6 .input-group > textarea + input, .project-section7 .project-section6 .input-group > textarea + input, .project-section6 .project-section7 .input-group > textarea + input, .project-section8 .project-section6 .input-group > textarea + input, .project-section6 .project-section8 .input-group > textarea + input, .project-section9 .project-section6 .input-group > textarea + input, .project-section6 .project-section9 .input-group > textarea + input, .contact-page .form-wrap .project-section6 .input-group > input + input, .project-section6 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section6 .input-group > textarea + input, .project-section6 .contact-page .form-wrap .input-group > textarea + input, .project-section7 .input-group > .form-control + input, .project-page .project-section7 .input-group > input + input, .project-section7 .project-page .input-group > input + input, .project-section1 .project-section7 .input-group > input + input, .project-section7 .project-section1 .input-group > input + input, .project-section2 .project-section7 .input-group > input + input, .project-section7 .project-section2 .input-group > input + input, .project-section3 .project-content .project-section7 .input-group > input + input, .project-section7 .project-section3 .project-content .input-group > input + input, .project-section4 .project-section7 .input-group > input + input, .project-section7 .project-section4 .input-group > input + input, .project-section5 .project-section7 .input-group > input + input, .project-section7 .project-section5 .input-group > input + input, .project-section6 .project-section7 .input-group > input + input, .project-section7 .project-section6 .input-group > input + input, .project-section7 .input-group > input + input, .project-section8 .project-section7 .input-group > input + input, .project-section7 .project-section8 .input-group > input + input, .project-section9 .project-section7 .input-group > input + input, .project-section7 .project-section9 .input-group > input + input, .project-page .project-section7 .input-group > textarea + input, .project-section7 .project-page .input-group > textarea + input, .project-section1 .project-section7 .input-group > textarea + input, .project-section7 .project-section1 .input-group > textarea + input, .project-section2 .project-section7 .input-group > textarea + input, .project-section7 .project-section2 .input-group > textarea + input, .project-section3 .project-content .project-section7 .input-group > textarea + input, .project-section7 .project-section3 .project-content .input-group > textarea + input, .project-section4 .project-section7 .input-group > textarea + input, .project-section7 .project-section4 .input-group > textarea + input, .project-section5 .project-section7 .input-group > textarea + input, .project-section7 .project-section5 .input-group > textarea + input, .project-section6 .project-section7 .input-group > textarea + input, .project-section7 .project-section6 .input-group > textarea + input, .project-section7 .input-group > textarea + input, .project-section8 .project-section7 .input-group > textarea + input, .project-section7 .project-section8 .input-group > textarea + input, .project-section9 .project-section7 .input-group > textarea + input, .project-section7 .project-section9 .input-group > textarea + input, .contact-page .form-wrap .project-section7 .input-group > input + input, .project-section7 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section7 .input-group > textarea + input, .project-section7 .contact-page .form-wrap .input-group > textarea + input, .project-section8 .input-group > .form-control + input, .project-page .project-section8 .input-group > input + input, .project-section8 .project-page .input-group > input + input, .project-section1 .project-section8 .input-group > input + input, .project-section8 .project-section1 .input-group > input + input, .project-section2 .project-section8 .input-group > input + input, .project-section8 .project-section2 .input-group > input + input, .project-section3 .project-content .project-section8 .input-group > input + input, .project-section8 .project-section3 .project-content .input-group > input + input, .project-section4 .project-section8 .input-group > input + input, .project-section8 .project-section4 .input-group > input + input, .project-section5 .project-section8 .input-group > input + input, .project-section8 .project-section5 .input-group > input + input, .project-section6 .project-section8 .input-group > input + input, .project-section8 .project-section6 .input-group > input + input, .project-section7 .project-section8 .input-group > input + input, .project-section8 .project-section7 .input-group > input + input, .project-section8 .input-group > input + input, .project-section9 .project-section8 .input-group > input + input, .project-section8 .project-section9 .input-group > input + input, .project-page .project-section8 .input-group > textarea + input, .project-section8 .project-page .input-group > textarea + input, .project-section1 .project-section8 .input-group > textarea + input, .project-section8 .project-section1 .input-group > textarea + input, .project-section2 .project-section8 .input-group > textarea + input, .project-section8 .project-section2 .input-group > textarea + input, .project-section3 .project-content .project-section8 .input-group > textarea + input, .project-section8 .project-section3 .project-content .input-group > textarea + input, .project-section4 .project-section8 .input-group > textarea + input, .project-section8 .project-section4 .input-group > textarea + input, .project-section5 .project-section8 .input-group > textarea + input, .project-section8 .project-section5 .input-group > textarea + input, .project-section6 .project-section8 .input-group > textarea + input, .project-section8 .project-section6 .input-group > textarea + input, .project-section7 .project-section8 .input-group > textarea + input, .project-section8 .project-section7 .input-group > textarea + input, .project-section8 .input-group > textarea + input, .project-section9 .project-section8 .input-group > textarea + input, .project-section8 .project-section9 .input-group > textarea + input, .contact-page .form-wrap .project-section8 .input-group > input + input, .project-section8 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section8 .input-group > textarea + input, .project-section8 .contact-page .form-wrap .input-group > textarea + input, .project-section9 .input-group > .form-control + input, .project-page .project-section9 .input-group > input + input, .project-section9 .project-page .input-group > input + input, .project-section1 .project-section9 .input-group > input + input, .project-section9 .project-section1 .input-group > input + input, .project-section2 .project-section9 .input-group > input + input, .project-section9 .project-section2 .input-group > input + input, .project-section3 .project-content .project-section9 .input-group > input + input, .project-section9 .project-section3 .project-content .input-group > input + input, .project-section4 .project-section9 .input-group > input + input, .project-section9 .project-section4 .input-group > input + input, .project-section5 .project-section9 .input-group > input + input, .project-section9 .project-section5 .input-group > input + input, .project-section6 .project-section9 .input-group > input + input, .project-section9 .project-section6 .input-group > input + input, .project-section7 .project-section9 .input-group > input + input, .project-section9 .project-section7 .input-group > input + input, .project-section8 .project-section9 .input-group > input + input, .project-section9 .project-section8 .input-group > input + input, .project-section9 .input-group > input + input, .project-page .project-section9 .input-group > textarea + input, .project-section9 .project-page .input-group > textarea + input, .project-section1 .project-section9 .input-group > textarea + input, .project-section9 .project-section1 .input-group > textarea + input, .project-section2 .project-section9 .input-group > textarea + input, .project-section9 .project-section2 .input-group > textarea + input, .project-section3 .project-content .project-section9 .input-group > textarea + input, .project-section9 .project-section3 .project-content .input-group > textarea + input, .project-section4 .project-section9 .input-group > textarea + input, .project-section9 .project-section4 .input-group > textarea + input, .project-section5 .project-section9 .input-group > textarea + input, .project-section9 .project-section5 .input-group > textarea + input, .project-section6 .project-section9 .input-group > textarea + input, .project-section9 .project-section6 .input-group > textarea + input, .project-section7 .project-section9 .input-group > textarea + input, .project-section9 .project-section7 .input-group > textarea + input, .project-section8 .project-section9 .input-group > textarea + input, .project-section9 .project-section8 .input-group > textarea + input, .project-section9 .input-group > textarea + input, .contact-page .form-wrap .project-section9 .input-group > input + input, .project-section9 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section9 .input-group > textarea + input, .project-section9 .contact-page .form-wrap .input-group > textarea + input, .project-page .input-group > .form-control + textarea, .project-page .input-group > input + textarea, .project-section1 .project-page .input-group > input + textarea, .project-page .project-section1 .input-group > input + textarea, .project-section2 .project-page .input-group > input + textarea, .project-page .project-section2 .input-group > input + textarea, .project-section3 .project-content .project-page .input-group > input + textarea, .project-page .project-section3 .project-content .input-group > input + textarea, .project-section4 .project-page .input-group > input + textarea, .project-page .project-section4 .input-group > input + textarea, .project-section5 .project-page .input-group > input + textarea, .project-page .project-section5 .input-group > input + textarea, .project-section6 .project-page .input-group > input + textarea, .project-page .project-section6 .input-group > input + textarea, .project-section7 .project-page .input-group > input + textarea, .project-page .project-section7 .input-group > input + textarea, .project-section8 .project-page .input-group > input + textarea, .project-page .project-section8 .input-group > input + textarea, .project-section9 .project-page .input-group > input + textarea, .project-page .project-section9 .input-group > input + textarea, .project-page .input-group > textarea + textarea, .project-section1 .project-page .input-group > textarea + textarea, .project-page .project-section1 .input-group > textarea + textarea, .project-section2 .project-page .input-group > textarea + textarea, .project-page .project-section2 .input-group > textarea + textarea, .project-section3 .project-content .project-page .input-group > textarea + textarea, .project-page .project-section3 .project-content .input-group > textarea + textarea, .project-section4 .project-page .input-group > textarea + textarea, .project-page .project-section4 .input-group > textarea + textarea, .project-section5 .project-page .input-group > textarea + textarea, .project-page .project-section5 .input-group > textarea + textarea, .project-section6 .project-page .input-group > textarea + textarea, .project-page .project-section6 .input-group > textarea + textarea, .project-section7 .project-page .input-group > textarea + textarea, .project-page .project-section7 .input-group > textarea + textarea, .project-section8 .project-page .input-group > textarea + textarea, .project-page .project-section8 .input-group > textarea + textarea, .project-section9 .project-page .input-group > textarea + textarea, .project-page .project-section9 .input-group > textarea + textarea, .contact-page .form-wrap .project-page .input-group > input + textarea, .project-page .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-page .input-group > textarea + textarea, .project-page .contact-page .form-wrap .input-group > textarea + textarea, .project-section1 .input-group > .form-control + textarea, .project-page .project-section1 .input-group > input + textarea, .project-section1 .project-page .input-group > input + textarea, .project-section1 .input-group > input + textarea, .project-section2 .project-section1 .input-group > input + textarea, .project-section1 .project-section2 .input-group > input + textarea, .project-section3 .project-content .project-section1 .input-group > input + textarea, .project-section1 .project-section3 .project-content .input-group > input + textarea, .project-section4 .project-section1 .input-group > input + textarea, .project-section1 .project-section4 .input-group > input + textarea, .project-section5 .project-section1 .input-group > input + textarea, .project-section1 .project-section5 .input-group > input + textarea, .project-section6 .project-section1 .input-group > input + textarea, .project-section1 .project-section6 .input-group > input + textarea, .project-section7 .project-section1 .input-group > input + textarea, .project-section1 .project-section7 .input-group > input + textarea, .project-section8 .project-section1 .input-group > input + textarea, .project-section1 .project-section8 .input-group > input + textarea, .project-section9 .project-section1 .input-group > input + textarea, .project-section1 .project-section9 .input-group > input + textarea, .project-page .project-section1 .input-group > textarea + textarea, .project-section1 .project-page .input-group > textarea + textarea, .project-section1 .input-group > textarea + textarea, .project-section2 .project-section1 .input-group > textarea + textarea, .project-section1 .project-section2 .input-group > textarea + textarea, .project-section3 .project-content .project-section1 .input-group > textarea + textarea, .project-section1 .project-section3 .project-content .input-group > textarea + textarea, .project-section4 .project-section1 .input-group > textarea + textarea, .project-section1 .project-section4 .input-group > textarea + textarea, .project-section5 .project-section1 .input-group > textarea + textarea, .project-section1 .project-section5 .input-group > textarea + textarea, .project-section6 .project-section1 .input-group > textarea + textarea, .project-section1 .project-section6 .input-group > textarea + textarea, .project-section7 .project-section1 .input-group > textarea + textarea, .project-section1 .project-section7 .input-group > textarea + textarea, .project-section8 .project-section1 .input-group > textarea + textarea, .project-section1 .project-section8 .input-group > textarea + textarea, .project-section9 .project-section1 .input-group > textarea + textarea, .project-section1 .project-section9 .input-group > textarea + textarea, .contact-page .form-wrap .project-section1 .input-group > input + textarea, .project-section1 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section1 .input-group > textarea + textarea, .project-section1 .contact-page .form-wrap .input-group > textarea + textarea, .project-section2 .input-group > .form-control + textarea, .project-page .project-section2 .input-group > input + textarea, .project-section2 .project-page .input-group > input + textarea, .project-section1 .project-section2 .input-group > input + textarea, .project-section2 .project-section1 .input-group > input + textarea, .project-section2 .input-group > input + textarea, .project-section3 .project-content .project-section2 .input-group > input + textarea, .project-section2 .project-section3 .project-content .input-group > input + textarea, .project-section4 .project-section2 .input-group > input + textarea, .project-section2 .project-section4 .input-group > input + textarea, .project-section5 .project-section2 .input-group > input + textarea, .project-section2 .project-section5 .input-group > input + textarea, .project-section6 .project-section2 .input-group > input + textarea, .project-section2 .project-section6 .input-group > input + textarea, .project-section7 .project-section2 .input-group > input + textarea, .project-section2 .project-section7 .input-group > input + textarea, .project-section8 .project-section2 .input-group > input + textarea, .project-section2 .project-section8 .input-group > input + textarea, .project-section9 .project-section2 .input-group > input + textarea, .project-section2 .project-section9 .input-group > input + textarea, .project-page .project-section2 .input-group > textarea + textarea, .project-section2 .project-page .input-group > textarea + textarea, .project-section1 .project-section2 .input-group > textarea + textarea, .project-section2 .project-section1 .input-group > textarea + textarea, .project-section2 .input-group > textarea + textarea, .project-section3 .project-content .project-section2 .input-group > textarea + textarea, .project-section2 .project-section3 .project-content .input-group > textarea + textarea, .project-section4 .project-section2 .input-group > textarea + textarea, .project-section2 .project-section4 .input-group > textarea + textarea, .project-section5 .project-section2 .input-group > textarea + textarea, .project-section2 .project-section5 .input-group > textarea + textarea, .project-section6 .project-section2 .input-group > textarea + textarea, .project-section2 .project-section6 .input-group > textarea + textarea, .project-section7 .project-section2 .input-group > textarea + textarea, .project-section2 .project-section7 .input-group > textarea + textarea, .project-section8 .project-section2 .input-group > textarea + textarea, .project-section2 .project-section8 .input-group > textarea + textarea, .project-section9 .project-section2 .input-group > textarea + textarea, .project-section2 .project-section9 .input-group > textarea + textarea, .contact-page .form-wrap .project-section2 .input-group > input + textarea, .project-section2 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section2 .input-group > textarea + textarea, .project-section2 .contact-page .form-wrap .input-group > textarea + textarea, .project-section3 .project-content .input-group > .form-control + textarea, .project-page .project-section3 .project-content .input-group > input + textarea, .project-section3 .project-content .project-page .input-group > input + textarea, .project-section1 .project-section3 .project-content .input-group > input + textarea, .project-section3 .project-content .project-section1 .input-group > input + textarea, .project-section2 .project-section3 .project-content .input-group > input + textarea, .project-section3 .project-content .project-section2 .input-group > input + textarea, .project-section3 .project-content .input-group > input + textarea, .project-section4 .project-section3 .project-content .input-group > input + textarea, .project-section3 .project-content .project-section4 .input-group > input + textarea, .project-section5 .project-section3 .project-content .input-group > input + textarea, .project-section3 .project-content .project-section5 .input-group > input + textarea, .project-section6 .project-section3 .project-content .input-group > input + textarea, .project-section3 .project-content .project-section6 .input-group > input + textarea, .project-section7 .project-section3 .project-content .input-group > input + textarea, .project-section3 .project-content .project-section7 .input-group > input + textarea, .project-section8 .project-section3 .project-content .input-group > input + textarea, .project-section3 .project-content .project-section8 .input-group > input + textarea, .project-section9 .project-section3 .project-content .input-group > input + textarea, .project-section3 .project-content .project-section9 .input-group > input + textarea, .project-page .project-section3 .project-content .input-group > textarea + textarea, .project-section3 .project-content .project-page .input-group > textarea + textarea, .project-section1 .project-section3 .project-content .input-group > textarea + textarea, .project-section3 .project-content .project-section1 .input-group > textarea + textarea, .project-section2 .project-section3 .project-content .input-group > textarea + textarea, .project-section3 .project-content .project-section2 .input-group > textarea + textarea, .project-section3 .project-content .input-group > textarea + textarea, .project-section4 .project-section3 .project-content .input-group > textarea + textarea, .project-section3 .project-content .project-section4 .input-group > textarea + textarea, .project-section5 .project-section3 .project-content .input-group > textarea + textarea, .project-section3 .project-content .project-section5 .input-group > textarea + textarea, .project-section6 .project-section3 .project-content .input-group > textarea + textarea, .project-section3 .project-content .project-section6 .input-group > textarea + textarea, .project-section7 .project-section3 .project-content .input-group > textarea + textarea, .project-section3 .project-content .project-section7 .input-group > textarea + textarea, .project-section8 .project-section3 .project-content .input-group > textarea + textarea, .project-section3 .project-content .project-section8 .input-group > textarea + textarea, .project-section9 .project-section3 .project-content .input-group > textarea + textarea, .project-section3 .project-content .project-section9 .input-group > textarea + textarea, .contact-page .form-wrap .project-section3 .project-content .input-group > input + textarea, .project-section3 .project-content .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section3 .project-content .input-group > textarea + textarea, .project-section3 .project-content .contact-page .form-wrap .input-group > textarea + textarea, .project-section4 .input-group > .form-control + textarea, .project-page .project-section4 .input-group > input + textarea, .project-section4 .project-page .input-group > input + textarea, .project-section1 .project-section4 .input-group > input + textarea, .project-section4 .project-section1 .input-group > input + textarea, .project-section2 .project-section4 .input-group > input + textarea, .project-section4 .project-section2 .input-group > input + textarea, .project-section3 .project-content .project-section4 .input-group > input + textarea, .project-section4 .project-section3 .project-content .input-group > input + textarea, .project-section4 .input-group > input + textarea, .project-section5 .project-section4 .input-group > input + textarea, .project-section4 .project-section5 .input-group > input + textarea, .project-section6 .project-section4 .input-group > input + textarea, .project-section4 .project-section6 .input-group > input + textarea, .project-section7 .project-section4 .input-group > input + textarea, .project-section4 .project-section7 .input-group > input + textarea, .project-section8 .project-section4 .input-group > input + textarea, .project-section4 .project-section8 .input-group > input + textarea, .project-section9 .project-section4 .input-group > input + textarea, .project-section4 .project-section9 .input-group > input + textarea, .project-page .project-section4 .input-group > textarea + textarea, .project-section4 .project-page .input-group > textarea + textarea, .project-section1 .project-section4 .input-group > textarea + textarea, .project-section4 .project-section1 .input-group > textarea + textarea, .project-section2 .project-section4 .input-group > textarea + textarea, .project-section4 .project-section2 .input-group > textarea + textarea, .project-section3 .project-content .project-section4 .input-group > textarea + textarea, .project-section4 .project-section3 .project-content .input-group > textarea + textarea, .project-section4 .input-group > textarea + textarea, .project-section5 .project-section4 .input-group > textarea + textarea, .project-section4 .project-section5 .input-group > textarea + textarea, .project-section6 .project-section4 .input-group > textarea + textarea, .project-section4 .project-section6 .input-group > textarea + textarea, .project-section7 .project-section4 .input-group > textarea + textarea, .project-section4 .project-section7 .input-group > textarea + textarea, .project-section8 .project-section4 .input-group > textarea + textarea, .project-section4 .project-section8 .input-group > textarea + textarea, .project-section9 .project-section4 .input-group > textarea + textarea, .project-section4 .project-section9 .input-group > textarea + textarea, .contact-page .form-wrap .project-section4 .input-group > input + textarea, .project-section4 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section4 .input-group > textarea + textarea, .project-section4 .contact-page .form-wrap .input-group > textarea + textarea, .project-section5 .input-group > .form-control + textarea, .project-page .project-section5 .input-group > input + textarea, .project-section5 .project-page .input-group > input + textarea, .project-section1 .project-section5 .input-group > input + textarea, .project-section5 .project-section1 .input-group > input + textarea, .project-section2 .project-section5 .input-group > input + textarea, .project-section5 .project-section2 .input-group > input + textarea, .project-section3 .project-content .project-section5 .input-group > input + textarea, .project-section5 .project-section3 .project-content .input-group > input + textarea, .project-section4 .project-section5 .input-group > input + textarea, .project-section5 .project-section4 .input-group > input + textarea, .project-section5 .input-group > input + textarea, .project-section6 .project-section5 .input-group > input + textarea, .project-section5 .project-section6 .input-group > input + textarea, .project-section7 .project-section5 .input-group > input + textarea, .project-section5 .project-section7 .input-group > input + textarea, .project-section8 .project-section5 .input-group > input + textarea, .project-section5 .project-section8 .input-group > input + textarea, .project-section9 .project-section5 .input-group > input + textarea, .project-section5 .project-section9 .input-group > input + textarea, .project-page .project-section5 .input-group > textarea + textarea, .project-section5 .project-page .input-group > textarea + textarea, .project-section1 .project-section5 .input-group > textarea + textarea, .project-section5 .project-section1 .input-group > textarea + textarea, .project-section2 .project-section5 .input-group > textarea + textarea, .project-section5 .project-section2 .input-group > textarea + textarea, .project-section3 .project-content .project-section5 .input-group > textarea + textarea, .project-section5 .project-section3 .project-content .input-group > textarea + textarea, .project-section4 .project-section5 .input-group > textarea + textarea, .project-section5 .project-section4 .input-group > textarea + textarea, .project-section5 .input-group > textarea + textarea, .project-section6 .project-section5 .input-group > textarea + textarea, .project-section5 .project-section6 .input-group > textarea + textarea, .project-section7 .project-section5 .input-group > textarea + textarea, .project-section5 .project-section7 .input-group > textarea + textarea, .project-section8 .project-section5 .input-group > textarea + textarea, .project-section5 .project-section8 .input-group > textarea + textarea, .project-section9 .project-section5 .input-group > textarea + textarea, .project-section5 .project-section9 .input-group > textarea + textarea, .contact-page .form-wrap .project-section5 .input-group > input + textarea, .project-section5 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section5 .input-group > textarea + textarea, .project-section5 .contact-page .form-wrap .input-group > textarea + textarea, .project-section6 .input-group > .form-control + textarea, .project-page .project-section6 .input-group > input + textarea, .project-section6 .project-page .input-group > input + textarea, .project-section1 .project-section6 .input-group > input + textarea, .project-section6 .project-section1 .input-group > input + textarea, .project-section2 .project-section6 .input-group > input + textarea, .project-section6 .project-section2 .input-group > input + textarea, .project-section3 .project-content .project-section6 .input-group > input + textarea, .project-section6 .project-section3 .project-content .input-group > input + textarea, .project-section4 .project-section6 .input-group > input + textarea, .project-section6 .project-section4 .input-group > input + textarea, .project-section5 .project-section6 .input-group > input + textarea, .project-section6 .project-section5 .input-group > input + textarea, .project-section6 .input-group > input + textarea, .project-section7 .project-section6 .input-group > input + textarea, .project-section6 .project-section7 .input-group > input + textarea, .project-section8 .project-section6 .input-group > input + textarea, .project-section6 .project-section8 .input-group > input + textarea, .project-section9 .project-section6 .input-group > input + textarea, .project-section6 .project-section9 .input-group > input + textarea, .project-page .project-section6 .input-group > textarea + textarea, .project-section6 .project-page .input-group > textarea + textarea, .project-section1 .project-section6 .input-group > textarea + textarea, .project-section6 .project-section1 .input-group > textarea + textarea, .project-section2 .project-section6 .input-group > textarea + textarea, .project-section6 .project-section2 .input-group > textarea + textarea, .project-section3 .project-content .project-section6 .input-group > textarea + textarea, .project-section6 .project-section3 .project-content .input-group > textarea + textarea, .project-section4 .project-section6 .input-group > textarea + textarea, .project-section6 .project-section4 .input-group > textarea + textarea, .project-section5 .project-section6 .input-group > textarea + textarea, .project-section6 .project-section5 .input-group > textarea + textarea, .project-section6 .input-group > textarea + textarea, .project-section7 .project-section6 .input-group > textarea + textarea, .project-section6 .project-section7 .input-group > textarea + textarea, .project-section8 .project-section6 .input-group > textarea + textarea, .project-section6 .project-section8 .input-group > textarea + textarea, .project-section9 .project-section6 .input-group > textarea + textarea, .project-section6 .project-section9 .input-group > textarea + textarea, .contact-page .form-wrap .project-section6 .input-group > input + textarea, .project-section6 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section6 .input-group > textarea + textarea, .project-section6 .contact-page .form-wrap .input-group > textarea + textarea, .project-section7 .input-group > .form-control + textarea, .project-page .project-section7 .input-group > input + textarea, .project-section7 .project-page .input-group > input + textarea, .project-section1 .project-section7 .input-group > input + textarea, .project-section7 .project-section1 .input-group > input + textarea, .project-section2 .project-section7 .input-group > input + textarea, .project-section7 .project-section2 .input-group > input + textarea, .project-section3 .project-content .project-section7 .input-group > input + textarea, .project-section7 .project-section3 .project-content .input-group > input + textarea, .project-section4 .project-section7 .input-group > input + textarea, .project-section7 .project-section4 .input-group > input + textarea, .project-section5 .project-section7 .input-group > input + textarea, .project-section7 .project-section5 .input-group > input + textarea, .project-section6 .project-section7 .input-group > input + textarea, .project-section7 .project-section6 .input-group > input + textarea, .project-section7 .input-group > input + textarea, .project-section8 .project-section7 .input-group > input + textarea, .project-section7 .project-section8 .input-group > input + textarea, .project-section9 .project-section7 .input-group > input + textarea, .project-section7 .project-section9 .input-group > input + textarea, .project-page .project-section7 .input-group > textarea + textarea, .project-section7 .project-page .input-group > textarea + textarea, .project-section1 .project-section7 .input-group > textarea + textarea, .project-section7 .project-section1 .input-group > textarea + textarea, .project-section2 .project-section7 .input-group > textarea + textarea, .project-section7 .project-section2 .input-group > textarea + textarea, .project-section3 .project-content .project-section7 .input-group > textarea + textarea, .project-section7 .project-section3 .project-content .input-group > textarea + textarea, .project-section4 .project-section7 .input-group > textarea + textarea, .project-section7 .project-section4 .input-group > textarea + textarea, .project-section5 .project-section7 .input-group > textarea + textarea, .project-section7 .project-section5 .input-group > textarea + textarea, .project-section6 .project-section7 .input-group > textarea + textarea, .project-section7 .project-section6 .input-group > textarea + textarea, .project-section7 .input-group > textarea + textarea, .project-section8 .project-section7 .input-group > textarea + textarea, .project-section7 .project-section8 .input-group > textarea + textarea, .project-section9 .project-section7 .input-group > textarea + textarea, .project-section7 .project-section9 .input-group > textarea + textarea, .contact-page .form-wrap .project-section7 .input-group > input + textarea, .project-section7 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section7 .input-group > textarea + textarea, .project-section7 .contact-page .form-wrap .input-group > textarea + textarea, .project-section8 .input-group > .form-control + textarea, .project-page .project-section8 .input-group > input + textarea, .project-section8 .project-page .input-group > input + textarea, .project-section1 .project-section8 .input-group > input + textarea, .project-section8 .project-section1 .input-group > input + textarea, .project-section2 .project-section8 .input-group > input + textarea, .project-section8 .project-section2 .input-group > input + textarea, .project-section3 .project-content .project-section8 .input-group > input + textarea, .project-section8 .project-section3 .project-content .input-group > input + textarea, .project-section4 .project-section8 .input-group > input + textarea, .project-section8 .project-section4 .input-group > input + textarea, .project-section5 .project-section8 .input-group > input + textarea, .project-section8 .project-section5 .input-group > input + textarea, .project-section6 .project-section8 .input-group > input + textarea, .project-section8 .project-section6 .input-group > input + textarea, .project-section7 .project-section8 .input-group > input + textarea, .project-section8 .project-section7 .input-group > input + textarea, .project-section8 .input-group > input + textarea, .project-section9 .project-section8 .input-group > input + textarea, .project-section8 .project-section9 .input-group > input + textarea, .project-page .project-section8 .input-group > textarea + textarea, .project-section8 .project-page .input-group > textarea + textarea, .project-section1 .project-section8 .input-group > textarea + textarea, .project-section8 .project-section1 .input-group > textarea + textarea, .project-section2 .project-section8 .input-group > textarea + textarea, .project-section8 .project-section2 .input-group > textarea + textarea, .project-section3 .project-content .project-section8 .input-group > textarea + textarea, .project-section8 .project-section3 .project-content .input-group > textarea + textarea, .project-section4 .project-section8 .input-group > textarea + textarea, .project-section8 .project-section4 .input-group > textarea + textarea, .project-section5 .project-section8 .input-group > textarea + textarea, .project-section8 .project-section5 .input-group > textarea + textarea, .project-section6 .project-section8 .input-group > textarea + textarea, .project-section8 .project-section6 .input-group > textarea + textarea, .project-section7 .project-section8 .input-group > textarea + textarea, .project-section8 .project-section7 .input-group > textarea + textarea, .project-section8 .input-group > textarea + textarea, .project-section9 .project-section8 .input-group > textarea + textarea, .project-section8 .project-section9 .input-group > textarea + textarea, .contact-page .form-wrap .project-section8 .input-group > input + textarea, .project-section8 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section8 .input-group > textarea + textarea, .project-section8 .contact-page .form-wrap .input-group > textarea + textarea, .project-section9 .input-group > .form-control + textarea, .project-page .project-section9 .input-group > input + textarea, .project-section9 .project-page .input-group > input + textarea, .project-section1 .project-section9 .input-group > input + textarea, .project-section9 .project-section1 .input-group > input + textarea, .project-section2 .project-section9 .input-group > input + textarea, .project-section9 .project-section2 .input-group > input + textarea, .project-section3 .project-content .project-section9 .input-group > input + textarea, .project-section9 .project-section3 .project-content .input-group > input + textarea, .project-section4 .project-section9 .input-group > input + textarea, .project-section9 .project-section4 .input-group > input + textarea, .project-section5 .project-section9 .input-group > input + textarea, .project-section9 .project-section5 .input-group > input + textarea, .project-section6 .project-section9 .input-group > input + textarea, .project-section9 .project-section6 .input-group > input + textarea, .project-section7 .project-section9 .input-group > input + textarea, .project-section9 .project-section7 .input-group > input + textarea, .project-section8 .project-section9 .input-group > input + textarea, .project-section9 .project-section8 .input-group > input + textarea, .project-section9 .input-group > input + textarea, .project-page .project-section9 .input-group > textarea + textarea, .project-section9 .project-page .input-group > textarea + textarea, .project-section1 .project-section9 .input-group > textarea + textarea, .project-section9 .project-section1 .input-group > textarea + textarea, .project-section2 .project-section9 .input-group > textarea + textarea, .project-section9 .project-section2 .input-group > textarea + textarea, .project-section3 .project-content .project-section9 .input-group > textarea + textarea, .project-section9 .project-section3 .project-content .input-group > textarea + textarea, .project-section4 .project-section9 .input-group > textarea + textarea, .project-section9 .project-section4 .input-group > textarea + textarea, .project-section5 .project-section9 .input-group > textarea + textarea, .project-section9 .project-section5 .input-group > textarea + textarea, .project-section6 .project-section9 .input-group > textarea + textarea, .project-section9 .project-section6 .input-group > textarea + textarea, .project-section7 .project-section9 .input-group > textarea + textarea, .project-section9 .project-section7 .input-group > textarea + textarea, .project-section8 .project-section9 .input-group > textarea + textarea, .project-section9 .project-section8 .input-group > textarea + textarea, .project-section9 .input-group > textarea + textarea, .contact-page .form-wrap .project-section9 .input-group > input + textarea, .project-section9 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section9 .input-group > textarea + textarea, .project-section9 .contact-page .form-wrap .input-group > textarea + textarea, .contact-page .form-wrap .input-group > .form-control + input, .project-page .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-page .input-group > input + input, .project-section1 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section1 .input-group > input + input, .project-section2 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section2 .input-group > input + input, .project-section3 .project-content .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section3 .project-content .input-group > input + input, .project-section4 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section4 .input-group > input + input, .project-section5 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section5 .input-group > input + input, .project-section6 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section6 .input-group > input + input, .project-section7 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section7 .input-group > input + input, .project-section8 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section8 .input-group > input + input, .project-section9 .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .project-section9 .input-group > input + input, .project-page .contact-page .form-wrap .input-group > textarea + input, .contact-page .form-wrap .project-page .input-group > textarea + input, .project-section1 .contact-page .form-wrap .input-group > textarea + input, .contact-page .form-wrap .project-section1 .input-group > textarea + input, .project-section2 .contact-page .form-wrap .input-group > textarea + input, .contact-page .form-wrap .project-section2 .input-group > textarea + input, .project-section3 .project-content .contact-page .form-wrap .input-group > textarea + input, .contact-page .form-wrap .project-section3 .project-content .input-group > textarea + input, .project-section4 .contact-page .form-wrap .input-group > textarea + input, .contact-page .form-wrap .project-section4 .input-group > textarea + input, .project-section5 .contact-page .form-wrap .input-group > textarea + input, .contact-page .form-wrap .project-section5 .input-group > textarea + input, .project-section6 .contact-page .form-wrap .input-group > textarea + input, .contact-page .form-wrap .project-section6 .input-group > textarea + input, .project-section7 .contact-page .form-wrap .input-group > textarea + input, .contact-page .form-wrap .project-section7 .input-group > textarea + input, .project-section8 .contact-page .form-wrap .input-group > textarea + input, .contact-page .form-wrap .project-section8 .input-group > textarea + input, .project-section9 .contact-page .form-wrap .input-group > textarea + input, .contact-page .form-wrap .project-section9 .input-group > textarea + input, .contact-page .form-wrap .input-group > input + input, .contact-page .form-wrap .input-group > textarea + input, .contact-page .form-wrap .input-group > .form-control + textarea, .project-page .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-page .input-group > input + textarea, .project-section1 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section1 .input-group > input + textarea, .project-section2 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section2 .input-group > input + textarea, .project-section3 .project-content .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section3 .project-content .input-group > input + textarea, .project-section4 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section4 .input-group > input + textarea, .project-section5 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section5 .input-group > input + textarea, .project-section6 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section6 .input-group > input + textarea, .project-section7 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section7 .input-group > input + textarea, .project-section8 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section8 .input-group > input + textarea, .project-section9 .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .project-section9 .input-group > input + textarea, .project-page .contact-page .form-wrap .input-group > textarea + textarea, .contact-page .form-wrap .project-page .input-group > textarea + textarea, .project-section1 .contact-page .form-wrap .input-group > textarea + textarea, .contact-page .form-wrap .project-section1 .input-group > textarea + textarea, .project-section2 .contact-page .form-wrap .input-group > textarea + textarea, .contact-page .form-wrap .project-section2 .input-group > textarea + textarea, .project-section3 .project-content .contact-page .form-wrap .input-group > textarea + textarea, .contact-page .form-wrap .project-section3 .project-content .input-group > textarea + textarea, .project-section4 .contact-page .form-wrap .input-group > textarea + textarea, .contact-page .form-wrap .project-section4 .input-group > textarea + textarea, .project-section5 .contact-page .form-wrap .input-group > textarea + textarea, .contact-page .form-wrap .project-section5 .input-group > textarea + textarea, .project-section6 .contact-page .form-wrap .input-group > textarea + textarea, .contact-page .form-wrap .project-section6 .input-group > textarea + textarea, .project-section7 .contact-page .form-wrap .input-group > textarea + textarea, .contact-page .form-wrap .project-section7 .input-group > textarea + textarea, .project-section8 .contact-page .form-wrap .input-group > textarea + textarea, .contact-page .form-wrap .project-section8 .input-group > textarea + textarea, .project-section9 .contact-page .form-wrap .input-group > textarea + textarea, .contact-page .form-wrap .project-section9 .input-group > textarea + textarea, .contact-page .form-wrap .input-group > input + textarea, .contact-page .form-wrap .input-group > textarea + textarea,
     .input-group > .form-control + .custom-select,
+    .project-page .input-group > input + .custom-select,
+    .project-section1 .input-group > input + .custom-select,
+    .project-section2 .input-group > input + .custom-select,
+    .project-section3 .project-content .input-group > input + .custom-select,
+    .project-section4 .input-group > input + .custom-select,
+    .project-section5 .input-group > input + .custom-select,
+    .project-section6 .input-group > input + .custom-select,
+    .project-section7 .input-group > input + .custom-select,
+    .project-section8 .input-group > input + .custom-select,
     .project-section9 .input-group > input + .custom-select,
+    .project-page .input-group > textarea + .custom-select,
+    .project-section1 .input-group > textarea + .custom-select,
+    .project-section2 .input-group > textarea + .custom-select,
+    .project-section3 .project-content .input-group > textarea + .custom-select,
+    .project-section4 .input-group > textarea + .custom-select,
+    .project-section5 .input-group > textarea + .custom-select,
+    .project-section6 .input-group > textarea + .custom-select,
+    .project-section7 .input-group > textarea + .custom-select,
+    .project-section8 .input-group > textarea + .custom-select,
     .project-section9 .input-group > textarea + .custom-select,
     .contact-page .form-wrap .input-group > input + .custom-select,
     .contact-page .form-wrap .input-group > textarea + .custom-select,
     .input-group > .form-control + .custom-file,
+    .project-page .input-group > input + .custom-file,
+    .project-section1 .input-group > input + .custom-file,
+    .project-section2 .input-group > input + .custom-file,
+    .project-section3 .project-content .input-group > input + .custom-file,
+    .project-section4 .input-group > input + .custom-file,
+    .project-section5 .input-group > input + .custom-file,
+    .project-section6 .input-group > input + .custom-file,
+    .project-section7 .input-group > input + .custom-file,
+    .project-section8 .input-group > input + .custom-file,
     .project-section9 .input-group > input + .custom-file,
+    .project-page .input-group > textarea + .custom-file,
+    .project-section1 .input-group > textarea + .custom-file,
+    .project-section2 .input-group > textarea + .custom-file,
+    .project-section3 .project-content .input-group > textarea + .custom-file,
+    .project-section4 .input-group > textarea + .custom-file,
+    .project-section5 .input-group > textarea + .custom-file,
+    .project-section6 .input-group > textarea + .custom-file,
+    .project-section7 .input-group > textarea + .custom-file,
+    .project-section8 .input-group > textarea + .custom-file,
     .project-section9 .input-group > textarea + .custom-file,
     .contact-page .form-wrap .input-group > input + .custom-file,
     .contact-page .form-wrap .input-group > textarea + .custom-file,
     .input-group > .custom-select + .form-control,
+    .project-page .input-group > .custom-select + input,
+    .project-section1 .input-group > .custom-select + input,
+    .project-section2 .input-group > .custom-select + input,
+    .project-section3 .project-content .input-group > .custom-select + input,
+    .project-section4 .input-group > .custom-select + input,
+    .project-section5 .input-group > .custom-select + input,
+    .project-section6 .input-group > .custom-select + input,
+    .project-section7 .input-group > .custom-select + input,
+    .project-section8 .input-group > .custom-select + input,
     .project-section9 .input-group > .custom-select + input,
+    .project-page .input-group > .custom-select + textarea,
+    .project-section1 .input-group > .custom-select + textarea,
+    .project-section2 .input-group > .custom-select + textarea,
+    .project-section3 .project-content .input-group > .custom-select + textarea,
+    .project-section4 .input-group > .custom-select + textarea,
+    .project-section5 .input-group > .custom-select + textarea,
+    .project-section6 .input-group > .custom-select + textarea,
+    .project-section7 .input-group > .custom-select + textarea,
+    .project-section8 .input-group > .custom-select + textarea,
     .project-section9 .input-group > .custom-select + textarea,
     .contact-page .form-wrap .input-group > .custom-select + input,
     .contact-page .form-wrap .input-group > .custom-select + textarea,
     .input-group > .custom-select + .custom-select,
     .input-group > .custom-select + .custom-file,
     .input-group > .custom-file + .form-control,
+    .project-page .input-group > .custom-file + input,
+    .project-section1 .input-group > .custom-file + input,
+    .project-section2 .input-group > .custom-file + input,
+    .project-section3 .project-content .input-group > .custom-file + input,
+    .project-section4 .input-group > .custom-file + input,
+    .project-section5 .input-group > .custom-file + input,
+    .project-section6 .input-group > .custom-file + input,
+    .project-section7 .input-group > .custom-file + input,
+    .project-section8 .input-group > .custom-file + input,
     .project-section9 .input-group > .custom-file + input,
+    .project-page .input-group > .custom-file + textarea,
+    .project-section1 .input-group > .custom-file + textarea,
+    .project-section2 .input-group > .custom-file + textarea,
+    .project-section3 .project-content .input-group > .custom-file + textarea,
+    .project-section4 .input-group > .custom-file + textarea,
+    .project-section5 .input-group > .custom-file + textarea,
+    .project-section6 .input-group > .custom-file + textarea,
+    .project-section7 .input-group > .custom-file + textarea,
+    .project-section8 .input-group > .custom-file + textarea,
     .project-section9 .input-group > .custom-file + textarea,
     .contact-page .form-wrap .input-group > .custom-file + input,
     .contact-page .form-wrap .input-group > .custom-file + textarea,
     .input-group > .custom-file + .custom-select,
     .input-group > .custom-file + .custom-file {
       margin-left: -1px; }
-  .input-group > .form-control:not(:last-child), .project-section9 .input-group > input:not(:last-child), .project-section9 .input-group > textarea:not(:last-child), .contact-page .form-wrap .input-group > input:not(:last-child), .contact-page .form-wrap .input-group > textarea:not(:last-child),
+  .input-group > .form-control:not(:last-child), .project-page .input-group > input:not(:last-child), .project-section1 .input-group > input:not(:last-child), .project-section2 .input-group > input:not(:last-child), .project-section3 .project-content .input-group > input:not(:last-child), .project-section4 .input-group > input:not(:last-child), .project-section5 .input-group > input:not(:last-child), .project-section6 .input-group > input:not(:last-child), .project-section7 .input-group > input:not(:last-child), .project-section8 .input-group > input:not(:last-child), .project-section9 .input-group > input:not(:last-child), .project-page .input-group > textarea:not(:last-child), .project-section1 .input-group > textarea:not(:last-child), .project-section2 .input-group > textarea:not(:last-child), .project-section3 .project-content .input-group > textarea:not(:last-child), .project-section4 .input-group > textarea:not(:last-child), .project-section5 .input-group > textarea:not(:last-child), .project-section6 .input-group > textarea:not(:last-child), .project-section7 .input-group > textarea:not(:last-child), .project-section8 .input-group > textarea:not(:last-child), .project-section9 .input-group > textarea:not(:last-child), .contact-page .form-wrap .input-group > input:not(:last-child), .contact-page .form-wrap .input-group > textarea:not(:last-child),
   .input-group > .custom-select:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0; }
-  .input-group > .form-control:not(:first-child), .project-section9 .input-group > input:not(:first-child), .project-section9 .input-group > textarea:not(:first-child), .contact-page .form-wrap .input-group > input:not(:first-child), .contact-page .form-wrap .input-group > textarea:not(:first-child),
+  .input-group > .form-control:not(:first-child), .project-page .input-group > input:not(:first-child), .project-section1 .input-group > input:not(:first-child), .project-section2 .input-group > input:not(:first-child), .project-section3 .project-content .input-group > input:not(:first-child), .project-section4 .input-group > input:not(:first-child), .project-section5 .input-group > input:not(:first-child), .project-section6 .input-group > input:not(:first-child), .project-section7 .input-group > input:not(:first-child), .project-section8 .input-group > input:not(:first-child), .project-section9 .input-group > input:not(:first-child), .project-page .input-group > textarea:not(:first-child), .project-section1 .input-group > textarea:not(:first-child), .project-section2 .input-group > textarea:not(:first-child), .project-section3 .project-content .input-group > textarea:not(:first-child), .project-section4 .input-group > textarea:not(:first-child), .project-section5 .input-group > textarea:not(:first-child), .project-section6 .input-group > textarea:not(:first-child), .project-section7 .input-group > textarea:not(:first-child), .project-section8 .input-group > textarea:not(:first-child), .project-section9 .input-group > textarea:not(:first-child), .contact-page .form-wrap .input-group > input:not(:first-child), .contact-page .form-wrap .input-group > textarea:not(:first-child),
   .input-group > .custom-select:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0; }
@@ -7153,8 +7333,8 @@ img, iframe {
       left: 0; }
     @media only screen and (min-width: 1024px) {
       .subscribefrm .fa.fa-exclamation-triangle {
-        right: 70px;
-        top: 13px; } }
+        right: 15px;
+        top: 10px; } }
   .subscribefrm .fa-exclamation-triangle:before, .subscribefrm .fa-warning:before {
     margin-right: 5px; }
 
@@ -7404,8 +7584,14 @@ img, iframe {
   #map iframe.active {
     pointer-events: all; }
 
+input[type="reset"] {
+  display: none; }
+
+.product-detail-page .pages, .news-detail-page .pages, .project-detail-page .pages {
+  display: none; }
+
 .pages {
-  margin: -30px 0 40px; }
+  margin: 0px 0; }
   .pages ul.pagination {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8105,7 +8291,13 @@ header {
     padding: 0;
     background: none;
     border: none;
-    border-radius: 0; }
+    border-radius: 0;
+    -webkit-transition: all, 0s;
+    -khtml-transition: all, 0s;
+    -moz-transition: all, 0s;
+    -ms-transition: all, 0s;
+    -o-transition: all, 0s;
+    transition: all, 0s; }
     @media (max-width: 1199.98px) {
       .home-tab li, .home-tab .nav-item {
         display: inline-block; } }
@@ -8121,10 +8313,16 @@ header {
       font-weight: 600;
       text-transform: uppercase;
       color: #333333;
-      background: #f0f0f0; }
+      background: #f0f0f0;
+      -webkit-transition: all, 0.3s;
+      -khtml-transition: all, 0.3s;
+      -moz-transition: all, 0.3s;
+      -ms-transition: all, 0.3s;
+      -o-transition: all, 0.3s;
+      transition: all, 0.3s; }
       .home-tab li a:hover, .home-tab li .nav-link:hover, .home-tab .nav-item a:hover, .home-tab .nav-item .nav-link:hover {
         color: #f58220; }
-      .home-tab li a.active, .home-tab li .nav-link.active, .home-tab .nav-item a.active, .home-tab .nav-item .nav-link.active {
+      .home-tab li a.active, .home-tab li a.mPS2id-highlight, .home-tab li .nav-link.active, .home-tab li .nav-link.mPS2id-highlight, .home-tab .nav-item a.active, .home-tab .nav-item a.mPS2id-highlight, .home-tab .nav-item .nav-link.active, .home-tab .nav-item .nav-link.mPS2id-highlight {
         background: #f58220;
         color: #fff; }
     .home-tab li.active a, .home-tab li.active .nav-link, .home-tab .nav-item.active a, .home-tab .nav-item.active .nav-link {
@@ -8138,113 +8336,140 @@ header {
     margin: 0;
     background: #fff; }
 
-@media (max-width: 991.98px) {
-  footer {
-    text-align: center; } }
-
-footer .footer-top {
-  background: url(../img/bg.jpg) center center repeat;
-  padding: 60px 0px 0px; }
-
-footer .footer-col {
-  margin-bottom: 40px; }
-
-footer .footer-title, footer .module-title {
-  font-size: 1rem;
-  color: #f58220;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-bottom: 10px; }
+footer {
+  position: relative; }
+  footer .social {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    @media (max-width: 991.98px) {
+      footer .social {
+        position: static;
+        top: unset;
+        justify-content: center;
+        margin-bottom: 20px; } }
+    footer .social a {
+      display: block; }
+      footer .social a + a {
+        margin-left: 10px; }
+      footer .social a .fa {
+        display: block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+        border-radius: 50px; }
+        footer .social a .fa.fa-facebook {
+          background: #3b5998; }
+        footer .social a .fa.fa-youtube-play {
+          background: #ff0018; }
+        footer .social a .fa.fa-twitter {
+          background: #55acee; }
   @media (max-width: 991.98px) {
-    footer .footer-title, footer .module-title {
-      font-size: 0.9375rem; } }
-  @media (max-width: 767.98px) {
-    footer .footer-title, footer .module-title {
-      font-size: 0.875rem;
-      font-weight: 700; } }
-
-footer .about-us ul li {
-  font-size: 0.875rem;
-  color: #666666;
-  margin-bottom: 5px; }
-  @media (max-width: 767.98px) {
-    footer .about-us ul li {
-      font-size: 0.8125rem; } }
-  footer .about-us ul li a:hover {
-    color: #f58220; }
-
-footer .subscribefrm {
-  background: #e6e6e6;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  max-width: 370px; }
-  @media (max-width: 991.98px) {
-    footer .subscribefrm {
-      max-width: 100%; } }
-  footer .subscribefrm input {
-    width: calc(100% - 34px);
-    background: none;
-    padding: 0px 15px;
-    border: none;
-    font-size: 0.8125rem; }
-  footer .subscribefrm .subscribebutton {
-    width: 34px;
-    height: 34px;
-    font-size: 0;
-    color: #fff;
-    background: #f58220;
+    footer {
+      text-align: center; } }
+  footer .footer-top {
+    background: url(../img/bg.jpg) center center repeat;
+    padding: 60px 0px 0px; }
+  footer .footer-col {
+    margin-bottom: 40px; }
+  footer .footer-title, footer .module-title {
+    font-size: 1rem;
+    color: #f58220;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+    @media (max-width: 991.98px) {
+      footer .footer-title, footer .module-title {
+        font-size: 0.9375rem; } }
+    @media (max-width: 767.98px) {
+      footer .footer-title, footer .module-title {
+        font-size: 0.875rem;
+        font-weight: 700; } }
+  footer .about-us ul li {
+    font-size: 0.875rem;
+    color: #666666;
+    margin-bottom: 5px; }
+    @media (max-width: 767.98px) {
+      footer .about-us ul li {
+        font-size: 0.8125rem; } }
+    footer .about-us ul li a:hover {
+      color: #f58220; }
+  footer .subscribefrm {
+    background: #e6e6e6;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center; }
-    footer .subscribefrm .subscribebutton:before {
-      content: '\f061';
-      font-size: 1.125rem; }
-
-footer .footer-bottom {
-  background: #f58220;
-  padding: 15px 0; }
-
-footer .copyright {
-  font-size: 0.75rem;
-  line-height: 1;
-  line-height: 20px;
-  color: #fff;
-  opacity: 0.8; }
-  @media (max-width: 767.98px) {
-    footer .copyright {
-      font-size: 0.6875rem; } }
-
-footer .footer-nav {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: flex-end; }
-  @media (max-width: 991.98px) {
-    footer .footer-nav {
-      justify-content: center; } }
-  footer .footer-nav a {
-    display: block;
+    align-items: center;
+    max-width: 370px; }
+    @media (max-width: 991.98px) {
+      footer .subscribefrm {
+        max-width: 100%; } }
+    footer .subscribefrm input {
+      width: calc(100% - 34px);
+      background: none;
+      padding: 0px 15px;
+      border: none;
+      font-size: 0.8125rem; }
+    footer .subscribefrm .subscribebutton {
+      width: 34px;
+      height: 34px;
+      font-size: 0;
+      color: #fff;
+      background: #f58220;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      footer .subscribefrm .subscribebutton:before {
+        content: '\f061';
+        font-size: 1.125rem; }
+  footer .footer-bottom {
+    background: #f58220;
+    padding: 15px 0; }
+  footer .copyright {
     font-size: 0.75rem;
+    line-height: 1;
     line-height: 20px;
     color: #fff;
     opacity: 0.8; }
     @media (max-width: 767.98px) {
-      footer .footer-nav a {
+      footer .copyright {
         font-size: 0.6875rem; } }
-    footer .footer-nav a + a {
-      margin-left: 5px;
-      padding-left: 5px;
-      border-left: 1px solid rgba(255, 255, 255, 0.5); }
+  footer .footer-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end; }
+    @media (max-width: 991.98px) {
+      footer .footer-nav {
+        justify-content: center; } }
+    footer .footer-nav a {
+      display: block;
+      font-size: 0.75rem;
+      line-height: 20px;
+      color: #fff;
+      opacity: 0.8; }
+      @media (max-width: 767.98px) {
+        footer .footer-nav a {
+          font-size: 0.6875rem; } }
+      footer .footer-nav a + a {
+        margin-left: 5px;
+        padding-left: 5px;
+        border-left: 1px solid rgba(255, 255, 255, 0.5); }
 
 #scrollUp {
   font-size: 0;
@@ -8296,7 +8521,7 @@ footer .footer-nav {
       .home-title:after {
         width: 150px; } }
 
-.page-title, .project-section9 .project-form .module-title {
+.page-title, .project-page .project-form .module-title, .project-section1 .project-form .module-title, .project-section2 .project-form .module-title, .project-section3 .project-content .project-form .module-title, .project-section4 .project-form .module-title, .project-section5 .project-form .module-title, .project-section6 .project-form .module-title, .project-section7 .project-form .module-title, .project-section8 .project-form .module-title, .project-section9 .project-form .module-title {
   font-size: 1.875rem;
   line-height: 1.3;
   font-weight: 700;
@@ -8304,15 +8529,15 @@ footer .footer-nav {
   color: #f58220;
   margin-bottom: 30px; }
   @media (max-width: 1199.98px) {
-    .page-title, .project-section9 .project-form .module-title {
+    .page-title, .project-page .project-form .module-title, .project-section1 .project-form .module-title, .project-section2 .project-form .module-title, .project-section3 .project-content .project-form .module-title, .project-section4 .project-form .module-title, .project-section5 .project-form .module-title, .project-section6 .project-form .module-title, .project-section7 .project-form .module-title, .project-section8 .project-form .module-title, .project-section9 .project-form .module-title {
       font-size: 1.75rem; } }
   @media (max-width: 991.98px) {
-    .page-title, .project-section9 .project-form .module-title {
+    .page-title, .project-page .project-form .module-title, .project-section1 .project-form .module-title, .project-section2 .project-form .module-title, .project-section3 .project-content .project-form .module-title, .project-section4 .project-form .module-title, .project-section5 .project-form .module-title, .project-section6 .project-form .module-title, .project-section7 .project-form .module-title, .project-section8 .project-form .module-title, .project-section9 .project-form .module-title {
       font-size: 1.5rem; } }
   @media (max-width: 767.98px) {
-    .page-title, .project-section9 .project-form .module-title {
+    .page-title, .project-page .project-form .module-title, .project-section1 .project-form .module-title, .project-section2 .project-form .module-title, .project-section3 .project-content .project-form .module-title, .project-section4 .project-form .module-title, .project-section5 .project-form .module-title, .project-section6 .project-form .module-title, .project-section7 .project-form .module-title, .project-section8 .project-form .module-title, .project-section9 .project-form .module-title {
       font-size: 1.25rem; } }
-  .page-title:after, .project-section9 .project-form .module-title:after {
+  .page-title:after, .project-page .project-form .module-title:after, .project-section1 .project-form .module-title:after, .project-section2 .project-form .module-title:after, .project-section3 .project-content .project-form .module-title:after, .project-section4 .project-form .module-title:after, .project-section5 .project-form .module-title:after, .project-section6 .project-form .module-title:after, .project-section7 .project-form .module-title:after, .project-section8 .project-form .module-title:after, .project-section9 .project-form .module-title:after {
     display: none; }
 
 .home-des {
@@ -8402,6 +8627,18 @@ footer .footer-nav {
 .hot-project .project-col {
   margin-bottom: 20px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); }
+  .hot-project .project-col:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); }
+    .hot-project .project-col:hover figure .project-img img {
+      -webkit-transform: scale3d(1.2, 1.2, 1);
+      -khtml-transform: scale3d(1.2, 1.2, 1);
+      -moz-transform: scale3d(1.2, 1.2, 1);
+      -ms-transform: scale3d(1.2, 1.2, 1);
+      -o-transform: scale3d(1.2, 1.2, 1);
+      transform: scale3d(1.2, 1.2, 1); }
+    .hot-project .project-col:hover figure figcaption .project-name a {
+      color: #f58220;
+      background: linear-gradient(rgba(0, 0, 0, 0), black); }
   .hot-project .project-col.big figure .project-img img, .hot-project .project-col.high figure .project-img img {
     height: 450px; }
     @media (max-width: 767.98px) {
@@ -8421,7 +8658,13 @@ footer .footer-nav {
       .hot-project .project-col figure .project-img img {
         width: 100%;
         height: 260px;
-        object-fit: cover; }
+        object-fit: cover;
+        -webkit-transition: all, 10s;
+        -khtml-transition: all, 10s;
+        -moz-transition: all, 10s;
+        -ms-transition: all, 10s;
+        -o-transition: all, 10s;
+        transition: all, 10s; }
     .hot-project .project-col figure figcaption .project-name a {
       display: block;
       text-align: center;
@@ -8965,28 +9208,148 @@ footer .footer-nav {
       .history-wrap .history-event .content {
         font-size: 0.8125rem; } }
 
-.project-page, .project-section1, .project-section2, .project-section3, .project-section4, .project-section5, .project-section6, .project-section7, .project-section8, .project-section9 {
+.project-page, .project-section1, .project-section2, .project-section3 .project-content, .project-section4, .project-section5, .project-section6, .project-section7, .project-section8, .project-section9 {
   padding: 50px 0; }
   @media (max-width: 1199.98px) {
-    .project-page, .project-section1, .project-section2, .project-section3, .project-section4, .project-section5, .project-section6, .project-section7, .project-section8, .project-section9 {
+    .project-page, .project-section1, .project-section2, .project-section3 .project-content, .project-section4, .project-section5, .project-section6, .project-section7, .project-section8, .project-section9 {
       padding: 40px 0; } }
   @media (max-width: 991.98px) {
-    .project-page, .project-section1, .project-section2, .project-section3, .project-section4, .project-section5, .project-section6, .project-section7, .project-section8, .project-section9 {
+    .project-page, .project-section1, .project-section2, .project-section3 .project-content, .project-section4, .project-section5, .project-section6, .project-section7, .project-section8, .project-section9 {
       padding: 40px 0; }
-      .project-page .col-text, .project-section1 .col-text, .project-section2 .col-text, .project-section3 .col-text, .project-section4 .col-text, .project-section5 .col-text, .project-section6 .col-text, .project-section7 .col-text, .project-section8 .col-text, .project-section9 .col-text {
+      .project-page .col-text, .project-section1 .col-text, .project-section2 .col-text, .project-section3 .project-content .col-text, .project-section4 .col-text, .project-section5 .col-text, .project-section6 .col-text, .project-section7 .col-text, .project-section8 .col-text, .project-section9 .col-text {
         order: 1; }
-      .project-page .col-img, .project-section1 .col-img, .project-section2 .col-img, .project-section3 .col-img, .project-section4 .col-img, .project-section5 .col-img, .project-section6 .col-img, .project-section7 .col-img, .project-section8 .col-img, .project-section9 .col-img {
+      .project-page .col-img, .project-section1 .col-img, .project-section2 .col-img, .project-section3 .project-content .col-img, .project-section4 .col-img, .project-section5 .col-img, .project-section6 .col-img, .project-section7 .col-img, .project-section8 .col-img, .project-section9 .col-img {
         order: 2; } }
   @media (max-width: 767.98px) {
-    .project-page, .project-section1, .project-section2, .project-section3, .project-section4, .project-section5, .project-section6, .project-section7, .project-section8, .project-section9 {
+    .project-page, .project-section1, .project-section2, .project-section3 .project-content, .project-section4, .project-section5, .project-section6, .project-section7, .project-section8, .project-section9 {
       padding: 30px 0; } }
-  .project-page .project-content .project-img img, .project-section1 .project-content .project-img img, .project-section2 .project-content .project-img img, .project-section3 .project-content .project-img img, .project-section4 .project-content .project-img img, .project-section5 .project-content .project-img img, .project-section6 .project-content .project-img img, .project-section7 .project-content .project-img img, .project-section8 .project-content .project-img img, .project-section9 .project-content .project-img img {
+  .project-page .project-content .project-img img, .project-section1 .project-content .project-img img, .project-section2 .project-content .project-img img, .project-section3 .project-content .project-content .project-img img, .project-section4 .project-content .project-img img, .project-section5 .project-content .project-img img, .project-section6 .project-content .project-img img, .project-section7 .project-content .project-img img, .project-section8 .project-content .project-img img, .project-section9 .project-content .project-img img {
     width: 100%; }
-  .project-page .project-content .content, .project-section1 .project-content .content, .project-section2 .project-content .content, .project-section3 .project-content .content, .project-section4 .project-content .content, .project-section5 .project-content .content, .project-section6 .project-content .content, .project-section7 .project-content .content, .project-section8 .project-content .content, .project-section9 .project-content .content {
+  .project-page .project-content .content, .project-section1 .project-content .content, .project-section2 .project-content .content, .project-section3 .project-content .project-content .content, .project-section4 .project-content .content, .project-section5 .project-content .content, .project-section6 .project-content .content, .project-section7 .project-content .content, .project-section8 .project-content .content, .project-section9 .project-content .content {
     font-size: 0.9375rem; }
     @media (max-width: 991.98px) {
-      .project-page .project-content .content, .project-section1 .project-content .content, .project-section2 .project-content .content, .project-section3 .project-content .content, .project-section4 .project-content .content, .project-section5 .project-content .content, .project-section6 .project-content .content, .project-section7 .project-content .content, .project-section8 .project-content .content, .project-section9 .project-content .content {
+      .project-page .project-content .content, .project-section1 .project-content .content, .project-section2 .project-content .content, .project-section3 .project-content .project-content .content, .project-section4 .project-content .content, .project-section5 .project-content .content, .project-section6 .project-content .content, .project-section7 .project-content .content, .project-section8 .project-content .content, .project-section9 .project-content .content {
         margin-bottom: 30px; } }
+
+@media (max-width: 991.98px) {
+  .project-page .project-video iframe, .project-section1 .project-video iframe, .project-section2 .project-video iframe, .project-section3 .project-content .project-video iframe, .project-section4 .project-video iframe, .project-section5 .project-video iframe, .project-section6 .project-video iframe, .project-section7 .project-video iframe, .project-section8 .project-video iframe, .project-section9 .project-video iframe {
+    height: 400px; } }
+
+@media (max-width: 767.98px) {
+  .project-page .project-video iframe, .project-section1 .project-video iframe, .project-section2 .project-video iframe, .project-section3 .project-content .project-video iframe, .project-section4 .project-video iframe, .project-section5 .project-video iframe, .project-section6 .project-video iframe, .project-section7 .project-video iframe, .project-section8 .project-video iframe, .project-section9 .project-video iframe {
+    height: 350px; } }
+
+@media (max-width: 575.98px) {
+  .project-page .project-video iframe, .project-section1 .project-video iframe, .project-section2 .project-video iframe, .project-section3 .project-content .project-video iframe, .project-section4 .project-video iframe, .project-section5 .project-video iframe, .project-section6 .project-video iframe, .project-section7 .project-video iframe, .project-section8 .project-video iframe, .project-section9 .project-video iframe {
+    height: 250px; } }
+
+.project-page .project-album, .project-section1 .project-album, .project-section2 .project-album, .project-section3 .project-content .project-album, .project-section4 .project-album, .project-section5 .project-album, .project-section6 .project-album, .project-section7 .project-album, .project-section8 .project-album, .project-section9 .project-album {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 5px 20px;
+  font-size: 0.75rem;
+  line-height: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333333;
+  background: #f0f0f0;
+  margin-bottom: 20px; }
+
+.project-page .project-img, .project-section1 .project-img, .project-section2 .project-img, .project-section3 .project-content .project-img, .project-section4 .project-img, .project-section5 .project-img, .project-section6 .project-img, .project-section7 .project-img, .project-section8 .project-img, .project-section9 .project-img {
+  margin-bottom: 20px; }
+  .project-page .project-img .img, .project-section1 .project-img .img, .project-section2 .project-img .img, .project-section3 .project-content .project-img .img, .project-section4 .project-img .img, .project-section5 .project-img .img, .project-section6 .project-img .img, .project-section7 .project-img .img, .project-section8 .project-img .img, .project-section9 .project-img .img {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px; }
+    .project-page .project-img .img:before, .project-section1 .project-img .img:before, .project-section2 .project-img .img:before, .project-section3 .project-content .project-img .img:before, .project-section4 .project-img .img:before, .project-section5 .project-img .img:before, .project-section6 .project-img .img:before, .project-section7 .project-img .img:before, .project-section8 .project-img .img:before, .project-section9 .project-img .img:before {
+      content: '\f03e';
+      font-size: 1.5rem;
+      color: #fff;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.25);
+      z-index: 3;
+      -webkit-transition: all, 0.5s;
+      -khtml-transition: all, 0.5s;
+      -moz-transition: all, 0.5s;
+      -ms-transition: all, 0.5s;
+      -o-transition: all, 0.5s;
+      transition: all, 0.5s; }
+    .project-page .project-img .img img, .project-section1 .project-img .img img, .project-section2 .project-img .img img, .project-section3 .project-content .project-img .img img, .project-section4 .project-img .img img, .project-section5 .project-img .img img, .project-section6 .project-img .img img, .project-section7 .project-img .img img, .project-section8 .project-img .img img, .project-section9 .project-img .img img {
+      width: 100%;
+      -webkit-transition: all, 10s;
+      -khtml-transition: all, 10s;
+      -moz-transition: all, 10s;
+      -ms-transition: all, 10s;
+      -o-transition: all, 10s;
+      transition: all, 10s; }
+    .project-page .project-img .img:hover img, .project-section1 .project-img .img:hover img, .project-section2 .project-img .img:hover img, .project-section3 .project-content .project-img .img:hover img, .project-section4 .project-img .img:hover img, .project-section5 .project-img .img:hover img, .project-section6 .project-img .img:hover img, .project-section7 .project-img .img:hover img, .project-section8 .project-img .img:hover img, .project-section9 .project-img .img:hover img {
+      -webkit-transform: scale3d(1.2, 1.2, 1);
+      -khtml-transform: scale3d(1.2, 1.2, 1);
+      -moz-transform: scale3d(1.2, 1.2, 1);
+      -ms-transform: scale3d(1.2, 1.2, 1);
+      -o-transform: scale3d(1.2, 1.2, 1);
+      transform: scale3d(1.2, 1.2, 1); }
+    .project-page .project-img .img:hover:before, .project-section1 .project-img .img:hover:before, .project-section2 .project-img .img:hover:before, .project-section3 .project-content .project-img .img:hover:before, .project-section4 .project-img .img:hover:before, .project-section5 .project-img .img:hover:before, .project-section6 .project-img .img:hover:before, .project-section7 .project-img .img:hover:before, .project-section8 .project-img .img:hover:before, .project-section9 .project-img .img:hover:before {
+      opacity: 0; }
+
+.project-page .project-form .module-title, .project-section1 .project-form .module-title, .project-section2 .project-form .module-title, .project-section3 .project-content .project-form .module-title, .project-section4 .project-form .module-title, .project-section5 .project-form .module-title, .project-section6 .project-form .module-title, .project-section7 .project-form .module-title, .project-section8 .project-form .module-title, .project-section9 .project-form .module-title {
+  text-align: center; }
+
+.project-page .form-group, .project-section1 .form-group, .project-section2 .form-group, .project-section3 .project-content .form-group, .project-section4 .form-group, .project-section5 .form-group, .project-section6 .form-group, .project-section7 .form-group, .project-section8 .form-group, .project-section9 .form-group {
+  position: relative; }
+  .project-page .form-group label, .project-section1 .form-group label, .project-section2 .form-group label, .project-section3 .project-content .form-group label, .project-section4 .form-group label, .project-section5 .form-group label, .project-section6 .form-group label, .project-section7 .form-group label, .project-section8 .form-group label, .project-section9 .form-group label {
+    display: none; }
+  .project-page .form-group .fa.fa-exclamation-triangle, .project-section1 .form-group .fa.fa-exclamation-triangle, .project-section2 .form-group .fa.fa-exclamation-triangle, .project-section3 .project-content .form-group .fa.fa-exclamation-triangle, .project-section4 .form-group .fa.fa-exclamation-triangle, .project-section5 .form-group .fa.fa-exclamation-triangle, .project-section6 .form-group .fa.fa-exclamation-triangle, .project-section7 .form-group .fa.fa-exclamation-triangle, .project-section8 .form-group .fa.fa-exclamation-triangle, .project-section9 .form-group .fa.fa-exclamation-triangle {
+    font-size: 0;
+    color: #ef3331;
+    position: absolute;
+    top: 0.9375rem;
+    right: 1.5rem; }
+    .project-page .form-group .fa.fa-exclamation-triangle:before, .project-section1 .form-group .fa.fa-exclamation-triangle:before, .project-section2 .form-group .fa.fa-exclamation-triangle:before, .project-section3 .project-content .form-group .fa.fa-exclamation-triangle:before, .project-section4 .form-group .fa.fa-exclamation-triangle:before, .project-section5 .form-group .fa.fa-exclamation-triangle:before, .project-section6 .form-group .fa.fa-exclamation-triangle:before, .project-section7 .form-group .fa.fa-exclamation-triangle:before, .project-section8 .form-group .fa.fa-exclamation-triangle:before, .project-section9 .form-group .fa.fa-exclamation-triangle:before {
+      font-size: 0.875rem;
+      font-family: 'fontawesome'; }
+
+.project-page input, .project-section1 input, .project-section2 input, .project-section3 .project-content input, .project-section4 input, .project-section5 input, .project-section6 input, .project-section7 input, .project-section8 input, .project-section9 input, .project-page textarea, .project-section1 textarea, .project-section2 textarea, .project-section3 .project-content textarea, .project-section4 textarea, .project-section5 textarea, .project-section6 textarea, .project-section7 textarea, .project-section8 textarea, .project-section9 textarea {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #666666;
+  line-height: 16px;
+  padding: 0.9375rem 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  border: none; }
+  .project-page input:focus, .project-section1 input:focus, .project-section2 input:focus, .project-section3 .project-content input:focus, .project-section4 input:focus, .project-section5 input:focus, .project-section6 input:focus, .project-section7 input:focus, .project-section8 input:focus, .project-section9 input:focus, .project-page textarea:focus, .project-section1 textarea:focus, .project-section2 textarea:focus, .project-section3 .project-content textarea:focus, .project-section4 textarea:focus, .project-section5 textarea:focus, .project-section6 textarea:focus, .project-section7 textarea:focus, .project-section8 textarea:focus, .project-section9 textarea:focus {
+    box-shadow: 0 0 0 0.2rem rgba(245, 130, 32, 0.5); }
+
+.project-page textarea, .project-section1 textarea, .project-section2 textarea, .project-section3 .project-content textarea, .project-section4 textarea, .project-section5 textarea, .project-section6 textarea, .project-section7 textarea, .project-section8 textarea, .project-section9 textarea {
+  min-height: 200px; }
+
+.project-page .frm-btn, .project-section1 .frm-btn, .project-section2 .frm-btn, .project-section3 .project-content .frm-btn, .project-section4 .frm-btn, .project-section5 .frm-btn, .project-section6 .frm-btn, .project-section7 .frm-btn, .project-section8 .frm-btn, .project-section9 .frm-btn {
+  text-align: center; }
+
+.project-page input[type="submit"], .project-section1 input[type="submit"], .project-section2 input[type="submit"], .project-section3 .project-content input[type="submit"], .project-section4 input[type="submit"], .project-section5 input[type="submit"], .project-section6 input[type="submit"], .project-section7 input[type="submit"], .project-section8 input[type="submit"], .project-section9 input[type="submit"] {
+  background: #f58220;
+  font-size: 0.875rem;
+  line-height: 16px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 3px;
+  padding: 0.9375rem 3rem;
+  width: auto;
+  text-transform: uppercase;
+  display: inline-block; }
 
 .project-section1 {
   padding-top: 20px;
@@ -8994,127 +9357,36 @@ footer .footer-nav {
   .project-section1 .project-content {
     background: whitesmoke; }
     .project-section1 .project-content .project-img {
-      height: 100%; }
+      height: 100%;
+      margin-bottom: 0; }
       .project-section1 .project-content .project-img img {
-        width: 100%; }
+        width: 100%;
+        margin-bottom: 0; }
         @media (max-width: 1199.98px) {
           .project-section1 .project-content .project-img img {
             height: 100%;
             object-fit: cover; } }
     .project-section1 .project-content .content {
-      padding: 30px 20px; }
+      padding: 30px 20px;
+      margin-bottom: 0; }
 
 .project-section3 {
-  background: url(../img/bg.jpg) center center repeat; }
+  background: url(../img/bg.jpg) center center repeat;
+  padding: 0; }
+  .project-section3 .project-content:nth-child(even) {
+    background: #fff; }
   .project-section3 .project-img .img + .img {
     margin-top: 20px; }
 
+.project-section4 {
+  background: url(../img/bg.jpg) center center repeat; }
+
 .project-section5 {
-  background: url(../img/bg.jpg) center center repeat; }
-
-.project-section7 {
-  background: url(../img/bg.jpg) center center repeat; }
-  @media (max-width: 991.98px) {
-    .project-section7 .project-video iframe {
-      height: 400px; } }
-  @media (max-width: 767.98px) {
-    .project-section7 .project-video iframe {
-      height: 350px; } }
-  @media (max-width: 575.98px) {
-    .project-section7 .project-video iframe {
-      height: 250px; } }
-
-.project-section8 {
   text-align: center; }
-  .project-section8 .project-album {
-    display: inline-block;
-    border-radius: 50px;
-    padding: 5px 20px;
-    font-size: 0.75rem;
-    line-height: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #333333;
-    background: #f0f0f0;
-    margin-bottom: 20px; }
-  .project-section8 .project-img {
-    margin-bottom: 20px; }
-    .project-section8 .project-img .img {
-      display: block;
-      position: relative;
-      overflow: hidden;
-      margin-bottom: 20px; }
-      .project-section8 .project-img .img:before {
-        content: '\f03e';
-        font-size: 1.5rem;
-        color: #fff;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flexbox;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgba(0, 0, 0, 0.25);
-        z-index: 3;
-        -webkit-transition: all, 0.5s;
-        -khtml-transition: all, 0.5s;
-        -moz-transition: all, 0.5s;
-        -ms-transition: all, 0.5s;
-        -o-transition: all, 0.5s;
-        transition: all, 0.5s; }
-      .project-section8 .project-img .img img {
-        width: 100%;
-        -webkit-transition: all, 10s;
-        -khtml-transition: all, 10s;
-        -moz-transition: all, 10s;
-        -ms-transition: all, 10s;
-        -o-transition: all, 10s;
-        transition: all, 10s; }
-      .project-section8 .project-img .img:hover img {
-        -webkit-transform: scale3d(1.2, 1.2, 1);
-        -khtml-transform: scale3d(1.2, 1.2, 1);
-        -moz-transform: scale3d(1.2, 1.2, 1);
-        -ms-transform: scale3d(1.2, 1.2, 1);
-        -o-transform: scale3d(1.2, 1.2, 1);
-        transform: scale3d(1.2, 1.2, 1); }
-      .project-section8 .project-img .img:hover:before {
-        opacity: 0; }
 
-.project-section9 {
+.project-section6 {
   background: url(../img/project/bg2.jpg) center center no-repeat;
   background-size: cover; }
-  .project-section9 .project-form .module-title {
-    text-align: center; }
-  .project-section9 input, .project-section9 textarea {
-    font-size: 0.8125rem;
-    font-weight: 500;
-    color: #666666;
-    line-height: 16px;
-    padding: 0.9375rem 1.5rem;
-    background: rgba(255, 255, 255, 0.75);
-    border-radius: 3px;
-    border: none; }
-    .project-section9 input:focus, .project-section9 textarea:focus {
-      box-shadow: 0 0 0 0.2rem rgba(245, 130, 32, 0.5); }
-  .project-section9 .frm-btn {
-    text-align: center; }
-  .project-section9 input[type="submit"] {
-    background: #f58220;
-    font-size: 0.875rem;
-    line-height: 16px;
-    font-weight: 600;
-    color: #fff;
-    border-radius: 3px;
-    padding: 0.9375rem 3rem;
-    width: auto;
-    text-transform: uppercase;
-    display: inline-block; }
 
 .contact-page {
   padding: 50px 0; }
@@ -9148,6 +9420,17 @@ footer .footer-nav {
       font-size: 0.8125rem;
       color: #666666;
       margin-bottom: 10px; }
+  .contact-page .form-wrap .form-group {
+    position: relative; }
+    .contact-page .form-wrap .form-group .fa.fa-exclamation-triangle {
+      font-size: 0;
+      color: #ef3331;
+      position: absolute;
+      top: 0.9375rem;
+      right: 1.5rem; }
+      .contact-page .form-wrap .form-group .fa.fa-exclamation-triangle:before {
+        font-size: 0.875rem;
+        font-family: 'fontawesome'; }
   .contact-page .form-wrap input, .contact-page .form-wrap textarea {
     font-size: 0.8125rem;
     font-weight: 500;
@@ -9161,8 +9444,12 @@ footer .footer-nav {
       background: #fff;
       box-shadow: 0 0 0 0.2rem rgba(245, 130, 32, 0.5);
       border-color: #f58220; }
+  .contact-page .form-wrap textarea {
+    min-height: 200px; }
   .contact-page .form-wrap .frm-btn {
-    text-align: right; }
+    text-align: right;
+    width: 100%;
+    padding: 0px; }
   .contact-page .form-wrap input[type="submit"] {
     background: #f58220;
     font-size: 0.875rem;

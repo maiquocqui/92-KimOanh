@@ -19,6 +19,7 @@
 		background: none
 		border: none
 		+bor-rad(0)
+		+transition(all,0s)
 		+media-breakpoint-down(lg)
 			display: inline-block
 		+ li, + .nav-item
@@ -34,9 +35,10 @@
 			text-transform: uppercase
 			color: $main
 			background: darken($white,6%)
+			+transition(all,0.3s)
 			&:hover
 				color: $orange
-			&.active
+			&.active, &.mPS2id-highlight
 				background: $orange
 				color: $white
 		&.active
