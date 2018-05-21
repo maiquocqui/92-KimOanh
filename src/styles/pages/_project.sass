@@ -1,8 +1,20 @@
 .project-page
 	padding: 50px 0
+	+media-breakpoint-down(lg)
+		padding: 40px 0
+	+media-breakpoint-down(md)
+		padding: 40px 0
+		.col-text
+			order: 1
+		.col-img
+			order: 2
+	+media-breakpoint-down(sm)
+		padding: 30px 0
 	.project-content
 		.project-img
 			img
 				width: 100%
 		.content
 			+fs(15rem)
+			+media-breakpoint-down(md)
+				margin-bottom: 30px

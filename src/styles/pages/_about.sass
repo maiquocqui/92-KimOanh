@@ -1,5 +1,11 @@
 .about-section
 	padding: 50px 0
+	+media-breakpoint-down(lg)
+		padding: 40px 0
+	+media-breakpoint-down(md)
+		padding: 40px 0
+	+media-breakpoint-down(sm)
+		padding: 30px 0
 .about-section1
 	@extend .about-section
 	background: url(../img/about/bg1.png) center center no-repeat
@@ -10,6 +16,8 @@
 		max-height: 580px
 		overflow: auto
 		padding-right: 20px
+		+media-breakpoint-down(lg)
+			max-height: 450px
 		&::-webkit-scrollbar-track
 			background-color: darken($white,15%)
 		&::-webkit-scrollbar
@@ -33,6 +41,8 @@
 	.service-list
 	.service-col
 		display: block
+		+media-breakpoint-down(sm)
+			margin-bottom: 15px
 		figure
 			+pos(rel,null)
 			.service-img
@@ -51,6 +61,9 @@
 					+fs(16rem)
 					text-transform: uppercase
 					font-weight: 600
+					+media-breakpoint-down(lg)
+						+fs(13rem)
+						padding: 0px 15px
 .about-section4
 	@extend .about-section
 	background: url(../img/bg.jpg) center center repeat

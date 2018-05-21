@@ -1,0 +1,229 @@
+.career-section
+	padding: 50px 0
+.career-section1
+	@extend .career-section
+	.career-content
+		margin-bottom: 40px
+	.career-img
+		+flexbox
+		justify-content: center
+		align-items: flex-start
+		.img
+			border: 8px solid darken($white,7%)
+			+pos(rel,null)
+			z-index: 1
+			+ .img
+				margin-left: -50px
+				z-index: 2
+				+ .img
+					z-index: 3
+					+ .img
+						z-index: 4
+			&:nth-child(even)
+				margin-top: 50px
+.career-section2
+	@extend .career-section
+	background: url(../img/bg.jpg) center center repeat
+	.policy-list
+		.policy
+			margin-bottom: 30px
+			max-width: 270px
+			margin: 0 auto
+			padding: 0px 10px
+			figure
+				.policy-icon
+					+flexbox
+					height: 100px
+					justify-content: center
+					align-items: center
+					margin-bottom: 20px
+				figcaption
+					text-align: center
+					.policy-name
+						+fs(16rem)
+						text-transform: uppercase
+						font-weight: 700
+						margin-bottom: 15px
+					.policy-des
+						+fs(14rem)
+						color: darken($white,60%)
+.career-section3
+	@extend .career-section
+	.career-table
+		th, td
+			&:nth-child(2), &:nth-child(3), &:last-child
+				width: 230px
+				text-align: center
+				+media-breakpoint-down(lg)
+					width: 200px
+				+media-breakpoint-down(md)
+					width: 150px
+				+media-breakpoint-down(sm)
+					display: none
+			&:nth-child(2), &:nth-child(3)
+				+media-breakpoint-down(md)
+					display: none
+		th
+			background: $orange
+			+fs(16rem)
+			line-height: 20px
+			color: $white
+			padding: 13px 20px
+			font-weight: 500
+			+media-breakpoint-down(lg)
+				+fs(14rem)
+		td
+			background: $white
+			+fs(13rem)
+			font-weight: 500
+			padding: 13px 20px
+			+pos(rel,null)
+			color: darken($white,60%)
+			a
+				color: darken($white,60%)
+				display: block
+				padding-right: 45px
+				&:hover
+					color: $orange
+			.label
+				background: $orange
+				color: $white
+				padding: 0px 10px
+				line-height: 20px
+				+bor-rad(50px)
+				+pos(abs, 13px 20px null null)
+		tr
+			&:nth-child(even)
+				td
+					background: darken($white,4%)
+			&:hover
+				td
+					background: lighten($orange,40%)
+.career-section4
+	@extend .career-section
+	padding: 60px 0
+	background: $black url(../img/cbg.png) center center no-repeat
+	background-size: cover
+	.career-contact
+		text-align: center
+		color: $white
+		.icon
+			margin-bottom: 15px
+		.title
+			+fs(24rem)
+			text-transform: uppercase
+			font-weight: 700
+			margin-bottom: 15px
+			+media-breakpoint-down(lg)
+				+fs(22rem)
+			+media-breakpoint-down(md)
+				+fs(18rem)
+			+media-breakpoint-down(sm)
+				+fs(16rem)
+		.des
+			+fs(16rem)
+			max-width: 680px
+			margin: 0 auto 25px
+			+media-breakpoint-down(md)
+				+fs(14rem)
+		.btn-wrap
+			text-align: center
+			.btn-contact
+				display: inline-block
+				line-height: 46px
+				+bor-rad(5px)
+				+fs(15rem)
+				padding: 0px 20px
+				font-weight: 700
+				background: $orange
+				color: $white
+				text-transform: uppercase
+.career-section5
+	@extend .career-section
+	.place-list
+		.place-col
+			margin-bottom: 20px
+			padding-bottom: 20px
+			border-bottom: 1px solid darken($white,10%)
+			+media-breakpoint-up(lg)
+				&:last-child
+					margin-bottom: 0
+					padding-bottom: 0
+					border-bottom: none
+		.place-title
+			+fs(16rem)
+			font-weight: 700
+			color: $orange
+			margin-bottom: 20px
+		.place-name
+			margin-bottom: 10px
+			+fs(13rem)
+			font-weight: 600
+			text-transform: uppercase
+		ul
+			li
+				+fs(13rem)
+				font-weight: 500
+				line-height: 1.8
+
+.career-detail
+	margin-bottom: 30px
+	.career-name
+		+fs(22rem)
+		font-weight: 700
+		color: $orange
+	.career-info
+		margin-bottom: 20px
+		time
+			+fs(12rem)
+			color: darken($white,40%)
+			&:before
+				content: '\f073'
+				margin-right: 5px
+	.content
+		margin-bottom: 30px
+	.btn-download
+		display: block
+		color: $red
+		+fs(18rem)
+		font-weight: 700
+		margin-bottom: 20px
+		&:before
+			content: '\f019'
+			margin-right: 5px
+			+fs(24rem)
+			font-weight: normal
+	.btn-apply
+		display: inline-block
+		padding: 0px 30px
+		+fs(13rem)
+		font-weight: 700
+		color: $white
+		line-height: 40px
+		background: $orange
+		+bor-rad(3px)
+		text-transform: uppercase
+
+.other-job
+	margin-bottom: 30px
+	.job-list
+		.job
+			display: block
+			margin-bottom: 15px
+			padding-bottom: 15px
+			border-bottom: 1px solid darken($white,10%)
+			time
+				+fs(12rem)
+				color: darken($white,40%)
+				display: block
+				margin-bottom: 5px
+				&:before
+					content: '\f073'
+					margin-right: 5px
+			.job-name 
+				+fs(14rem)
+				font-weight: 600
+				color: darken($white,60%)
+			&:hover
+				.job-name
+					color: $orange

@@ -5,6 +5,12 @@
 	line-height: 1.3
 	text-transform: uppercase
 	margin-bottom: 30px
+	+media-breakpoint-down(lg)
+		+fs(32rem)
+	+media-breakpoint-down(md)
+		+fs(28rem)
+	+media-breakpoint-down(sm)
+		+fs(24rem)
 	&:after
 		content: ''
 		display: block
@@ -12,6 +18,13 @@
 		height: 26px
 		margin: 0 auto
 		background: url(../img/titlebg.png) center center no-repeat
+		background-size: contain
+		+media-breakpoint-down(lg)
+			width: 200px
+		+media-breakpoint-down(md)
+			width: 180px
+		+media-breakpoint-down(sm)
+			width: 150px
 
 .page-title
 	+fs(30rem)
@@ -20,6 +33,12 @@
 	text-transform: uppercase
 	color: $orange
 	margin-bottom: 30px
+	+media-breakpoint-down(lg)
+		+fs(28rem)
+	+media-breakpoint-down(md)
+		+fs(24rem)
+	+media-breakpoint-down(sm)
+		+fs(20rem)
 	&:after
 		display: none
 
@@ -27,6 +46,14 @@
 	+fs(16rem)
 	max-width: 930px
 	margin: 0 auto 40px
+
+.small-title
+	+fs(22rem)
+	font-weight: 700
+	color: $orange
+	margin-bottom: 10px
+	+media-breakpoint-down(sm)
+		+fs(18rem)
 
 .home-news
 	padding: 50px 0
@@ -39,12 +66,25 @@
 		margin-bottom: 30px
 		+transition(all,0.5s)
 		&:hover
+			background: $orange
 			box-shadow: 0px 5px 10px color-rgba($black,0.1)
+			figure
+				.news-img
+				figcaption
+					.news-name
+						a
+							color: $white
+					.news-des
+						color: $white
 		figure
 			.news-img
 				display: block
+				img
+					width: 100%
 			figcaption
 				padding: 20px
+				+media-breakpoint-down(lg)
+					padding: 15px
 				.news-name
 					a
 						display: block
@@ -53,18 +93,25 @@
 						color: $main
 						// max-height: 43px
 						// overflow: hidden
+						+media-breakpoint-down(lg)
+							+fs(14rem)
 				.news-des
 					+fs(13rem)
+					+transition(all,0.5s)
 		&.big
 			figure
 				.news-img
 				figcaption
 					padding: 20px 30px
+					+media-breakpoint-down(lg)
+						padding: 15px 20px
 					.news-name
 						margin-bottom: 10px
 						a
 							+fs(18rem)
 							// max-height: unset
+							+media-breakpoint-down(lg)
+								+fs(16rem)
 .home-project
 	padding: 50px 0
 	.btn-viewmore
@@ -83,6 +130,16 @@
 				.project-img
 					img
 						height: 450px
+						+media-breakpoint-down(sm)
+							height: 300px
+		&.high
+			figure
+				.project-img
+					img
+						+media-breakpoint-down(md)
+							height: 260px
+						+media-breakpoint-down(sm)
+							height: 220px
 		figure
 			+pos(rel,null)
 			.project-img
@@ -113,8 +170,14 @@
 		background: $white
 		box-shadow: 0px 2px 5px color-rgba($black,0.1)
 		+transition(all,0.5s)
+		margin-bottom: 20px
 		&:hover
 			box-shadow: 0px 5px 10px color-rgba($black,0.1)
+			figure
+				figcaption
+					.video-name
+						a
+							color: $orange
 		figure
 			.video-img
 				display: block
@@ -134,6 +197,10 @@
 						justify-content: center
 						align-items: center
 						+fs(24rem)
+						+media-breakpoint-down(lg)
+							width: 50px
+							height: 50px
+							+fs(18rem)
 					a
 						display: block
 						padding: 0px 20px
@@ -143,6 +210,11 @@
 						color: $main
 						font-weight: 600
 						+fs(16rem)
+						width: calc(100% - 40px)
+						+media-breakpoint-down(lg)
+							width: calc(100% - 50px)
+							+fs(14rem)
+							padding: 0px 10px
 
 .home-gallery
 	padding: 50px 0
@@ -157,6 +229,10 @@
 			line-height: 50px
 			text-align: center
 			background: color-rgba($white,0.3)
+			+media-breakpoint-down(md)
+				width: 40px
+				height: 40px
+				line-height: 40px
 			&:before 
 				content: ''
 				+fs(18rem)
@@ -225,12 +301,20 @@
 			content: '\e876'
 	.slick-list
 		margin: 0px -20px
+		+media-breakpoint-down(lg)
+			margin: 0px -10px
 	.item
 		padding: 0px 20px
+		+media-breakpoint-down(lg)
+			padding: 0px 10px
 	.row
 		margin: 0px -20px
+		+media-breakpoint-down(lg)
+			margin: 0px -10px
 		.col-6
 			padding: 0px 20px
+			+media-breakpoint-down(lg)
+				padding: 0px 10px
 	.slick-dots
 		text-align: center
 		li
@@ -255,6 +339,8 @@
 			align-items: center
 			background: $white
 			border: 1px solid darken($white,10%)
+			+media-breakpoint-down(lg)
+				height: 150px
 			img
 				max-width: 80%
 				max-height: 80%
@@ -264,6 +350,12 @@
 				+fs(14rem)
 				line-height: 1.5
 				color: darken($white,60%)
+				display: -webkit-box
+				height: 0.875rem*1.5*3
+				-webkit-line-clamp: 3
+				-webkit-box-orient: vertical
+				overflow: hidden
+				text-overflow: ellipsis
 
 .home-partner
 	padding: 50px 0

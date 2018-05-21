@@ -8,15 +8,22 @@
 	justify-content: center
 	align-items: center
 	align-content: center
-	li
+	+media-breakpoint-down(lg)
+		display: block
+		text-align: center
+		white-space: nowrap
+		overflow: auto
+	li, .nav-item
 		margin: 0
 		padding: 0
 		background: none
 		border: none
 		+bor-rad(0)
-		+ li
+		+media-breakpoint-down(lg)
+			display: inline-block
+		+ li, + .nav-item
 			margin-left: 10px
-		a
+		a, .nav-link
 			+bor-rad(50px)
 			border: none
 			margin: 0
@@ -33,13 +40,13 @@
 				background: $orange
 				color: $white
 		&.active
-			a
+			a, .nav-link
 				background: $orange
 				color: $white
 
 .top-nav
 	padding: 20px 0
 	.home-tab
-		padding: 10px 0
+		padding: 10px 15px
 		margin: 0
 		background: $white

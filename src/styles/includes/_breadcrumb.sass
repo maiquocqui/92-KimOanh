@@ -3,6 +3,9 @@
 	.breadcrumb-img
 		img
 			width: 100%
+			+media-breakpoint-down(lg)
+				height: 200px
+				object-fit: cover
 	.breadcrumb-content
 		+pos(abs, null 0 0 0)
 		background: color-rgba($black,0.3)

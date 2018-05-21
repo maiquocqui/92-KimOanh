@@ -5,6 +5,13 @@
 	// background-size: 100% auto
 	.project-content
 		background: darken($white,4%)
+		.project-img
+			height: 100%
+			img
+				width: 100%
+				+media-breakpoint-down(lg)
+					height: 100%
+					object-fit: cover
 		.content
 			padding: 30px 20px
 .project-section2
@@ -26,6 +33,14 @@
 .project-section7
 	@extend .project-page
 	background: url(../img/bg.jpg) center center repeat
+	.project-video
+		iframe
+			+media-breakpoint-down(md)
+				height: 400px
+			+media-breakpoint-down(sm)
+				height: 350px
+			+media-breakpoint-down(xs)
+				height: 250px
 .project-section8
 	@extend .project-page
 	text-align: center
@@ -41,11 +56,12 @@
 		background: darken($white,6%)
 		margin-bottom: 20px
 	.project-img
-		margin-bottom: 40px
+		margin-bottom: 20px
 		.img
 			display: block
 			+pos(rel,null)
 			overflow: hidden
+			margin-bottom: 20px
 			&:before
 				content: '\f03e'
 				+fs(24rem)
@@ -59,6 +75,7 @@
 				z-index: 3
 				+transition(all,0.5s)
 			img
+				width: 100%
 				+transition(all,10s)
 			&:hover
 				img
