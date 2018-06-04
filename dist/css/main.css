@@ -7306,9 +7306,9 @@ img, iframe {
   margin: 0;
   border-radius: 0; }
 
-.subscribefrm {
+.subscribefrm, .subscribe-wrap {
   position: relative; }
-  .subscribefrm .fa.fa-exclamation-triangle {
+  .subscribefrm .fa.fa-exclamation-triangle, .subscribe-wrap .fa.fa-exclamation-triangle {
     color: red;
     font-size: 0.9375rem;
     display: block;
@@ -7320,7 +7320,7 @@ img, iframe {
     height: 15px;
     line-height: 15px;
     text-align: center; }
-    .subscribefrm .fa.fa-exclamation-triangle:after {
+    .subscribefrm .fa.fa-exclamation-triangle:after, .subscribe-wrap .fa.fa-exclamation-triangle:after {
       content: '\f071';
       font-size: 12px;
       color: red;
@@ -7332,10 +7332,10 @@ img, iframe {
       right: 0;
       left: 0; }
     @media only screen and (min-width: 1024px) {
-      .subscribefrm .fa.fa-exclamation-triangle {
+      .subscribefrm .fa.fa-exclamation-triangle, .subscribe-wrap .fa.fa-exclamation-triangle {
         right: 15px;
         top: 10px; } }
-  .subscribefrm .fa-exclamation-triangle:before, .subscribefrm .fa-warning:before {
+  .subscribefrm .fa-exclamation-triangle:before, .subscribefrm .fa-warning:before, .subscribe-wrap .fa-exclamation-triangle:before, .subscribe-wrap .fa-warning:before {
     margin-right: 5px; }
 
 .form-group {
@@ -7585,6 +7585,9 @@ img, iframe {
     pointer-events: all; }
 
 input[type="reset"] {
+  display: none; }
+
+.frm-btnwrap label {
   display: none; }
 
 .product-detail-page .pages, .news-detail-page .pages, .project-detail-page .pages {
@@ -7859,7 +7862,7 @@ header {
     justify-content: center;
     align-items: center;
     color: #f58220;
-    margin: 12px 15px 12px 0;
+    margin: 12px 0 12px 10px;
     border-radius: 3px;
     display: none; }
     @media (max-width: 1199.98px) {
@@ -7932,7 +7935,7 @@ header {
       bottom: 0;
       left: 0;
       width: 280px;
-      background: #fff;
+      background: rgba(245, 130, 32, 0.9);
       z-index: 1000;
       -webkit-transition: all, 0.5s;
       -khtml-transition: all, 0.5s;
@@ -7978,7 +7981,7 @@ header {
     @media (max-width: 1199.98px) {
       header .menu ul.menu-link > li {
         width: 100%;
-        border-bottom: 1px dashed #e6e6e6; } }
+        border-bottom: 1px dashed rgba(255, 255, 255, 0.3); } }
     header .menu ul.menu-link > li > a {
       font-size: 0.9375rem;
       font-weight: 600;
@@ -7989,7 +7992,8 @@ header {
       display: block; }
       @media (max-width: 1199.98px) {
         header .menu ul.menu-link > li > a {
-          padding: 15px 20px; } }
+          padding: 15px 20px;
+          color: #fff; } }
     header .menu ul.menu-link > li:hover > a {
       color: #f58220; }
     header .menu ul.menu-link > li.active > a {
@@ -8057,7 +8061,7 @@ header {
       -ms-transition: all, 0.5s;
       -o-transition: all, 0.5s;
       transition: all, 0.5s; }
-      @media (max-width: 767.98px) {
+      @media (max-width: 1199.98px) {
         header .search .searchbox {
           width: 200px;
           position: absolute;
@@ -8077,7 +8081,7 @@ header {
         -ms-transition: all, 0.5s;
         -o-transition: all, 0.5s;
         transition: all, 0.5s; }
-        @media (max-width: 767.98px) {
+        @media (max-width: 1199.98px) {
           header .search .searchbox input {
             padding: 0px 10px;
             width: 100%; } }
@@ -8093,16 +8097,17 @@ header {
         display: flex;
         justify-content: center;
         align-items: center; }
-        @media (max-width: 767.98px) {
+        @media (max-width: 1199.98px) {
           header .search .searchbox .searchbutton {
             background: none;
             font-size: 0.875rem;
             color: #999999; } }
-      header .search .searchbox:hover {
-        width: 200px; }
-        header .search .searchbox:hover input {
-          padding: 0px 10px; }
-    @media (max-width: 767.98px) {
+      @media (min-width: 1200px) {
+        header .search .searchbox:hover {
+          width: 200px; }
+          header .search .searchbox:hover input {
+            padding: 0px 10px; } }
+    @media (max-width: 1199.98px) {
       header .search:hover .searchbox {
         visibility: visible;
         opacity: 1; } }
@@ -8286,6 +8291,13 @@ header {
       text-align: center;
       white-space: nowrap;
       overflow: auto; } }
+  @media (max-width: 767.98px) {
+    .home-tab {
+      text-align: left;
+      background: #f7f7f7;
+      border-radius: 3px;
+      padding: 10px 0;
+      display: none; } }
   .home-tab li, .home-tab .nav-item {
     margin: 0;
     padding: 0;
@@ -8301,8 +8313,14 @@ header {
     @media (max-width: 1199.98px) {
       .home-tab li, .home-tab .nav-item {
         display: inline-block; } }
+    @media (max-width: 767.98px) {
+      .home-tab li, .home-tab .nav-item {
+        display: block; } }
     .home-tab li + li, .home-tab li + .nav-item, .home-tab .nav-item + li, .home-tab .nav-item + .nav-item {
       margin-left: 10px; }
+      @media (max-width: 767.98px) {
+        .home-tab li + li, .home-tab li + .nav-item, .home-tab .nav-item + li, .home-tab .nav-item + .nav-item {
+          margin-left: 0; } }
     .home-tab li a, .home-tab li .nav-link, .home-tab .nav-item a, .home-tab .nav-item .nav-link {
       border-radius: 50px;
       border: none;
@@ -8320,8 +8338,16 @@ header {
       -ms-transition: all, 0.3s;
       -o-transition: all, 0.3s;
       transition: all, 0.3s; }
-      .home-tab li a:hover, .home-tab li .nav-link:hover, .home-tab .nav-item a:hover, .home-tab .nav-item .nav-link:hover {
-        color: #f58220; }
+      @media (max-width: 767.98px) {
+        .home-tab li a, .home-tab li .nav-link, .home-tab .nav-item a, .home-tab .nav-item .nav-link {
+          display: block;
+          background: none;
+          padding: 8px 15px;
+          border-radius: 0; } }
+      @media (min-width: 1200px) {
+        .home-tab li a:hover, .home-tab li .nav-link:hover, .home-tab .nav-item a:hover, .home-tab .nav-item .nav-link:hover {
+          background: #f58220;
+          color: #fff; } }
       .home-tab li a.active, .home-tab li a.mPS2id-highlight, .home-tab li .nav-link.active, .home-tab li .nav-link.mPS2id-highlight, .home-tab .nav-item a.active, .home-tab .nav-item a.mPS2id-highlight, .home-tab .nav-item .nav-link.active, .home-tab .nav-item .nav-link.mPS2id-highlight {
         background: #f58220;
         color: #fff; }
@@ -8331,10 +8357,39 @@ header {
 
 .top-nav {
   padding: 20px 0; }
+  @media (max-width: 767.98px) {
+    .top-nav {
+      padding: 15px; } }
   .top-nav .home-tab {
     padding: 10px 15px;
     margin: 0;
     background: #fff; }
+    @media (max-width: 767.98px) {
+      .top-nav .home-tab {
+        background: #f7f7f7;
+        padding: 10px 0; } }
+
+.btn-showtab {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 40px;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  padding: 0px 15px;
+  margin: 0;
+  position: relative;
+  margin-bottom: 10px;
+  display: none; }
+  @media (max-width: 767.98px) {
+    .btn-showtab {
+      display: block; } }
+  .btn-showtab:after {
+    content: '\f107';
+    position: absolute;
+    top: 0;
+    right: 15px;
+    line-height: 40px; }
 
 footer {
   position: relative; }
@@ -8394,6 +8449,7 @@ footer {
         font-weight: 700; } }
   footer .about-us ul li {
     font-size: 0.875rem;
+    line-height: 1.8;
     color: #666666;
     margin-bottom: 5px; }
     @media (max-width: 767.98px) {
@@ -8401,7 +8457,7 @@ footer {
         font-size: 0.8125rem; } }
     footer .about-us ul li a:hover {
       color: #f58220; }
-  footer .subscribefrm {
+  footer .subscribe-wrap .subscribefrm {
     background: #e6e6e6;
     display: -webkit-box;
     display: -webkit-flex;
@@ -8411,30 +8467,30 @@ footer {
     align-items: center;
     max-width: 370px; }
     @media (max-width: 991.98px) {
-      footer .subscribefrm {
+      footer .subscribe-wrap .subscribefrm {
         max-width: 100%; } }
-    footer .subscribefrm input {
-      width: calc(100% - 34px);
-      background: none;
-      padding: 0px 15px;
-      border: none;
-      font-size: 0.8125rem; }
-    footer .subscribefrm .subscribebutton {
-      width: 34px;
-      height: 34px;
-      font-size: 0;
-      color: #fff;
-      background: #f58220;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flexbox;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      footer .subscribefrm .subscribebutton:before {
-        content: '\f061';
-        font-size: 1.125rem; }
+  footer .subscribe-wrap .form-group {
+    margin-bottom: 10px; }
+  footer .subscribe-wrap input {
+    width: 100%;
+    background: none;
+    padding: 0px 15px;
+    border: none;
+    font-size: 0.8125rem;
+    line-height: 34px;
+    background: #e6e6e6; }
+  footer .subscribe-wrap .subscribebutton, footer .subscribe-wrap input[type="submit"] {
+    width: auto;
+    height: 34px;
+    color: #fff;
+    background: #f58220;
+    display: inline-block;
+    line-height: 34px;
+    background: #f58220;
+    color: #fff; }
+    footer .subscribe-wrap .subscribebutton:before, footer .subscribe-wrap input[type="submit"]:before {
+      content: '\f061';
+      font-size: 1.125rem; }
   footer .footer-bottom {
     background: #f58220;
     padding: 15px 0; }
@@ -8471,6 +8527,35 @@ footer {
         padding-left: 5px;
         border-left: 1px solid rgba(255, 255, 255, 0.5); }
 
+.up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  text-align: center;
+  background: #f5f5f5;
+  color: #444;
+  cursor: pointer;
+  border: 0;
+  border-radius: 2px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  padding-top: 0.25rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  display: none; }
+  .up span {
+    display: block;
+    font-size: 0.875rem; }
+  .up .fa {
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1; }
+  .up:hover {
+    background: #e6e6e6; }
+
 #scrollUp {
   font-size: 0;
   width: 40px;
@@ -8503,6 +8588,9 @@ footer {
   @media (max-width: 767.98px) {
     .home-title {
       font-size: 1.5rem; } }
+  @media (max-width: 575.98px) {
+    .home-title {
+      font-size: 1.25rem; } }
   .home-title:after {
     content: '';
     display: block;
@@ -8522,7 +8610,7 @@ footer {
         width: 150px; } }
 
 .page-title, .project-page .project-form .module-title, .project-section1 .project-form .module-title, .project-section2 .project-form .module-title, .project-section3 .project-content .project-form .module-title, .project-section4 .project-form .module-title, .project-section5 .project-form .module-title, .project-section6 .project-form .module-title, .project-section7 .project-form .module-title, .project-section8 .project-form .module-title, .project-section9 .project-form .module-title {
-  font-size: 1.875rem;
+  font-size: 1.75rem;
   line-height: 1.3;
   font-weight: 700;
   text-transform: uppercase;
@@ -8530,13 +8618,13 @@ footer {
   margin-bottom: 30px; }
   @media (max-width: 1199.98px) {
     .page-title, .project-page .project-form .module-title, .project-section1 .project-form .module-title, .project-section2 .project-form .module-title, .project-section3 .project-content .project-form .module-title, .project-section4 .project-form .module-title, .project-section5 .project-form .module-title, .project-section6 .project-form .module-title, .project-section7 .project-form .module-title, .project-section8 .project-form .module-title, .project-section9 .project-form .module-title {
-      font-size: 1.75rem; } }
+      font-size: 1.5rem; } }
   @media (max-width: 991.98px) {
     .page-title, .project-page .project-form .module-title, .project-section1 .project-form .module-title, .project-section2 .project-form .module-title, .project-section3 .project-content .project-form .module-title, .project-section4 .project-form .module-title, .project-section5 .project-form .module-title, .project-section6 .project-form .module-title, .project-section7 .project-form .module-title, .project-section8 .project-form .module-title, .project-section9 .project-form .module-title {
-      font-size: 1.5rem; } }
+      font-size: 1.25rem; } }
   @media (max-width: 767.98px) {
     .page-title, .project-page .project-form .module-title, .project-section1 .project-form .module-title, .project-section2 .project-form .module-title, .project-section3 .project-content .project-form .module-title, .project-section4 .project-form .module-title, .project-section5 .project-form .module-title, .project-section6 .project-form .module-title, .project-section7 .project-form .module-title, .project-section8 .project-form .module-title, .project-section9 .project-form .module-title {
-      font-size: 1.25rem; } }
+      font-size: 1.125rem; } }
   .page-title:after, .project-page .project-form .module-title:after, .project-section1 .project-form .module-title:after, .project-section2 .project-form .module-title:after, .project-section3 .project-content .project-form .module-title:after, .project-section4 .project-form .module-title:after, .project-section5 .project-form .module-title:after, .project-section6 .project-form .module-title:after, .project-section7 .project-form .module-title:after, .project-section8 .project-form .module-title:after, .project-section9 .project-form .module-title:after {
     display: none; }
 
@@ -8558,11 +8646,17 @@ footer {
   padding: 50px 0;
   background: url(../img/bg.jpg) center center repeat; }
 
+.hot-news .row {
+  margin: 0px -5px; }
+  .hot-news .row .col-12 {
+    padding: 0px 5px; }
+
 .hot-news .news-col {
   background: #fff;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  height: calc(100% - 30px);
-  margin-bottom: 30px;
+  height: calc(100% - 10px);
+  min-height: 266px;
+  margin-bottom: 10px;
   -webkit-transition: all, 0.5s;
   -khtml-transition: all, 0.5s;
   -moz-transition: all, 0.5s;
@@ -8589,12 +8683,25 @@ footer {
       display: block;
       font-size: 0.9375rem;
       font-weight: 600;
-      color: #333333; }
+      color: #333333;
+      display: -webkit-box;
+      height: 2.8125rem;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis; }
       @media (max-width: 1199.98px) {
         .hot-news .news-col figure figcaption .news-name a {
-          font-size: 0.875rem; } }
+          font-size: 0.875rem;
+          height: 2.625rem; } }
     .hot-news .news-col figure figcaption .news-des {
       font-size: 0.8125rem;
+      display: -webkit-box;
+      height: 3.65625rem;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
       -webkit-transition: all, 0.5s;
       -khtml-transition: all, 0.5s;
       -moz-transition: all, 0.5s;
@@ -8607,12 +8714,14 @@ footer {
       .hot-news .news-col.big figure figcaption {
         padding: 15px 20px; } }
     .hot-news .news-col.big figure figcaption .news-name {
-      margin-bottom: 10px; }
+      margin-bottom: 5px; }
       .hot-news .news-col.big figure figcaption .news-name a {
-        font-size: 1.125rem; }
+        font-size: 1.125rem;
+        height: auto; }
         @media (max-width: 1199.98px) {
           .hot-news .news-col.big figure figcaption .news-name a {
-            font-size: 1rem; } }
+            font-size: 1rem;
+            height: auto; } }
 
 .home-project {
   padding: 50px 0; }
@@ -8624,8 +8733,13 @@ footer {
       font-family: 'Linearicons-Free';
       margin-left: 5px; }
 
+.hot-project .row {
+  margin: 0px -5px; }
+  .hot-project .row .col-12 {
+    padding: 0px 5px; }
+
 .hot-project .project-col {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); }
   .hot-project .project-col:hover {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); }
@@ -8654,7 +8768,8 @@ footer {
     position: relative; }
     .hot-project .project-col figure .project-img {
       display: block;
-      overflow: hidden; }
+      overflow: hidden;
+      margin: 0; }
       .hot-project .project-col figure .project-img img {
         width: 100%;
         height: 260px;
@@ -8683,6 +8798,10 @@ footer {
 .home-video {
   background: url(../img/bg.jpg) center center repeat;
   padding: 50px 0; }
+  .home-video .row {
+    margin: 0px -5px; }
+    .home-video .row .col-12 {
+      padding: 0px 5px; }
 
 .video-list .video-col {
   background: #fff;
@@ -8693,7 +8812,7 @@ footer {
   -ms-transition: all, 0.5s;
   -o-transition: all, 0.5s;
   transition: all, 0.5s;
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
   .video-list .video-col:hover {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); }
     .video-list .video-col:hover figure figcaption .video-name a {
@@ -8701,6 +8820,8 @@ footer {
   .video-list .video-col figure .video-img {
     display: block;
     width: 100%; }
+    .video-list .video-col figure .video-img img {
+      width: 100%; }
   .video-list .video-col figure figcaption .video-name {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8853,22 +8974,22 @@ footer {
     .award-slide .slick-next:before {
       content: '\e876'; }
   .award-slide .slick-list {
-    margin: 0px -20px; }
+    margin: 0px -10px; }
     @media (max-width: 1199.98px) {
       .award-slide .slick-list {
         margin: 0px -10px; } }
   .award-slide .item {
-    padding: 0px 20px; }
+    padding: 0px 10px; }
     @media (max-width: 1199.98px) {
       .award-slide .item {
         padding: 0px 10px; } }
   .award-slide .row {
-    margin: 0px -20px; }
+    margin: 0px -10px; }
     @media (max-width: 1199.98px) {
       .award-slide .row {
         margin: 0px -10px; } }
     .award-slide .row .col-6 {
-      padding: 0px 20px; }
+      padding: 0px 10px; }
       @media (max-width: 1199.98px) {
         .award-slide .row .col-6 {
           padding: 0px 10px; } }
@@ -8888,36 +9009,38 @@ footer {
       .award-slide .slick-dots li button {
         display: none; }
 
-.award figure .award-img {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 170px;
-  justify-content: center;
-  align-items: center;
-  background: #fff;
-  border: 1px solid #e6e6e6; }
-  @media (max-width: 1199.98px) {
-    .award figure .award-img {
-      height: 150px; } }
-  .award figure .award-img img {
-    max-width: 80%;
-    max-height: 80%; }
-
-.award figure figcaption {
-  padding: 10px 0; }
-  .award figure figcaption .award-name {
-    font-size: 0.875rem;
-    line-height: 1.5;
-    color: #666666;
+.award {
+  margin-bottom: 20px; }
+  .award figure .award-img {
     display: -webkit-box;
-    height: 3.9375rem;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis; }
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #e6e6e6; }
+    @media (max-width: 1199.98px) {
+      .award figure .award-img {
+        height: 150px; } }
+    .award figure .award-img img {
+      max-width: 90%;
+      max-height: 90%; }
+  .award figure figcaption {
+    padding: 10px 0;
+    display: none; }
+    .award figure figcaption .award-name {
+      font-size: 0.875rem;
+      line-height: 1.5;
+      color: #666666;
+      display: -webkit-box;
+      height: 3.9375rem;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis; }
 
 .home-partner {
   padding: 50px 0; }
@@ -9231,125 +9354,105 @@ footer {
       .project-page .project-content .content, .project-section1 .project-content .content, .project-section2 .project-content .content, .project-section3 .project-content .project-content .content, .project-section4 .project-content .content, .project-section5 .project-content .content, .project-section6 .project-content .content, .project-section7 .project-content .content, .project-section8 .project-content .content, .project-section9 .project-content .content {
         margin-bottom: 30px; } }
 
-@media (max-width: 991.98px) {
-  .project-page .project-video iframe, .project-section1 .project-video iframe, .project-section2 .project-video iframe, .project-section3 .project-content .project-video iframe, .project-section4 .project-video iframe, .project-section5 .project-video iframe, .project-section6 .project-video iframe, .project-section7 .project-video iframe, .project-section8 .project-video iframe, .project-section9 .project-video iframe {
-    height: 400px; } }
-
-@media (max-width: 767.98px) {
-  .project-page .project-video iframe, .project-section1 .project-video iframe, .project-section2 .project-video iframe, .project-section3 .project-content .project-video iframe, .project-section4 .project-video iframe, .project-section5 .project-video iframe, .project-section6 .project-video iframe, .project-section7 .project-video iframe, .project-section8 .project-video iframe, .project-section9 .project-video iframe {
-    height: 350px; } }
-
-@media (max-width: 575.98px) {
-  .project-page .project-video iframe, .project-section1 .project-video iframe, .project-section2 .project-video iframe, .project-section3 .project-content .project-video iframe, .project-section4 .project-video iframe, .project-section5 .project-video iframe, .project-section6 .project-video iframe, .project-section7 .project-video iframe, .project-section8 .project-video iframe, .project-section9 .project-video iframe {
-    height: 250px; } }
-
-.project-page .project-album, .project-section1 .project-album, .project-section2 .project-album, .project-section3 .project-content .project-album, .project-section4 .project-album, .project-section5 .project-album, .project-section6 .project-album, .project-section7 .project-album, .project-section8 .project-album, .project-section9 .project-album {
-  display: inline-block;
-  border-radius: 50px;
-  padding: 5px 20px;
-  font-size: 0.75rem;
-  line-height: 20px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #333333;
-  background: #f0f0f0;
-  margin-bottom: 20px; }
-
-.project-page .project-img, .project-section1 .project-img, .project-section2 .project-img, .project-section3 .project-content .project-img, .project-section4 .project-img, .project-section5 .project-img, .project-section6 .project-img, .project-section7 .project-img, .project-section8 .project-img, .project-section9 .project-img {
-  margin-bottom: 20px; }
-  .project-page .project-img .img, .project-section1 .project-img .img, .project-section2 .project-img .img, .project-section3 .project-content .project-img .img, .project-section4 .project-img .img, .project-section5 .project-img .img, .project-section6 .project-img .img, .project-section7 .project-img .img, .project-section8 .project-img .img, .project-section9 .project-img .img {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 20px; }
-    .project-page .project-img .img:before, .project-section1 .project-img .img:before, .project-section2 .project-img .img:before, .project-section3 .project-content .project-img .img:before, .project-section4 .project-img .img:before, .project-section5 .project-img .img:before, .project-section6 .project-img .img:before, .project-section7 .project-img .img:before, .project-section8 .project-img .img:before, .project-section9 .project-img .img:before {
-      content: '\f03e';
-      font-size: 1.5rem;
-      color: #fff;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flexbox;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: rgba(0, 0, 0, 0.25);
-      z-index: 3;
-      -webkit-transition: all, 0.5s;
-      -khtml-transition: all, 0.5s;
-      -moz-transition: all, 0.5s;
-      -ms-transition: all, 0.5s;
-      -o-transition: all, 0.5s;
-      transition: all, 0.5s; }
-    .project-page .project-img .img img, .project-section1 .project-img .img img, .project-section2 .project-img .img img, .project-section3 .project-content .project-img .img img, .project-section4 .project-img .img img, .project-section5 .project-img .img img, .project-section6 .project-img .img img, .project-section7 .project-img .img img, .project-section8 .project-img .img img, .project-section9 .project-img .img img {
-      width: 100%;
-      -webkit-transition: all, 10s;
-      -khtml-transition: all, 10s;
-      -moz-transition: all, 10s;
-      -ms-transition: all, 10s;
-      -o-transition: all, 10s;
-      transition: all, 10s; }
-    .project-page .project-img .img:hover img, .project-section1 .project-img .img:hover img, .project-section2 .project-img .img:hover img, .project-section3 .project-content .project-img .img:hover img, .project-section4 .project-img .img:hover img, .project-section5 .project-img .img:hover img, .project-section6 .project-img .img:hover img, .project-section7 .project-img .img:hover img, .project-section8 .project-img .img:hover img, .project-section9 .project-img .img:hover img {
-      -webkit-transform: scale3d(1.2, 1.2, 1);
-      -khtml-transform: scale3d(1.2, 1.2, 1);
-      -moz-transform: scale3d(1.2, 1.2, 1);
-      -ms-transform: scale3d(1.2, 1.2, 1);
-      -o-transform: scale3d(1.2, 1.2, 1);
-      transform: scale3d(1.2, 1.2, 1); }
-    .project-page .project-img .img:hover:before, .project-section1 .project-img .img:hover:before, .project-section2 .project-img .img:hover:before, .project-section3 .project-content .project-img .img:hover:before, .project-section4 .project-img .img:hover:before, .project-section5 .project-img .img:hover:before, .project-section6 .project-img .img:hover:before, .project-section7 .project-img .img:hover:before, .project-section8 .project-img .img:hover:before, .project-section9 .project-img .img:hover:before {
-      opacity: 0; }
-
-.project-page .project-form .module-title, .project-section1 .project-form .module-title, .project-section2 .project-form .module-title, .project-section3 .project-content .project-form .module-title, .project-section4 .project-form .module-title, .project-section5 .project-form .module-title, .project-section6 .project-form .module-title, .project-section7 .project-form .module-title, .project-section8 .project-form .module-title, .project-section9 .project-form .module-title {
-  text-align: center; }
-
-.project-page .form-group, .project-section1 .form-group, .project-section2 .form-group, .project-section3 .project-content .form-group, .project-section4 .form-group, .project-section5 .form-group, .project-section6 .form-group, .project-section7 .form-group, .project-section8 .form-group, .project-section9 .form-group {
+.project-page, .project-section1, .project-section2, .project-section3 .project-content, .project-section4, .project-section5, .project-section6, .project-section7, .project-section8, .project-section9 {
   position: relative; }
-  .project-page .form-group label, .project-section1 .form-group label, .project-section2 .form-group label, .project-section3 .project-content .form-group label, .project-section4 .form-group label, .project-section5 .form-group label, .project-section6 .form-group label, .project-section7 .form-group label, .project-section8 .form-group label, .project-section9 .form-group label {
-    display: none; }
-  .project-page .form-group .fa.fa-exclamation-triangle, .project-section1 .form-group .fa.fa-exclamation-triangle, .project-section2 .form-group .fa.fa-exclamation-triangle, .project-section3 .project-content .form-group .fa.fa-exclamation-triangle, .project-section4 .form-group .fa.fa-exclamation-triangle, .project-section5 .form-group .fa.fa-exclamation-triangle, .project-section6 .form-group .fa.fa-exclamation-triangle, .project-section7 .form-group .fa.fa-exclamation-triangle, .project-section8 .form-group .fa.fa-exclamation-triangle, .project-section9 .form-group .fa.fa-exclamation-triangle {
-    font-size: 0;
-    color: #ef3331;
+  .project-page .section-bg, .project-section1 .section-bg, .project-section2 .section-bg, .project-section3 .project-content .section-bg, .project-section4 .section-bg, .project-section5 .section-bg, .project-section6 .section-bg, .project-section7 .section-bg, .project-section8 .section-bg, .project-section9 .section-bg {
     position: absolute;
-    top: 0.9375rem;
-    right: 1.5rem; }
-    .project-page .form-group .fa.fa-exclamation-triangle:before, .project-section1 .form-group .fa.fa-exclamation-triangle:before, .project-section2 .form-group .fa.fa-exclamation-triangle:before, .project-section3 .project-content .form-group .fa.fa-exclamation-triangle:before, .project-section4 .form-group .fa.fa-exclamation-triangle:before, .project-section5 .form-group .fa.fa-exclamation-triangle:before, .project-section6 .form-group .fa.fa-exclamation-triangle:before, .project-section7 .form-group .fa.fa-exclamation-triangle:before, .project-section8 .form-group .fa.fa-exclamation-triangle:before, .project-section9 .form-group .fa.fa-exclamation-triangle:before {
-      font-size: 0.875rem;
-      font-family: 'fontawesome'; }
-
-.project-page input, .project-section1 input, .project-section2 input, .project-section3 .project-content input, .project-section4 input, .project-section5 input, .project-section6 input, .project-section7 input, .project-section8 input, .project-section9 input, .project-page textarea, .project-section1 textarea, .project-section2 textarea, .project-section3 .project-content textarea, .project-section4 textarea, .project-section5 textarea, .project-section6 textarea, .project-section7 textarea, .project-section8 textarea, .project-section9 textarea {
-  font-size: 0.8125rem;
-  font-weight: 500;
-  color: #666666;
-  line-height: 16px;
-  padding: 0.9375rem 1.5rem;
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 3px;
-  border: none; }
-  .project-page input:focus, .project-section1 input:focus, .project-section2 input:focus, .project-section3 .project-content input:focus, .project-section4 input:focus, .project-section5 input:focus, .project-section6 input:focus, .project-section7 input:focus, .project-section8 input:focus, .project-section9 input:focus, .project-page textarea:focus, .project-section1 textarea:focus, .project-section2 textarea:focus, .project-section3 .project-content textarea:focus, .project-section4 textarea:focus, .project-section5 textarea:focus, .project-section6 textarea:focus, .project-section7 textarea:focus, .project-section8 textarea:focus, .project-section9 textarea:focus {
-    box-shadow: 0 0 0 0.2rem rgba(245, 130, 32, 0.5); }
-
-.project-page textarea, .project-section1 textarea, .project-section2 textarea, .project-section3 .project-content textarea, .project-section4 textarea, .project-section5 textarea, .project-section6 textarea, .project-section7 textarea, .project-section8 textarea, .project-section9 textarea {
-  min-height: 200px; }
-
-.project-page .frm-btn, .project-section1 .frm-btn, .project-section2 .frm-btn, .project-section3 .project-content .frm-btn, .project-section4 .frm-btn, .project-section5 .frm-btn, .project-section6 .frm-btn, .project-section7 .frm-btn, .project-section8 .frm-btn, .project-section9 .frm-btn {
-  text-align: center; }
-
-.project-page input[type="submit"], .project-section1 input[type="submit"], .project-section2 input[type="submit"], .project-section3 .project-content input[type="submit"], .project-section4 input[type="submit"], .project-section5 input[type="submit"], .project-section6 input[type="submit"], .project-section7 input[type="submit"], .project-section8 input[type="submit"], .project-section9 input[type="submit"] {
-  background: #f58220;
-  font-size: 0.875rem;
-  line-height: 16px;
-  font-weight: 600;
-  color: #fff;
-  border-radius: 3px;
-  padding: 0.9375rem 3rem;
-  width: auto;
-  text-transform: uppercase;
-  display: inline-block; }
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  .project-page .page-title, .project-section1 .page-title, .project-section2 .page-title, .project-section3 .project-content .page-title, .project-section4 .page-title, .project-section5 .page-title, .project-section6 .page-title, .project-section7 .page-title, .project-section8 .page-title, .project-section9 .page-title, .project-page .project-form .module-title, .project-section1 .project-page .project-form .module-title, .project-page .project-form .project-section1 .module-title, .project-section2 .project-page .project-form .module-title, .project-page .project-form .project-section2 .module-title, .project-section3 .project-content .project-page .project-form .module-title, .project-page .project-form .project-section3 .project-content .module-title, .project-section4 .project-page .project-form .module-title, .project-page .project-form .project-section4 .module-title, .project-section5 .project-page .project-form .module-title, .project-page .project-form .project-section5 .module-title, .project-section6 .project-page .project-form .module-title, .project-page .project-form .project-section6 .module-title, .project-section7 .project-page .project-form .module-title, .project-page .project-form .project-section7 .module-title, .project-section8 .project-page .project-form .module-title, .project-page .project-form .project-section8 .module-title, .project-section9 .project-page .project-form .module-title, .project-page .project-form .project-section9 .module-title, .project-page .project-section1 .project-form .module-title, .project-section1 .project-form .project-page .module-title, .project-section1 .project-form .module-title, .project-section2 .project-section1 .project-form .module-title, .project-section1 .project-form .project-section2 .module-title, .project-section3 .project-content .project-section1 .project-form .module-title, .project-section1 .project-form .project-section3 .project-content .module-title, .project-section4 .project-section1 .project-form .module-title, .project-section1 .project-form .project-section4 .module-title, .project-section5 .project-section1 .project-form .module-title, .project-section1 .project-form .project-section5 .module-title, .project-section6 .project-section1 .project-form .module-title, .project-section1 .project-form .project-section6 .module-title, .project-section7 .project-section1 .project-form .module-title, .project-section1 .project-form .project-section7 .module-title, .project-section8 .project-section1 .project-form .module-title, .project-section1 .project-form .project-section8 .module-title, .project-section9 .project-section1 .project-form .module-title, .project-section1 .project-form .project-section9 .module-title, .project-page .project-section2 .project-form .module-title, .project-section2 .project-form .project-page .module-title, .project-section1 .project-section2 .project-form .module-title, .project-section2 .project-form .project-section1 .module-title, .project-section2 .project-form .module-title, .project-section3 .project-content .project-section2 .project-form .module-title, .project-section2 .project-form .project-section3 .project-content .module-title, .project-section4 .project-section2 .project-form .module-title, .project-section2 .project-form .project-section4 .module-title, .project-section5 .project-section2 .project-form .module-title, .project-section2 .project-form .project-section5 .module-title, .project-section6 .project-section2 .project-form .module-title, .project-section2 .project-form .project-section6 .module-title, .project-section7 .project-section2 .project-form .module-title, .project-section2 .project-form .project-section7 .module-title, .project-section8 .project-section2 .project-form .module-title, .project-section2 .project-form .project-section8 .module-title, .project-section9 .project-section2 .project-form .module-title, .project-section2 .project-form .project-section9 .module-title, .project-page .project-section3 .project-content .project-form .module-title, .project-section3 .project-content .project-form .project-page .module-title, .project-section1 .project-section3 .project-content .project-form .module-title, .project-section3 .project-content .project-form .project-section1 .module-title, .project-section2 .project-section3 .project-content .project-form .module-title, .project-section3 .project-content .project-form .project-section2 .module-title, .project-section3 .project-content .project-form .module-title, .project-section4 .project-section3 .project-content .project-form .module-title, .project-section3 .project-content .project-form .project-section4 .module-title, .project-section5 .project-section3 .project-content .project-form .module-title, .project-section3 .project-content .project-form .project-section5 .module-title, .project-section6 .project-section3 .project-content .project-form .module-title, .project-section3 .project-content .project-form .project-section6 .module-title, .project-section7 .project-section3 .project-content .project-form .module-title, .project-section3 .project-content .project-form .project-section7 .module-title, .project-section8 .project-section3 .project-content .project-form .module-title, .project-section3 .project-content .project-form .project-section8 .module-title, .project-section9 .project-section3 .project-content .project-form .module-title, .project-section3 .project-content .project-form .project-section9 .module-title, .project-page .project-section4 .project-form .module-title, .project-section4 .project-form .project-page .module-title, .project-section1 .project-section4 .project-form .module-title, .project-section4 .project-form .project-section1 .module-title, .project-section2 .project-section4 .project-form .module-title, .project-section4 .project-form .project-section2 .module-title, .project-section3 .project-content .project-section4 .project-form .module-title, .project-section4 .project-form .project-section3 .project-content .module-title, .project-section4 .project-form .module-title, .project-section5 .project-section4 .project-form .module-title, .project-section4 .project-form .project-section5 .module-title, .project-section6 .project-section4 .project-form .module-title, .project-section4 .project-form .project-section6 .module-title, .project-section7 .project-section4 .project-form .module-title, .project-section4 .project-form .project-section7 .module-title, .project-section8 .project-section4 .project-form .module-title, .project-section4 .project-form .project-section8 .module-title, .project-section9 .project-section4 .project-form .module-title, .project-section4 .project-form .project-section9 .module-title, .project-page .project-section5 .project-form .module-title, .project-section5 .project-form .project-page .module-title, .project-section1 .project-section5 .project-form .module-title, .project-section5 .project-form .project-section1 .module-title, .project-section2 .project-section5 .project-form .module-title, .project-section5 .project-form .project-section2 .module-title, .project-section3 .project-content .project-section5 .project-form .module-title, .project-section5 .project-form .project-section3 .project-content .module-title, .project-section4 .project-section5 .project-form .module-title, .project-section5 .project-form .project-section4 .module-title, .project-section5 .project-form .module-title, .project-section6 .project-section5 .project-form .module-title, .project-section5 .project-form .project-section6 .module-title, .project-section7 .project-section5 .project-form .module-title, .project-section5 .project-form .project-section7 .module-title, .project-section8 .project-section5 .project-form .module-title, .project-section5 .project-form .project-section8 .module-title, .project-section9 .project-section5 .project-form .module-title, .project-section5 .project-form .project-section9 .module-title, .project-page .project-section6 .project-form .module-title, .project-section6 .project-form .project-page .module-title, .project-section1 .project-section6 .project-form .module-title, .project-section6 .project-form .project-section1 .module-title, .project-section2 .project-section6 .project-form .module-title, .project-section6 .project-form .project-section2 .module-title, .project-section3 .project-content .project-section6 .project-form .module-title, .project-section6 .project-form .project-section3 .project-content .module-title, .project-section4 .project-section6 .project-form .module-title, .project-section6 .project-form .project-section4 .module-title, .project-section5 .project-section6 .project-form .module-title, .project-section6 .project-form .project-section5 .module-title, .project-section6 .project-form .module-title, .project-section7 .project-section6 .project-form .module-title, .project-section6 .project-form .project-section7 .module-title, .project-section8 .project-section6 .project-form .module-title, .project-section6 .project-form .project-section8 .module-title, .project-section9 .project-section6 .project-form .module-title, .project-section6 .project-form .project-section9 .module-title, .project-page .project-section7 .project-form .module-title, .project-section7 .project-form .project-page .module-title, .project-section1 .project-section7 .project-form .module-title, .project-section7 .project-form .project-section1 .module-title, .project-section2 .project-section7 .project-form .module-title, .project-section7 .project-form .project-section2 .module-title, .project-section3 .project-content .project-section7 .project-form .module-title, .project-section7 .project-form .project-section3 .project-content .module-title, .project-section4 .project-section7 .project-form .module-title, .project-section7 .project-form .project-section4 .module-title, .project-section5 .project-section7 .project-form .module-title, .project-section7 .project-form .project-section5 .module-title, .project-section6 .project-section7 .project-form .module-title, .project-section7 .project-form .project-section6 .module-title, .project-section7 .project-form .module-title, .project-section8 .project-section7 .project-form .module-title, .project-section7 .project-form .project-section8 .module-title, .project-section9 .project-section7 .project-form .module-title, .project-section7 .project-form .project-section9 .module-title, .project-page .project-section8 .project-form .module-title, .project-section8 .project-form .project-page .module-title, .project-section1 .project-section8 .project-form .module-title, .project-section8 .project-form .project-section1 .module-title, .project-section2 .project-section8 .project-form .module-title, .project-section8 .project-form .project-section2 .module-title, .project-section3 .project-content .project-section8 .project-form .module-title, .project-section8 .project-form .project-section3 .project-content .module-title, .project-section4 .project-section8 .project-form .module-title, .project-section8 .project-form .project-section4 .module-title, .project-section5 .project-section8 .project-form .module-title, .project-section8 .project-form .project-section5 .module-title, .project-section6 .project-section8 .project-form .module-title, .project-section8 .project-form .project-section6 .module-title, .project-section7 .project-section8 .project-form .module-title, .project-section8 .project-form .project-section7 .module-title, .project-section8 .project-form .module-title, .project-section9 .project-section8 .project-form .module-title, .project-section8 .project-form .project-section9 .module-title, .project-page .project-section9 .project-form .module-title, .project-section9 .project-form .project-page .module-title, .project-section1 .project-section9 .project-form .module-title, .project-section9 .project-form .project-section1 .module-title, .project-section2 .project-section9 .project-form .module-title, .project-section9 .project-form .project-section2 .module-title, .project-section3 .project-content .project-section9 .project-form .module-title, .project-section9 .project-form .project-section3 .project-content .module-title, .project-section4 .project-section9 .project-form .module-title, .project-section9 .project-form .project-section4 .module-title, .project-section5 .project-section9 .project-form .module-title, .project-section9 .project-form .project-section5 .module-title, .project-section6 .project-section9 .project-form .module-title, .project-section9 .project-form .project-section6 .module-title, .project-section7 .project-section9 .project-form .module-title, .project-section9 .project-form .project-section7 .module-title, .project-section8 .project-section9 .project-form .module-title, .project-section9 .project-form .project-section8 .module-title, .project-section9 .project-form .module-title {
+    position: relative;
+    z-index: 1; }
+  @media (max-width: 991.98px) {
+    .project-page .project-video iframe, .project-section1 .project-video iframe, .project-section2 .project-video iframe, .project-section3 .project-content .project-video iframe, .project-section4 .project-video iframe, .project-section5 .project-video iframe, .project-section6 .project-video iframe, .project-section7 .project-video iframe, .project-section8 .project-video iframe, .project-section9 .project-video iframe {
+      height: 400px; } }
+  @media (max-width: 767.98px) {
+    .project-page .project-video iframe, .project-section1 .project-video iframe, .project-section2 .project-video iframe, .project-section3 .project-content .project-video iframe, .project-section4 .project-video iframe, .project-section5 .project-video iframe, .project-section6 .project-video iframe, .project-section7 .project-video iframe, .project-section8 .project-video iframe, .project-section9 .project-video iframe {
+      height: 350px; } }
+  @media (max-width: 575.98px) {
+    .project-page .project-video iframe, .project-section1 .project-video iframe, .project-section2 .project-video iframe, .project-section3 .project-content .project-video iframe, .project-section4 .project-video iframe, .project-section5 .project-video iframe, .project-section6 .project-video iframe, .project-section7 .project-video iframe, .project-section8 .project-video iframe, .project-section9 .project-video iframe {
+      height: 250px; } }
+  .project-page .project-album, .project-section1 .project-album, .project-section2 .project-album, .project-section3 .project-content .project-album, .project-section4 .project-album, .project-section5 .project-album, .project-section6 .project-album, .project-section7 .project-album, .project-section8 .project-album, .project-section9 .project-album {
+    display: inline-block;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-size: 0.75rem;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333333;
+    background: #f0f0f0;
+    margin-bottom: 20px; }
+  .project-page .project-img, .project-section1 .project-img, .project-section2 .project-img, .project-section3 .project-content .project-img, .project-section4 .project-img, .project-section5 .project-img, .project-section6 .project-img, .project-section7 .project-img, .project-section8 .project-img, .project-section9 .project-img {
+    margin-bottom: 20px; }
+    .project-page .project-img .img, .project-section1 .project-img .img, .project-section2 .project-img .img, .project-section3 .project-content .project-img .img, .project-section4 .project-img .img, .project-section5 .project-img .img, .project-section6 .project-img .img, .project-section7 .project-img .img, .project-section8 .project-img .img, .project-section9 .project-img .img {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 20px; }
+      .project-page .project-img .img img, .project-section1 .project-img .img img, .project-section2 .project-img .img img, .project-section3 .project-content .project-img .img img, .project-section4 .project-img .img img, .project-section5 .project-img .img img, .project-section6 .project-img .img img, .project-section7 .project-img .img img, .project-section8 .project-img .img img, .project-section9 .project-img .img img {
+        width: 100%;
+        -webkit-transition: all, 10s;
+        -khtml-transition: all, 10s;
+        -moz-transition: all, 10s;
+        -ms-transition: all, 10s;
+        -o-transition: all, 10s;
+        transition: all, 10s; }
+      .project-page .project-img .img:hover img, .project-section1 .project-img .img:hover img, .project-section2 .project-img .img:hover img, .project-section3 .project-content .project-img .img:hover img, .project-section4 .project-img .img:hover img, .project-section5 .project-img .img:hover img, .project-section6 .project-img .img:hover img, .project-section7 .project-img .img:hover img, .project-section8 .project-img .img:hover img, .project-section9 .project-img .img:hover img {
+        -webkit-transform: scale3d(1.2, 1.2, 1);
+        -khtml-transform: scale3d(1.2, 1.2, 1);
+        -moz-transform: scale3d(1.2, 1.2, 1);
+        -ms-transform: scale3d(1.2, 1.2, 1);
+        -o-transform: scale3d(1.2, 1.2, 1);
+        transform: scale3d(1.2, 1.2, 1); }
+      .project-page .project-img .img:hover:before, .project-section1 .project-img .img:hover:before, .project-section2 .project-img .img:hover:before, .project-section3 .project-content .project-img .img:hover:before, .project-section4 .project-img .img:hover:before, .project-section5 .project-img .img:hover:before, .project-section6 .project-img .img:hover:before, .project-section7 .project-img .img:hover:before, .project-section8 .project-img .img:hover:before, .project-section9 .project-img .img:hover:before {
+        opacity: 0; }
+  .project-page .project-form, .project-section1 .project-form, .project-section2 .project-form, .project-section3 .project-content .project-form, .project-section4 .project-form, .project-section5 .project-form, .project-section6 .project-form, .project-section7 .project-form, .project-section8 .project-form, .project-section9 .project-form {
+    position: relative;
+    z-index: 1; }
+    .project-page .project-form .module-title, .project-section1 .project-form .module-title, .project-section2 .project-form .module-title, .project-section3 .project-content .project-form .module-title, .project-section4 .project-form .module-title, .project-section5 .project-form .module-title, .project-section6 .project-form .module-title, .project-section7 .project-form .module-title, .project-section8 .project-form .module-title, .project-section9 .project-form .module-title {
+      text-align: center; }
+  .project-page .form-group, .project-section1 .form-group, .project-section2 .form-group, .project-section3 .project-content .form-group, .project-section4 .form-group, .project-section5 .form-group, .project-section6 .form-group, .project-section7 .form-group, .project-section8 .form-group, .project-section9 .form-group {
+    position: relative; }
+    .project-page .form-group label, .project-section1 .form-group label, .project-section2 .form-group label, .project-section3 .project-content .form-group label, .project-section4 .form-group label, .project-section5 .form-group label, .project-section6 .form-group label, .project-section7 .form-group label, .project-section8 .form-group label, .project-section9 .form-group label {
+      display: none; }
+    .project-page .form-group .fa.fa-exclamation-triangle, .project-section1 .form-group .fa.fa-exclamation-triangle, .project-section2 .form-group .fa.fa-exclamation-triangle, .project-section3 .project-content .form-group .fa.fa-exclamation-triangle, .project-section4 .form-group .fa.fa-exclamation-triangle, .project-section5 .form-group .fa.fa-exclamation-triangle, .project-section6 .form-group .fa.fa-exclamation-triangle, .project-section7 .form-group .fa.fa-exclamation-triangle, .project-section8 .form-group .fa.fa-exclamation-triangle, .project-section9 .form-group .fa.fa-exclamation-triangle {
+      font-size: 0;
+      color: #ef3331;
+      position: absolute;
+      top: 0.9375rem;
+      right: 1.5rem; }
+      .project-page .form-group .fa.fa-exclamation-triangle:before, .project-section1 .form-group .fa.fa-exclamation-triangle:before, .project-section2 .form-group .fa.fa-exclamation-triangle:before, .project-section3 .project-content .form-group .fa.fa-exclamation-triangle:before, .project-section4 .form-group .fa.fa-exclamation-triangle:before, .project-section5 .form-group .fa.fa-exclamation-triangle:before, .project-section6 .form-group .fa.fa-exclamation-triangle:before, .project-section7 .form-group .fa.fa-exclamation-triangle:before, .project-section8 .form-group .fa.fa-exclamation-triangle:before, .project-section9 .form-group .fa.fa-exclamation-triangle:before {
+        font-size: 0.875rem;
+        font-family: 'fontawesome'; }
+  .project-page input, .project-section1 input, .project-section2 input, .project-section3 .project-content input, .project-section4 input, .project-section5 input, .project-section6 input, .project-section7 input, .project-section8 input, .project-section9 input, .project-page textarea, .project-section1 textarea, .project-section2 textarea, .project-section3 .project-content textarea, .project-section4 textarea, .project-section5 textarea, .project-section6 textarea, .project-section7 textarea, .project-section8 textarea, .project-section9 textarea {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: #666666;
+    line-height: 16px;
+    padding: 0.9375rem 1.5rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    border: none; }
+    .project-page input:focus, .project-section1 input:focus, .project-section2 input:focus, .project-section3 .project-content input:focus, .project-section4 input:focus, .project-section5 input:focus, .project-section6 input:focus, .project-section7 input:focus, .project-section8 input:focus, .project-section9 input:focus, .project-page textarea:focus, .project-section1 textarea:focus, .project-section2 textarea:focus, .project-section3 .project-content textarea:focus, .project-section4 textarea:focus, .project-section5 textarea:focus, .project-section6 textarea:focus, .project-section7 textarea:focus, .project-section8 textarea:focus, .project-section9 textarea:focus {
+      box-shadow: 0 0 0 0.2rem rgba(245, 130, 32, 0.5); }
+  .project-page textarea, .project-section1 textarea, .project-section2 textarea, .project-section3 .project-content textarea, .project-section4 textarea, .project-section5 textarea, .project-section6 textarea, .project-section7 textarea, .project-section8 textarea, .project-section9 textarea {
+    min-height: 200px; }
+  .project-page .frm-btn, .project-section1 .frm-btn, .project-section2 .frm-btn, .project-section3 .project-content .frm-btn, .project-section4 .frm-btn, .project-section5 .frm-btn, .project-section6 .frm-btn, .project-section7 .frm-btn, .project-section8 .frm-btn, .project-section9 .frm-btn {
+    text-align: center; }
+  .project-page input[type="submit"], .project-section1 input[type="submit"], .project-section2 input[type="submit"], .project-section3 .project-content input[type="submit"], .project-section4 input[type="submit"], .project-section5 input[type="submit"], .project-section6 input[type="submit"], .project-section7 input[type="submit"], .project-section8 input[type="submit"], .project-section9 input[type="submit"] {
+    background: #f58220;
+    font-size: 0.875rem;
+    line-height: 16px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 3px;
+    padding: 0.9375rem 3rem;
+    width: auto;
+    text-transform: uppercase;
+    display: inline-block; }
 
 .project-section1 {
   padding-top: 20px;
@@ -9383,10 +9486,6 @@ footer {
 
 .project-section5 {
   text-align: center; }
-
-.project-section6 {
-  background: url(../img/project/bg2.jpg) center center no-repeat;
-  background-size: cover; }
 
 .contact-page {
   padding: 50px 0; }
@@ -9474,9 +9573,13 @@ footer {
   @media (max-width: 767.98px) {
     .gallery-page {
       padding: 30px 0; } }
+  .gallery-page .row {
+    margin: 0px -5px; }
+    .gallery-page .row .col-12 {
+      padding: 0px 5px; }
   .gallery-page .gallery-album .album {
     display: block;
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
     .gallery-page .gallery-album .album figure {
       position: relative; }
       .gallery-page .gallery-album .album figure .album-img img {
@@ -9814,5 +9917,71 @@ footer {
       color: #666666; }
     .other-job .job-list .job:hover .job-name {
       color: #f58220; }
+
+.career-frame {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-top: 30px; }
+
+.apply-frm {
+  padding: 20px;
+  display: block; }
+  .apply-frm .col-left, .apply-frm .col-right {
+    width: 50%;
+    float: left; }
+    @media (max-width: 767.98px) {
+      .apply-frm .col-left, .apply-frm .col-right {
+        width: 100%;
+        float: none;
+        padding: 0; } }
+  .apply-frm .col-left {
+    padding-right: 15px; }
+    @media (max-width: 767.98px) {
+      .apply-frm .col-left {
+        padding: 0; } }
+  .apply-frm .col-right {
+    padding-left: 15px; }
+    @media (max-width: 767.98px) {
+      .apply-frm .col-right {
+        padding: 0; } }
+  .apply-frm h4 {
+    color: #333333;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 0.875rem;
+    border-left: 3px solid #f58220;
+    padding: 0 5px; }
+  .apply-frm .form-group {
+    margin-bottom: 10px;
+    clear: both; }
+    .apply-frm .form-group:before, .apply-frm .form-group:after {
+      content: '';
+      display: table;
+      width: 100%;
+      clear: both; }
+  .apply-frm label {
+    margin-bottom: 5px; }
+    .apply-frm label .required {
+      color: #ef3331; }
+  .apply-frm .form-control, .apply-frm .project-page input, .project-page .apply-frm input, .apply-frm .project-section1 input, .project-section1 .apply-frm input, .apply-frm .project-section2 input, .project-section2 .apply-frm input, .apply-frm .project-section3 .project-content input, .project-section3 .project-content .apply-frm input, .apply-frm .project-section4 input, .project-section4 .apply-frm input, .apply-frm .project-section5 input, .project-section5 .apply-frm input, .apply-frm .project-section6 input, .project-section6 .apply-frm input, .apply-frm .project-section7 input, .project-section7 .apply-frm input, .apply-frm .project-section8 input, .project-section8 .apply-frm input, .apply-frm .project-section9 input, .project-section9 .apply-frm input, .apply-frm .project-page textarea, .project-page .apply-frm textarea, .apply-frm .project-section1 textarea, .project-section1 .apply-frm textarea, .apply-frm .project-section2 textarea, .project-section2 .apply-frm textarea, .apply-frm .project-section3 .project-content textarea, .project-section3 .project-content .apply-frm textarea, .apply-frm .project-section4 textarea, .project-section4 .apply-frm textarea, .apply-frm .project-section5 textarea, .project-section5 .apply-frm textarea, .apply-frm .project-section6 textarea, .project-section6 .apply-frm textarea, .apply-frm .project-section7 textarea, .project-section7 .apply-frm textarea, .apply-frm .project-section8 textarea, .project-section8 .apply-frm textarea, .apply-frm .project-section9 textarea, .project-section9 .apply-frm textarea, .apply-frm .contact-page .form-wrap input, .contact-page .form-wrap .apply-frm input, .apply-frm .contact-page .form-wrap textarea, .contact-page .form-wrap .apply-frm textarea {
+    border-radius: 3px;
+    font-size: 0.875rem;
+    padding: 10px 15px;
+    border: 1px solid #e6e6e6; }
+    .apply-frm .form-control:active, .apply-frm .project-page input:active, .project-page .apply-frm input:active, .apply-frm .project-section1 input:active, .project-section1 .apply-frm input:active, .apply-frm .project-section2 input:active, .project-section2 .apply-frm input:active, .apply-frm .project-section3 .project-content input:active, .project-section3 .project-content .apply-frm input:active, .apply-frm .project-section4 input:active, .project-section4 .apply-frm input:active, .apply-frm .project-section5 input:active, .project-section5 .apply-frm input:active, .apply-frm .project-section6 input:active, .project-section6 .apply-frm input:active, .apply-frm .project-section7 input:active, .project-section7 .apply-frm input:active, .apply-frm .project-section8 input:active, .project-section8 .apply-frm input:active, .apply-frm .project-section9 input:active, .project-section9 .apply-frm input:active, .apply-frm .project-page textarea:active, .project-page .apply-frm textarea:active, .apply-frm .project-section1 textarea:active, .project-section1 .apply-frm textarea:active, .apply-frm .project-section2 textarea:active, .project-section2 .apply-frm textarea:active, .apply-frm .project-section3 .project-content textarea:active, .project-section3 .project-content .apply-frm textarea:active, .apply-frm .project-section4 textarea:active, .project-section4 .apply-frm textarea:active, .apply-frm .project-section5 textarea:active, .project-section5 .apply-frm textarea:active, .apply-frm .project-section6 textarea:active, .project-section6 .apply-frm textarea:active, .apply-frm .project-section7 textarea:active, .project-section7 .apply-frm textarea:active, .apply-frm .project-section8 textarea:active, .project-section8 .apply-frm textarea:active, .apply-frm .project-section9 textarea:active, .project-section9 .apply-frm textarea:active, .apply-frm .contact-page .form-wrap input:active, .contact-page .form-wrap .apply-frm input:active, .apply-frm .contact-page .form-wrap textarea:active, .contact-page .form-wrap .apply-frm textarea:active, .apply-frm .form-control:focus, .apply-frm .project-page input:focus, .project-page .apply-frm input:focus, .apply-frm .project-section1 input:focus, .project-section1 .apply-frm input:focus, .apply-frm .project-section2 input:focus, .project-section2 .apply-frm input:focus, .apply-frm .project-section3 .project-content input:focus, .project-section3 .project-content .apply-frm input:focus, .apply-frm .project-section4 input:focus, .project-section4 .apply-frm input:focus, .apply-frm .project-section5 input:focus, .project-section5 .apply-frm input:focus, .apply-frm .project-section6 input:focus, .project-section6 .apply-frm input:focus, .apply-frm .project-section7 input:focus, .project-section7 .apply-frm input:focus, .apply-frm .project-section8 input:focus, .project-section8 .apply-frm input:focus, .apply-frm .project-section9 input:focus, .project-section9 .apply-frm input:focus, .apply-frm .project-page textarea:focus, .project-page .apply-frm textarea:focus, .apply-frm .project-section1 textarea:focus, .project-section1 .apply-frm textarea:focus, .apply-frm .project-section2 textarea:focus, .project-section2 .apply-frm textarea:focus, .apply-frm .project-section3 .project-content textarea:focus, .project-section3 .project-content .apply-frm textarea:focus, .apply-frm .project-section4 textarea:focus, .project-section4 .apply-frm textarea:focus, .apply-frm .project-section5 textarea:focus, .project-section5 .apply-frm textarea:focus, .apply-frm .project-section6 textarea:focus, .project-section6 .apply-frm textarea:focus, .apply-frm .project-section7 textarea:focus, .project-section7 .apply-frm textarea:focus, .apply-frm .project-section8 textarea:focus, .project-section8 .apply-frm textarea:focus, .apply-frm .project-section9 textarea:focus, .project-section9 .apply-frm textarea:focus, .apply-frm .contact-page .form-wrap input:focus, .contact-page .form-wrap .apply-frm input:focus, .apply-frm .contact-page .form-wrap textarea:focus, .contact-page .form-wrap .apply-frm textarea:focus {
+      background: #fff;
+      box-shadow: 0 0 0 0.2rem rgba(245, 130, 32, 0.5);
+      border-color: #f58220; }
+  .apply-frm textarea {
+    min-height: 200px; }
+  .apply-frm .btn {
+    display: inline-block;
+    line-height: 36px;
+    padding: 0px 20px;
+    border-radius: 3px;
+    background: #f58220;
+    color: #fff;
+    float: right; }
 
 /*# sourceMappingURL=main.css.map */

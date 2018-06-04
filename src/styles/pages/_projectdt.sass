@@ -1,4 +1,11 @@
 .project-page
+	+pos(rel,null)
+	.section-bg
+		+pos(abs, 0 null 0 0)
+		right: 0
+	.page-title
+		+pos(rel,null)
+		z-index: 1
 	.project-video
 		iframe
 			+media-breakpoint-down(md)
@@ -26,17 +33,17 @@
 			overflow: hidden
 			margin-bottom: 20px
 			&:before
-				content: '\f03e'
-				+fs(24rem)
-				color: $white
-				+flexbox
-				justify-content: center
-				align-items: center
-				+pos(abs, 0 null 0 0)
-				right: 0
-				background: color-rgba($black,0.25)
-				z-index: 3
-				+transition(all,0.5s)
+				// content: '\f03e'
+				// +fs(24rem)
+				// color: $white
+				// +flexbox
+				// justify-content: center
+				// align-items: center
+				// +pos(abs, 0 null 0 0)
+				// right: 0
+				// background: color-rgba($black,0.25)
+				// z-index: 3
+				// +transition(all,0.5s)
 			img
 				width: 100%
 				+transition(all,10s)
@@ -46,6 +53,8 @@
 				&:before
 					opacity: 0
 	.project-form
+		+pos(rel,null)
+		z-index: 1
 		.module-title
 			@extend .page-title
 			text-align: center
@@ -128,8 +137,8 @@
 	text-align: center
 .project-section6
 	@extend .project-page
-	background: url(../img/project/bg2.jpg) center center no-repeat
-	background-size: cover
+	// background: url(../img/project/bg2.jpg) center center no-repeat
+	// background-size: cover
 .project-section7
 	@extend .project-page
 .project-section8

@@ -24,6 +24,18 @@ $(document).ready(function () {
             $('header').removeClass('minimal');
         }
     });
+    $(window).bind('scroll', function () {
+        if ($(window).scrollTop() > 500) {
+            $('.up').fadeIn(500);
+        } else {
+            $('.up').fadeOut(500);
+        }
+    });
+    $('.up').click(function () {
+        $('html').animate({
+            scrollTop: 0
+        }, 500);
+    });
 
     // BANNER
     $('.banner').slick({
@@ -74,6 +86,8 @@ $(document).ready(function () {
         arrows: true,
         dots: true,
         infinite: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
         responsive: [{
             breakpoint: 1199,
             settings: {
@@ -189,15 +203,38 @@ $(document).ready(function () {
     });
 
     // top nav fixed
-    $('.top-nav ul').scrollToFixed({
-        marginTop: 60,
-        zIndex: 100
-    });
+    if ($(window).width() > 767) {
+        $('.top-nav ul').scrollToFixed({
+            marginTop: 60,
+            zIndex: 100
+        });
+    }
 
     // Page scroll to id
     $('.top-nav a').mPageScroll2id({
         offset: 120,
         // highlightClass: 'active',
         forceSingleHighlight: true
+    });
+
+    // Career form
+    $('.btn-apply').click(function () {
+        $('.career-frame').slideToggle(300);
+    });
+
+    // top nav toggle
+    $('.btn-showtab').text($('.home-tab li:first-child a').text());
+    if ($(window).width() < 768) {
+        $('.top-nav .home-tab li:first-child').addClass('active');
+        $('.top-nav .home-tab li').click(function () {
+            $('.top-nav .home-tab li').removeClass('active');
+        });
+    }
+    $('.home-tab li a').click(function () {
+        $('.btn-showtab').text($(this).text());
+    });
+    $('.page-nav .btn-showtab').text($('.page-nav .home-tab li.active').text());
+    $('.btn-showtab').click(function () {
+        $('.home-tab').slideToggle(300);
     });
 });

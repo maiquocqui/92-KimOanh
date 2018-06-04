@@ -24,7 +24,7 @@ header
 		justify-content: center
 		align-items: center
 		color: $orange
-		margin: 12px 15px 12px 0
+		margin: 12px 0 12px 10px
 		+bor-rad(3px)
 		display: none
 		+media-breakpoint-down(lg)
@@ -70,7 +70,7 @@ header
 		+media-breakpoint-down(lg)
 			+pos(fix, 0 null 0 0)
 			width: 280px
-			background: $white
+			background: color-rgba($orange,0.9)
 			z-index: 1000
 			+transition(all,0.5s)
 			+transform(translateX(-100%))
@@ -97,7 +97,7 @@ header
 			> li
 				+media-breakpoint-down(lg)
 					width: 100%
-					border-bottom: 1px dashed darken($white,10%)
+					border-bottom: 1px dashed color-rgba($white,0.3)
 				> a
 					+fs(15rem)
 					font-weight: 600
@@ -108,6 +108,7 @@ header
 					display: block
 					+media-breakpoint-down(lg)
 						padding: 15px 20px
+						color: $white
 				&:hover
 					> a
 						color: $orange
@@ -157,7 +158,7 @@ header
 			align-items: center
 			align-content: center
 			+transition(all,0.5s)
-			+media-breakpoint-down(sm)
+			+media-breakpoint-down(lg)
 				width: 200px
 				+pos(abs,calc(100% + 12px) 0 null null)
 				visibility: hidden
@@ -169,7 +170,7 @@ header
 				padding: 0px
 				+fs(14rem)
 				+transition(all,0.5s)
-				+media-breakpoint-down(sm)
+				+media-breakpoint-down(lg)
 					padding: 0px 10px
 					width: 100%
 			.searchbutton
@@ -180,17 +181,17 @@ header
 				+flexbox
 				justify-content: center
 				align-items: center
-				+media-breakpoint-down(sm)
+				+media-breakpoint-down(lg)
 					background: none
 					+fs(14rem)
 					color: darken($white,40%)
 			&:hover
-				+media-breakpoint-up(md)
-				width: 200px
-				input
-					padding: 0px 10px
+				+media-breakpoint-up(xl)
+					width: 200px
+					input
+						padding: 0px 10px
 		&:hover
-			+media-breakpoint-down(sm)
+			+media-breakpoint-down(lg)
 				.searchbox
 					visibility: visible
 					opacity: 1

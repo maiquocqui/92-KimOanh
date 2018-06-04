@@ -13,6 +13,12 @@
 		text-align: center
 		white-space: nowrap
 		overflow: auto
+	+media-breakpoint-down(sm)
+		text-align: left
+		background: darken($white,3%)
+		+bor-rad(3px)
+		padding: 10px 0
+		display: none
 	li, .nav-item
 		margin: 0
 		padding: 0
@@ -22,8 +28,12 @@
 		+transition(all,0s)
 		+media-breakpoint-down(lg)
 			display: inline-block
+		+media-breakpoint-down(sm)
+			display: block
 		+ li, + .nav-item
 			margin-left: 10px
+			+media-breakpoint-down(sm)
+				margin-left: 0
 		a, .nav-link
 			+bor-rad(50px)
 			border: none
@@ -36,8 +46,15 @@
 			color: $main
 			background: darken($white,6%)
 			+transition(all,0.3s)
+			+media-breakpoint-down(sm)
+				display: block
+				background: none
+				padding: 8px 15px
+				+bor-rad(0)
 			&:hover
-				color: $orange
+				+media-breakpoint-up(xl)
+					background: $orange
+					color: $white
 			&.active, &.mPS2id-highlight
 				background: $orange
 				color: $white
@@ -48,7 +65,30 @@
 
 .top-nav
 	padding: 20px 0
+	+media-breakpoint-down(sm)
+		padding: 15px
 	.home-tab
 		padding: 10px 15px
 		margin: 0
 		background: $white
+		+media-breakpoint-down(sm)
+			background: darken($white,3%)
+			padding: 10px 0
+.btn-showtab
+	+fs(13rem)
+	font-weight: 600
+	text-transform: uppercase
+	line-height: 40px
+	+bor-rad(5px)
+	border: 1px solid darken($white,10%)
+	padding: 0px 15px
+	margin: 0
+	+pos(rel,null)
+	margin-bottom: 10px
+	display: none
+	+media-breakpoint-down(sm)
+		display: block
+	&:after
+		content: '\f107'
+		+pos(abs, 0 15px null null)
+		line-height: 40px

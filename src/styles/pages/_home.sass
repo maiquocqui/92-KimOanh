@@ -11,6 +11,8 @@
 		+fs(28rem)
 	+media-breakpoint-down(sm)
 		+fs(24rem)
+	+media-breakpoint-down(xs)
+		+fs(20rem)
 	&:after
 		content: ''
 		display: block
@@ -27,18 +29,18 @@
 			width: 150px
 
 .page-title
-	+fs(30rem)
+	+fs(28rem)
 	line-height: 1.3
 	font-weight: 700
 	text-transform: uppercase
 	color: $orange
 	margin-bottom: 30px
 	+media-breakpoint-down(lg)
-		+fs(28rem)
-	+media-breakpoint-down(md)
 		+fs(24rem)
-	+media-breakpoint-down(sm)
+	+media-breakpoint-down(md)
 		+fs(20rem)
+	+media-breakpoint-down(sm)
+		+fs(18rem)
 	&:after
 		display: none
 
@@ -59,11 +61,16 @@
 	padding: 50px 0
 	background: url(../img/bg.jpg) center center repeat
 .hot-news
+	.row
+		margin: 0px -5px
+		.col-12
+			padding: 0px 5px
 	.news-col
 		background: $white
 		box-shadow: 0px 2px 5px color-rgba($black,0.1)
-		height: calc(100% - 30px)
-		margin-bottom: 30px
+		height: calc(100% - 10px)
+		min-height: 266px
+		margin-bottom: 10px
 		+transition(all,0.5s)
 		&:hover
 			background: $orange
@@ -91,12 +98,25 @@
 						+fs(15rem)
 						font-weight: 600
 						color: $main
+						display: -webkit-box
+						height: 0.9375rem*1.5*2
+						-webkit-line-clamp: 2
+						-webkit-box-orient: vertical
+						overflow: hidden
+						text-overflow: ellipsis
 						// max-height: 43px
 						// overflow: hidden
 						+media-breakpoint-down(lg)
 							+fs(14rem)
+							height: 0.875rem*1.5*2
 				.news-des
 					+fs(13rem)
+					display: -webkit-box
+					height: 0.8125rem*1.5*3
+					-webkit-line-clamp: 2
+					-webkit-box-orient: vertical
+					overflow: hidden
+					text-overflow: ellipsis
 					+transition(all,0.5s)
 		&.big
 			figure
@@ -106,12 +126,15 @@
 					+media-breakpoint-down(lg)
 						padding: 15px 20px
 					.news-name
-						margin-bottom: 10px
+						margin-bottom: 5px
 						a
 							+fs(18rem)
-							// max-height: unset
+							// height: 1.125rem*1.5*2
+							height: auto
 							+media-breakpoint-down(lg)
 								+fs(16rem)
+								// height: 1rem*1.5*2
+								height: auto
 .home-project
 	padding: 50px 0
 	.btn-viewmore
@@ -122,8 +145,12 @@
 			font-family: 'Linearicons-Free'
 			margin-left: 5px
 .hot-project
+	.row
+		margin: 0px -5px
+		.col-12
+			padding: 0px 5px
 	.project-col
-		margin-bottom: 20px
+		margin-bottom: 10px
 		box-shadow: 0px 2px 5px color-rgba($black,0.1)
 		&:hover
 			box-shadow: 0px 5px 10px color-rgba($black,0.1)
@@ -156,6 +183,7 @@
 			.project-img
 				display: block
 				overflow: hidden
+				margin: 0
 				img
 					width: 100%
 					height: 260px
@@ -177,12 +205,16 @@
 .home-video
 	background: url(../img/bg.jpg) center center repeat
 	padding: 50px 0
+	.row
+		margin: 0px -5px
+		.col-12
+			padding: 0px 5px
 .video-list
 	.video-col
 		background: $white
 		box-shadow: 0px 2px 5px color-rgba($black,0.1)
 		+transition(all,0.5s)
-		margin-bottom: 20px
+		margin-bottom: 10px
 		&:hover
 			box-shadow: 0px 5px 10px color-rgba($black,0.1)
 			figure
@@ -194,6 +226,8 @@
 			.video-img
 				display: block
 				width: 100%
+				img
+					width: 100%
 			figcaption
 				.video-name
 					+flexbox
@@ -312,19 +346,19 @@
 		&:before
 			content: '\e876'
 	.slick-list
-		margin: 0px -20px
+		margin: 0px -10px
 		+media-breakpoint-down(lg)
 			margin: 0px -10px
 	.item
-		padding: 0px 20px
+		padding: 0px 10px
 		+media-breakpoint-down(lg)
 			padding: 0px 10px
 	.row
-		margin: 0px -20px
+		margin: 0px -10px
 		+media-breakpoint-down(lg)
 			margin: 0px -10px
 		.col-6
-			padding: 0px 20px
+			padding: 0px 10px
 			+media-breakpoint-down(lg)
 				padding: 0px 10px
 	.slick-dots
@@ -343,6 +377,7 @@
 			button
 				display: none
 .award
+	margin-bottom: 20px
 	figure
 		.award-img
 			+flexbox
@@ -354,10 +389,11 @@
 			+media-breakpoint-down(lg)
 				height: 150px
 			img
-				max-width: 80%
-				max-height: 80%
+				max-width: 90%
+				max-height: 90%
 		figcaption
 			padding: 10px 0
+			display: none
 			.award-name
 				+fs(14rem)
 				line-height: 1.5

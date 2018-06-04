@@ -1,7 +1,9 @@
+'use strict';
+
 $(document).ready(function() {
     // header script
     $('header').scrollToFixed({
-        zIndex: 1000,
+        zIndex: 1000
     });
 
     if ($(window).width() < 1200) {}
@@ -9,11 +11,11 @@ $(document).ready(function() {
     $('.btn-showmenu').click(function() {
         $('.menu').addClass('open');
         $('.overlay').fadeIn(500);
-    })
+    });
     $('.overlay').click(function() {
         $(this).fadeOut(500);
         $('.menu').removeClass('open');
-    })
+    });
 
     $(window).bind('scroll', function() {
         if ($(window).scrollTop() > 100) {
@@ -21,6 +23,18 @@ $(document).ready(function() {
         } else {
             $('header').removeClass('minimal');
         }
+    });
+    $(window).bind('scroll', function() {
+        if ($(window).scrollTop() > 500) {
+            $('.up').fadeIn(500);
+        } else {
+            $('.up').fadeOut(500);
+        }
+    });
+    $('.up').click(function() {
+        $('html').animate({
+            scrollTop: 0
+        }, 500);
     });
 
     // BANNER
@@ -32,7 +46,7 @@ $(document).ready(function() {
         autoplaySpeed: 5000,
         arrows: true,
         dots: true,
-        fade: true,
+        fade: true
     });
 
     // Partner slide
@@ -43,27 +57,24 @@ $(document).ready(function() {
         dots: false,
         infinite: true,
         responsive: [{
-                    breakpoint: 1199,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                    }
-                },
-                {
-                    breakpoint: 991,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                    }
-                },
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                    }
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
                 }
-            ]
+            }, {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            }, {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
             // autoplay: true,
             // autoplaySpeed: 5000,
     });
@@ -75,28 +86,27 @@ $(document).ready(function() {
         arrows: true,
         dots: true,
         infinite: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
         responsive: [{
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
+            breakpoint: 1199,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
             }
-        ]
+        }, {
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        }, {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }]
     });
 
     // Gallery slide
@@ -110,24 +120,21 @@ $(document).ready(function() {
         centerMode: true,
         centerPadding: '200px',
         responsive: [{
-                breakpoint: 1199,
-                settings: {
-                    centerPadding: '100px',
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    centerPadding: '80px',
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    centerPadding: '40px',
-                }
+            breakpoint: 1199,
+            settings: {
+                centerPadding: '100px'
             }
-        ]
+        }, {
+            breakpoint: 991,
+            settings: {
+                centerPadding: '80px'
+            }
+        }, {
+            breakpoint: 767,
+            settings: {
+                centerPadding: '40px'
+            }
+        }]
     });
 
     // history slide
@@ -147,24 +154,21 @@ $(document).ready(function() {
         arrows: true,
         dots: false,
         responsive: [{
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 5,
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 4,
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 2,
-                }
+            breakpoint: 1199,
+            settings: {
+                slidesToShow: 5
             }
-        ]
+        }, {
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 2
+            }
+        }]
     });
 
     // Product slide
@@ -188,27 +192,50 @@ $(document).ready(function() {
     // SERVICE TOGGLE
     $('.feature .feature-name').click(function() {
         if ($(this).parent().hasClass('active') == true) {
-            $(this).parent().removeClass('active')
+            $(this).parent().removeClass('active');
             $(this).parent().find('.feature-des').slideUp(500);
         } else {
             $('.feature').removeClass('active');
             $('.feature').find('.feature-des').slideUp(500);
-            $(this).parent().addClass('active')
+            $(this).parent().addClass('active');
             $(this).parent().find('.feature-des').slideDown(500);
         }
     });
 
     // top nav fixed
-    $('.top-nav ul').scrollToFixed({
-        marginTop: 60,
-        zIndex: 100,
-    });
+    if ($(window).width() > 767) {
+        $('.top-nav ul').scrollToFixed({
+            marginTop: 60,
+            zIndex: 100
+        });
+    }
 
     // Page scroll to id
     $('.top-nav a').mPageScroll2id({
         offset: 120,
         // highlightClass: 'active',
-        forceSingleHighlight: true,
+        forceSingleHighlight: true
+    });
+
+    // Career form
+    $('.btn-apply').click(function() {
+        $('.career-frame').slideToggle(300);
+    });
+
+    // top nav toggle
+    $('.btn-showtab').text($('.home-tab li:first-child a').text());
+    if ($(window).width() < 768) {
+        $('.top-nav .home-tab li:first-child').addClass('active');
+        $('.top-nav .home-tab li').click(function() {
+            $('.top-nav .home-tab li').removeClass('active');
+        });
+    }
+    $('.home-tab li a').click(function() {
+        $('.btn-showtab').text($(this).text());
+    });
+    $('.page-nav .btn-showtab').text($('.page-nav .home-tab li.active').text());
+    $('.btn-showtab').click(function() {
+        $('.home-tab').slideToggle(300);
     });
 
 });

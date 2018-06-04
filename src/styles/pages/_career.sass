@@ -227,3 +227,66 @@
 			&:hover
 				.job-name
 					color: $orange
+
+// Career form
+.career-frame
+	border: 1px solid darken($white,10%)
+	+bor-rad(5px)
+	margin-top: 30px
+.apply-frm
+	padding: 20px
+	display: block
+	.col-left, .col-right
+		width: 50%
+		float: left
+		+media-breakpoint-down(sm)
+			width: 100%
+			float: none
+			padding: 0
+	.col-left
+		padding-right: 15px
+		+media-breakpoint-down(sm)
+			padding: 0
+	.col-right
+		padding-left: 15px
+		+media-breakpoint-down(sm)
+			padding: 0
+	h4
+		color: $main
+		font-weight: 600
+		text-transform: uppercase
+		margin-bottom: 15px
+		+fs(14rem)
+		border-left: 3px solid $orange
+		padding: 0 5px
+	.form-group
+		margin-bottom: 10px
+		clear: both
+		&:before, &:after
+			content: ''
+			display: table
+			width: 100%
+			clear: both
+	label 
+		margin-bottom: 5px
+		.required
+			color: $red
+	.form-control
+		+bor-rad(3px)
+		+fs(14rem)
+		padding: 10px 15px
+		border: 1px solid darken($white,10%)
+		&:active, &:focus
+			background: $white
+			box-shadow: 0 0 0 0.2rem color-rgba($orange,0.5)
+			border-color: $orange
+	textarea
+		min-height: 200px
+	.btn
+		display: inline-block
+		line-height: 36px
+		padding: 0px 20px
+		+bor-rad(3px)
+		background: $orange
+		color: $white
+		float: right
