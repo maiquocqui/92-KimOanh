@@ -8815,8 +8815,10 @@ footer {
   margin-bottom: 10px; }
   .video-list .video-col:hover {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); }
-    .video-list .video-col:hover figure figcaption .video-name a {
+    .video-list .video-col:hover figure figcaption .video-name {
       color: #f58220; }
+      .video-list .video-col:hover figure figcaption .video-name:before {
+        color: #fff; }
   .video-list .video-col figure .video-img {
     display: block;
     width: 100%; }
@@ -8830,12 +8832,24 @@ footer {
     display: flex;
     align-items: center;
     align-content: center;
-    color: #fff; }
+    color: #333333;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.2;
+    padding-right: 20px;
+    padding-left: 80px;
+    height: 60px;
+    position: relative; }
+    @media (max-width: 1199.98px) {
+      .video-list .video-col figure figcaption .video-name {
+        font-size: 0.875rem;
+        height: 50px; } }
     .video-list .video-col figure figcaption .video-name:before {
       content: '\f04b';
       background: #f58220;
       width: 60px;
       height: 60px;
+      color: #fff;
       display: -webkit-box;
       display: -webkit-flex;
       display: -moz-flex;
@@ -8843,27 +8857,15 @@ footer {
       display: flex;
       justify-content: center;
       align-items: center;
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      position: absolute;
+      top: 0;
+      left: 0; }
       @media (max-width: 1199.98px) {
         .video-list .video-col figure figcaption .video-name:before {
           width: 50px;
           height: 50px;
           font-size: 1.125rem; } }
-    .video-list .video-col figure figcaption .video-name a {
-      display: block;
-      padding: 0px 20px;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      overflow: hidden;
-      color: #333333;
-      font-weight: 600;
-      font-size: 1rem;
-      width: calc(100% - 40px); }
-      @media (max-width: 1199.98px) {
-        .video-list .video-col figure figcaption .video-name a {
-          width: calc(100% - 50px);
-          font-size: 0.875rem;
-          padding: 0px 10px; } }
 
 .home-gallery {
   padding: 50px 0; }
@@ -9484,7 +9486,7 @@ footer {
 .project-section4 {
   background: url(../img/bg.jpg) center center repeat; }
 
-.project-section5 {
+.project-section6 {
   text-align: center; }
 
 .contact-page {

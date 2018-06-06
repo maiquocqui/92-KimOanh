@@ -220,8 +220,9 @@
 			figure
 				figcaption
 					.video-name
-						a
-							color: $orange
+						color: $orange
+						&:before
+							color: $white
 		figure
 			.video-img
 				display: block
@@ -233,34 +234,32 @@
 					+flexbox
 					align-items: center
 					align-content: center
-					color: $white
+					color: $main
+					font-weight: 600
+					+fs(15rem)
+					line-height: 1.2
+					padding-right: 20px
+					padding-left: 80px
+					height: 60px
+					+pos(rel,null)
+					+media-breakpoint-down(lg)
+						+fs(14rem)
+						height: 50px
 					&:before
 						content: '\f04b'
 						background: $orange
 						width: 60px
 						height: 60px
+						color: $white
 						+flexbox
 						justify-content: center
 						align-items: center
 						+fs(24rem)
+						+pos(abs,0 null null 0)
 						+media-breakpoint-down(lg)
 							width: 50px
 							height: 50px
 							+fs(18rem)
-					a
-						display: block
-						padding: 0px 20px
-						white-space: nowrap
-						text-overflow: ellipsis
-						overflow: hidden
-						color: $main
-						font-weight: 600
-						+fs(16rem)
-						width: calc(100% - 40px)
-						+media-breakpoint-down(lg)
-							width: calc(100% - 50px)
-							+fs(14rem)
-							padding: 0px 10px
 
 .home-gallery
 	padding: 50px 0
