@@ -9494,7 +9494,17 @@ footer {
   .contact-page .contact-info {
     padding: 30px;
     background: #f7f7f7;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    max-height: 440px;
+    overflow: auto; }
+    .contact-page .contact-info::-webkit-scrollbar-track {
+      background-color: #f7f7f7; }
+    .contact-page .contact-info::-webkit-scrollbar {
+      width: 3px;
+      background-color: #f7f7f7; }
+    .contact-page .contact-info::-webkit-scrollbar-thumb {
+      background-color: #f58220;
+      border: none; }
     .contact-page .contact-info .company {
       font-size: 0.875rem;
       text-transform: uppercase;
@@ -9792,11 +9802,11 @@ footer {
 
 .career-section4 {
   padding: 60px 0;
-  background: #000 url(../img/cbg.png) center center no-repeat;
+  background: #e6e6e6 url(../img/cbg.png) center center no-repeat;
   background-size: cover; }
   .career-section4 .career-contact {
     text-align: center;
-    color: #fff; }
+    color: #333333; }
     .career-section4 .career-contact .icon {
       margin-bottom: 15px; }
     .career-section4 .career-contact .title {
